@@ -1,0 +1,412 @@
+.app{
+  background-color: #0B0B0B;
+}
+
+.navbar{
+  background-color: #111111;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  gap: 30px;
+  color: #F5F5F5;
+  text-decoration: solid;
+}
+
+.name{
+  color: #fdd567;
+  margin: 50px;
+  padding: 90px;
+  text-decoration: solid;
+  font-style: italic;
+  font-size: xxxxxxx-large;
+
+}
+
+.img{
+  height: 500px;
+  width: 900px;
+}
+
+.link{
+  color: #F5F5F5;
+  text-decoration: solid;
+  border-bottom: 2px solid #111111;
+  padding: 5px;
+}
+
+.trend-dropdown {
+  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 2px solid #111111;
+  border-shawdo: 5px;
+  border-radius: 2px;
+  background-color: grey;
+}
+
+.trend-dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-headline{
+  color: #fdd567;
+  padding: 40px;
+  text-decoration-style: solid;
+ 
+  font-size: xxx-large;
+}
+
+.trendnow{
+color: #F5F5F5;
+text-decoration: solid;
+padding: 5px;
+}
+
+.trendcard{
+  border: 1px solid #fdd567;
+  border-radius: 10px;
+  box-shadow: 5px;
+  width: 300px;
+  margin: 20px;
+}
+
+.trendcardimg{
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px;
+  padding: 5px;
+}
+
+.trendnav{
+ text-decoration: none;
+}
+
+.trendrightnow{
+  color: beige;
+  font-size: xx-large;
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+.trend-ui{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.paharagraph{
+  font-size: small;
+  color: white;
+  text-decoration: solid;
+  padding: 15px;
+}
+
+.clothingtrend{
+border: 1px solid #fdd567;
+height: 100px;
+border-radius: 15px;
+margin: 10px;
+padding: 10px;
+}
+
+.clothingimg{
+  height: 100px;
+  width: 90px;
+  padding: 0px;
+  margin: 0px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.boxnav{
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.cardtext{
+  margin: 5px;
+  padding: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+.detail{
+  
+}
+
+.trenddetail{
+  border: 3px solid #fdd567;
+  box-shadow: 20px;
+height: auto;
+border-radius: 15px;
+margin: 10px;
+padding: 10px;
+ color: #F5F5F5;
+}
+
+.detailheading{
+  padding: 0px;
+  text-align: left;
+  color: #F5F5F5;
+}
+
+.detailpara{
+  text-align: left;
+}
+
+.card-container{
+   width: 300px;
+  height: 420px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.flipcard{
+border: 3px solid #fdd567;
+margin: 10px;
+height: auto;
+border-radius: 15px;
+box-shadow: 20px;
+}
+
+.card{
+  border: 2px solid #fdd567;
+  height: 420px;
+  width: 300px;
+  border-radius: 20px;
+   position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+ 
+}
+
+.card-container.flipped .card {
+  transform: rotateY(180deg);
+}
+
+.flipcardimg{
+  height: auto;
+  width: 180px;
+  max-width: 260px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+   top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+.card-front {
+  background: white;
+  padding: 50px;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-front h3 {
+  padding: 10px 15px;
+}
+
+.card-back {
+  background: #111;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.flipcards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-icon{
+ height: 40px;
+ width: 40px;
+ border-radius:50px;
+ align-items: right;
+ align-justify: right;
+ margin-left: 470px;
+ border: 2px solid #fdd567;
+}
+
+.about{
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.home-about{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-text{
+  border: 2px solid #fdd567;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  text-decoration: solid;
+  width: 700px;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.why{
+  color: white;
+  text-align:left;
+  padding : 10px;
+}
+
+.why-peragraph{
+  border: 2px solid #fdd567;
+  border-radius:10px;
+  box-shadow: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  width: 1050px;
+}
+
+.why-title{
+  text-align:left;
+  padding:5px;
+  margin:0px;
+}
+
+.point{
+  text-align:left;
+}
+
+.account-type{
+  border: 2px solid #fdd567;
+  border-radius:15px;
+  box-shadow: 1px 1px 1px 1px;
+  width: 400px;
+  margin: 10px auto; 
+  padding: 20px;
+  gap: 30px;
+  
+}
+
+.account-name{
+ color: white;
+  
+}
+
+.account-type-container{
+  padding:20px;
+}
+
+.account-link{
+text-decoration: none;
+}
+
+.account-p{
+  color:rgb(125, 125, 223);
+}
+
+.form-input{
+  
+}
+
+.font-field{
+  width: 300px;
+  height: 30px;
+}
+
+.form{
+  border:2px solid #fdd567;
+  border-radius: 10px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.form-button{
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content:center;
+}
+
+.createnewfrom{
+  border: 2px solid #fdd567;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #111111;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.input-field{
+  width: 300px;
+  height: 30px;
+}
+
+.birthday-drop{
+  width: 70px;
+  display: flex;
+  height: 30px;
+  gap: 10px;
+ justify-content: left;
+ text-align: left; 
+ 
+}
+
+.birthday-drop-parent{
+  display: flex;
+  margin: 0px auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.createbutton{
+  color: white;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: blue;
+  font-size: medium;
+  text-align: center;
+  justify-content: center;
+}
