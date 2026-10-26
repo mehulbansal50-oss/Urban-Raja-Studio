@@ -1,0 +1,3692 @@
+{
+  "category": "Footwear and Accessories",
+  "description": "Men's footwear and accessory coordination rules for Urban Raja AI Stylist.",
+  "rules": [
+    {
+      "id": "fa001",
+      "rule_type": "footwear",
+      "name": "Sneaker casual pairing",
+      "guideline": "Casual sneakers work best with casual and relaxed outfits.",
+      "recommendations": ["T-shirts", "oversized shirts", "jeans", "cargo pants"],
+      "styling_tip": "Keep sneaker shape consistent with the outfit's overall silhouette."
+    },
+    {
+      "id": "fa002",
+      "rule_type": "footwear",
+      "name": "Minimal sneaker versatility",
+      "guideline": "Minimal sneakers can bridge casual and smart-casual outfits.",
+      "recommendations": ["straight jeans", "chinos", "linen trousers", "overshirts"],
+      "styling_tip": "Use clean low-profile sneakers when the outfit needs a refined finish."
+    },
+    {
+      "id": "fa003",
+      "rule_type": "footwear",
+      "name": "Retro sneaker casual balance",
+      "guideline": "Retro sneakers add visual character and work naturally with relaxed casual outfits.",
+      "recommendations": ["baggy jeans", "straight jeans", "boxy T-shirts", "casual shirts"],
+      "styling_tip": "Repeat one sneaker accent color elsewhere when possible."
+    },
+    {
+      "id": "fa004",
+      "rule_type": "footwear",
+      "name": "Chunky sneaker volume",
+      "guideline": "Chunky sneakers visually increase the lower-body weight.",
+      "recommendations": ["baggy jeans", "wide trousers", "oversized tops"],
+      "styling_tip": "Avoid pairing very slim trousers with extremely bulky sneakers unless intentionally styled."
+    },
+    {
+      "id": "fa005",
+      "rule_type": "footwear",
+      "name": "Slim sneaker proportion",
+      "guideline": "Slim sneakers work naturally with straight, tapered and tailored trousers.",
+      "recommendations": ["straight trousers", "slim jeans", "tailored pants"],
+      "styling_tip": "Use low-profile footwear when the outfit already has a clean silhouette."
+    },
+    {
+      "id": "fa006",
+      "rule_type": "footwear",
+      "name": "White sneaker neutral role",
+      "guideline": "White sneakers can act as a neutral visual connector.",
+      "recommendations": ["black", "navy", "blue denim", "beige", "grey"],
+      "styling_tip": "Repeat white subtly through another garment or accessory when useful."
+    },
+    {
+      "id": "fa007",
+      "rule_type": "footwear",
+      "name": "Black sneaker coordination",
+      "guideline": "Black sneakers visually connect easily with dark outfits.",
+      "recommendations": ["black jeans", "black trousers", "dark cargo pants"],
+      "styling_tip": "Use black footwear to create a visually continuous lower half."
+    },
+    {
+      "id": "fa008",
+      "rule_type": "footwear",
+      "name": "Beige sneaker coordination",
+      "guideline": "Beige sneakers support earthy and neutral outfits.",
+      "recommendations": ["cream", "beige", "olive", "brown", "tan"],
+      "styling_tip": "Use beige footwear when white would create too much contrast."
+    },
+    {
+      "id": "fa009",
+      "rule_type": "footwear",
+      "name": "Grey sneaker coordination",
+      "guideline": "Grey sneakers work as a softer neutral than black.",
+      "recommendations": ["grey", "black", "white", "navy", "blue denim"],
+      "styling_tip": "Use grey footwear to soften an otherwise high-contrast outfit."
+    },
+    {
+      "id": "fa010",
+      "rule_type": "footwear",
+      "name": "Navy sneaker coordination",
+      "guideline": "Navy sneakers pair naturally with blue and neutral clothing.",
+      "recommendations": ["navy", "white", "beige", "grey", "denim"],
+      "styling_tip": "Keep the rest of the outfit relatively low in competing dark colors."
+    },
+
+    {
+      "id": "fa011",
+      "rule_type": "footwear",
+      "name": "Loafer smart-casual role",
+      "guideline": "Loafers elevate casual trousers and smart-casual outfits.",
+      "recommendations": ["pleated trousers", "chinos", "linen trousers", "straight trousers"],
+      "styling_tip": "Pair loafers with clean hems and avoid excessive fabric pooling."
+    },
+    {
+      "id": "fa012",
+      "rule_type": "footwear",
+      "name": "Penny loafer proportion",
+      "guideline": "Penny loafers suit refined everyday and smart-casual combinations.",
+      "recommendations": ["chinos", "tailored trousers", "dark denim"],
+      "styling_tip": "Keep the upper half polished enough to support the loafer's formality."
+    },
+    {
+      "id": "fa013",
+      "rule_type": "footwear",
+      "name": "Tassel loafer statement",
+      "guideline": "Tassel loafers introduce more decorative detail than plain loafers.",
+      "recommendations": ["minimal shirts", "tailored trousers", "monochrome outfits"],
+      "styling_tip": "Reduce unnecessary accessory density when the loafer is already detailed."
+    },
+    {
+      "id": "fa014",
+      "rule_type": "footwear",
+      "name": "Black loafer formal coordination",
+      "guideline": "Black loafers support formal and refined monochrome outfits.",
+      "recommendations": ["black trousers", "charcoal trousers", "dark navy tailoring"],
+      "styling_tip": "Match the belt family with the shoe when a belt is visible."
+    },
+    {
+      "id": "fa015",
+      "rule_type": "footwear",
+      "name": "Brown loafer earthy coordination",
+      "guideline": "Brown loafers work naturally with warm and earthy clothing.",
+      "recommendations": ["beige", "cream", "olive", "brown", "navy"],
+      "styling_tip": "Repeat brown subtly through the belt, watch strap or bag."
+    },
+    {
+      "id": "fa016",
+      "rule_type": "footwear",
+      "name": "Dark brown loafer versatility",
+      "guideline": "Dark brown loafers can bridge smart-casual and formal outfits.",
+      "recommendations": ["navy", "charcoal", "beige", "cream", "brown"],
+      "styling_tip": "Use dark brown when black feels too stark for the palette."
+    },
+    {
+      "id": "fa017",
+      "rule_type": "footwear",
+      "name": "Suede loafer texture",
+      "guideline": "Suede loafers introduce a softer and more relaxed texture.",
+      "recommendations": ["linen", "cotton", "knitwear", "chinos"],
+      "styling_tip": "Use suede when the outfit should feel refined without appearing overly formal."
+    },
+    {
+      "id": "fa018",
+      "rule_type": "footwear",
+      "name": "Loafer trouser break",
+      "guideline": "Loafers generally look cleaner with little or moderate trouser break.",
+      "recommendations": ["no break", "slight break"],
+      "styling_tip": "Avoid excessive stacking over structured loafers."
+    },
+    {
+      "id": "fa019",
+      "rule_type": "footwear",
+      "name": "Loafer sock visibility",
+      "guideline": "Visible socks change the formality and visual character of loafers.",
+      "recommendations": ["no-show socks", "dress socks", "contrast socks"],
+      "styling_tip": "Choose sock visibility based on occasion and trouser length."
+    },
+    {
+      "id": "fa020",
+      "rule_type": "footwear",
+      "name": "Loafer with denim",
+      "guideline": "Loafers can elevate denim when the jeans have a clean silhouette.",
+      "recommendations": ["straight denim", "dark denim", "clean hem"],
+      "styling_tip": "Avoid overly distressed jeans when aiming for polished styling."
+    },
+
+    {
+      "id": "fa021",
+      "rule_type": "footwear",
+      "name": "Boot casual pairing",
+      "guideline": "Boots add visual weight and structure to casual outfits.",
+      "recommendations": ["denim", "cargo pants", "overshirts", "jackets"],
+      "styling_tip": "Balance heavier boots with sufficient lower-body volume."
+    },
+    {
+      "id": "fa022",
+      "rule_type": "footwear",
+      "name": "Chelsea boot refinement",
+      "guideline": "Chelsea boots work well with streamlined smart-casual silhouettes.",
+      "recommendations": ["straight trousers", "dark denim", "tailored trousers"],
+      "styling_tip": "Keep the trouser opening narrow enough to complement the boot shape."
+    },
+    {
+      "id": "fa023",
+      "rule_type": "footwear",
+      "name": "Chukka boot casual refinement",
+      "guideline": "Chukka boots provide a relaxed alternative to formal footwear.",
+      "recommendations": ["chinos", "denim", "corduroy", "overshirts"],
+      "styling_tip": "Use suede chukkas for a softer casual appearance."
+    },
+    {
+      "id": "fa024",
+      "rule_type": "footwear",
+      "name": "Combat boot visual weight",
+      "guideline": "Combat boots create a strong rugged visual anchor.",
+      "recommendations": ["cargo pants", "baggy denim", "utility jackets"],
+      "styling_tip": "Use substantial garments to prevent the boots from overpowering the outfit."
+    },
+    {
+      "id": "fa025",
+      "rule_type": "footwear",
+      "name": "Chelsea boot trouser opening",
+      "guideline": "A controlled trouser opening keeps the Chelsea boot visible.",
+      "recommendations": ["straight", "slightly tapered"],
+      "styling_tip": "Avoid excessive fabric covering the ankle area."
+    },
+    {
+      "id": "fa026",
+      "rule_type": "footwear",
+      "name": "Boot and leather coordination",
+      "guideline": "Leather boots coordinate naturally with leather accessories.",
+      "recommendations": ["leather belt", "leather watch strap", "leather bag"],
+      "styling_tip": "Similar leather tones create visual continuity."
+    },
+    {
+      "id": "fa027",
+      "rule_type": "footwear",
+      "name": "Boot color continuity",
+      "guideline": "Boot color can be repeated in small accessory details.",
+      "recommendations": ["belt", "watch strap", "bag"],
+      "styling_tip": "Repeat the color without matching every leather item exactly."
+    },
+    {
+      "id": "fa028",
+      "rule_type": "footwear",
+      "name": "Boot with wide trousers",
+      "guideline": "Wide trousers can accommodate substantial boot shapes.",
+      "recommendations": ["wide trousers", "relaxed trousers", "baggy denim"],
+      "styling_tip": "Allow the trouser hem to interact naturally with the boot."
+    },
+    {
+      "id": "fa029",
+      "rule_type": "footwear",
+      "name": "Boot with slim jeans",
+      "guideline": "Slim jeans can work with streamlined boots.",
+      "recommendations": ["Chelsea", "slim chukka"],
+      "styling_tip": "Avoid extremely bulky boots with very narrow jeans."
+    },
+    {
+      "id": "fa030",
+      "rule_type": "footwear",
+      "name": "Boot outfit seasonality",
+      "guideline": "Boots naturally support autumn and winter visual language.",
+      "recommendations": ["jackets", "overshirts", "knitwear", "coats"],
+      "styling_tip": "Coordinate boot weight with the weight of outer layers."
+    },
+
+    {
+      "id": "fa031",
+      "rule_type": "footwear",
+      "name": "Sandal casual role",
+      "guideline": "Sandals work best in relaxed warm-weather outfits.",
+      "recommendations": ["shorts", "linen trousers", "relaxed shirts"],
+      "styling_tip": "Keep the rest of the outfit casual enough to support sandals."
+    },
+    {
+      "id": "fa032",
+      "rule_type": "footwear",
+      "name": "Minimal sandal design",
+      "guideline": "Minimal sandals work well when the outfit already has visual detail.",
+      "recommendations": ["printed shirts", "textured tops", "accessory-heavy outfits"],
+      "styling_tip": "Use simple footwear to prevent visual overload."
+    },
+    {
+      "id": "fa033",
+      "rule_type": "footwear",
+      "name": "Slides casual boundary",
+      "guideline": "Slides are primarily relaxed footwear and should not be used for formal settings.",
+      "recommendations": ["home", "beach", "casual errands"],
+      "styling_tip": "Pair slides with intentionally relaxed garments."
+    },
+    {
+      "id": "fa034",
+      "rule_type": "footwear",
+      "name": "Sandal and trouser hem",
+      "guideline": "Relaxed trousers with sandals look cleaner when the hem does not excessively stack.",
+      "recommendations": ["cropped", "straight", "relaxed"],
+      "styling_tip": "Keep the ankle area visually intentional."
+    },
+    {
+      "id": "fa035",
+      "rule_type": "footwear",
+      "name": "Sandal and shorts proportion",
+      "guideline": "Sandals naturally support shorts outfits when the footwear remains visually light.",
+      "recommendations": ["straight shorts", "relaxed shorts"],
+      "styling_tip": "Avoid footwear that is visually heavier than the shorts silhouette."
+    },
+
+    {
+      "id": "fa036",
+      "rule_type": "footwear",
+      "name": "Formal shoe role",
+      "guideline": "Formal shoes should support tailoring and formal garments.",
+      "recommendations": ["Oxford", "Derby", "formal trousers", "suits"],
+      "styling_tip": "Keep formal footwear clean and well maintained."
+    },
+    {
+      "id": "fa037",
+      "rule_type": "footwear",
+      "name": "Oxford formal hierarchy",
+      "guideline": "Oxfords communicate a higher level of formality than most casual footwear.",
+      "recommendations": ["suits", "formal trousers", "business attire"],
+      "styling_tip": "Keep accessories restrained when the shoe is highly formal."
+    },
+    {
+      "id": "fa038",
+      "rule_type": "footwear",
+      "name": "Derby versatility",
+      "guideline": "Derby shoes can transition between formal and smart-casual styling.",
+      "recommendations": ["formal trousers", "chinos", "dark denim"],
+      "styling_tip": "Use Derby shoes when you need structure without maximum formality."
+    },
+    {
+      "id": "fa039",
+      "rule_type": "footwear",
+      "name": "Formal shoe trouser break",
+      "guideline": "Formal shoes generally benefit from controlled trouser break.",
+      "recommendations": ["no break", "slight break"],
+      "styling_tip": "Avoid excessive stacking with structured formal shoes."
+    },
+    {
+      "id": "fa040",
+      "rule_type": "footwear",
+      "name": "Formal shoe maintenance",
+      "guideline": "Scuffed formal shoes can reduce the polished appearance of an otherwise refined outfit.",
+      "recommendations": ["clean regularly", "condition leather", "maintain shape"],
+      "styling_tip": "Footwear condition should match the formality of the occasion."
+    },
+
+    {
+      "id": "fa041",
+      "rule_type": "footwear",
+      "name": "Shoe silhouette and trouser silhouette",
+      "guideline": "The footwear silhouette should visually support the trouser silhouette.",
+      "recommendations": ["wide trousers with substantial shoes", "tailored trousers with streamlined shoes"],
+      "styling_tip": "Avoid extreme volume mismatch between trouser and footwear."
+    },
+    {
+      "id": "fa042",
+      "rule_type": "footwear",
+      "name": "Shoe visual weight",
+      "guideline": "Footwear with high visual weight anchors the lower body strongly.",
+      "recommendations": ["chunky sneakers", "boots", "heavy derbies"],
+      "styling_tip": "Balance heavy footwear with sufficient garment volume."
+    },
+    {
+      "id": "fa043",
+      "rule_type": "footwear",
+      "name": "Footwear color repetition",
+      "guideline": "Repeating a footwear color elsewhere can create outfit continuity.",
+      "recommendations": ["belt", "watch strap", "bag", "top detail"],
+      "styling_tip": "One subtle repetition is usually enough."
+    },
+    {
+      "id": "fa044",
+      "rule_type": "footwear",
+      "name": "Footwear contrast",
+      "guideline": "High-contrast footwear becomes a visual focal point.",
+      "recommendations": ["white shoes with dark trousers", "dark shoes with light trousers"],
+      "styling_tip": "Use strong shoe contrast intentionally."
+    },
+    {
+      "id": "fa045",
+      "rule_type": "footwear",
+      "name": "Footwear neutralization",
+      "guideline": "Neutral footwear can reduce competition between colorful garments.",
+      "recommendations": ["white", "black", "grey", "beige"],
+      "styling_tip": "Choose neutral shoes when the clothing already carries the statement."
+    },
+
+    {
+      "id": "fa046",
+      "rule_type": "footwear",
+      "name": "Shoe and belt relationship",
+      "guideline": "Visible leather belts should generally coordinate with leather footwear.",
+      "recommendations": ["black with black", "brown with brown family"],
+      "styling_tip": "Exact shade matching is less important than staying within the same color family."
+    },
+    {
+      "id": "fa047",
+      "rule_type": "footwear",
+      "name": "Shoe and watch strap",
+      "guideline": "Leather watch straps can echo leather footwear for a cohesive look.",
+      "recommendations": ["brown strap with brown shoes", "black strap with black shoes"],
+      "styling_tip": "Use this connection mainly in polished outfits."
+    },
+    {
+      "id": "fa048",
+      "rule_type": "footwear",
+      "name": "Shoe and bag coordination",
+      "guideline": "Bag color can subtly connect with footwear.",
+      "recommendations": ["black bag with black shoes", "brown bag with brown shoes"],
+      "styling_tip": "Do not force exact matching when the outfit already has strong color coordination."
+    },
+    {
+      "id": "fa049",
+      "rule_type": "footwear",
+      "name": "Sneaker and casual bag",
+      "guideline": "Casual sneakers pair naturally with casual bags.",
+      "recommendations": ["crossbody", "backpack", "canvas tote"],
+      "styling_tip": "Match the bag's material and visual weight to the sneaker."
+    },
+    {
+      "id": "fa050",
+      "rule_type": "footwear",
+      "name": "Formal shoe and casual bag conflict",
+      "guideline": "Highly casual bags can weaken a formal footwear combination.",
+      "recommendations": ["structured leather bag", "minimal briefcase"],
+      "styling_tip": "Use structured bags when the footwear is formal."
+    },
+
+    {
+      "id": "fa051",
+      "rule_type": "accessory",
+      "name": "Accessory density",
+      "guideline": "Multiple accessories should not compete equally for attention.",
+      "recommendations": ["watch", "chain", "ring", "bracelet"],
+      "styling_tip": "Choose one primary accessory and keep supporting pieces quieter."
+    },
+    {
+      "id": "fa052",
+      "rule_type": "accessory",
+      "name": "Minimal accessory foundation",
+      "guideline": "A watch and one subtle accessory can create a polished everyday foundation.",
+      "recommendations": ["watch + chain", "watch + ring"],
+      "styling_tip": "Start minimal before adding more pieces."
+    },
+    {
+      "id": "fa053",
+      "rule_type": "accessory",
+      "name": "Statement accessory control",
+      "guideline": "A large statement accessory should be supported by simpler surrounding pieces.",
+      "recommendations": ["statement watch", "bold chain", "large ring"],
+      "styling_tip": "Avoid stacking several statement accessories together."
+    },
+    {
+      "id": "fa054",
+      "rule_type": "accessory",
+      "name": "Accessory scale",
+      "guideline": "Accessory size should relate to the outfit's overall visual scale.",
+      "recommendations": ["oversized outfit with moderate accessories", "tailored outfit with refined accessories"],
+      "styling_tip": "Avoid tiny accessories disappearing against very oversized clothing."
+    },
+    {
+      "id": "fa055",
+      "rule_type": "accessory",
+      "name": "Accessory material repetition",
+      "guideline": "Repeating materials can create subtle visual continuity.",
+      "recommendations": ["leather watch + leather shoes", "metal chain + metal ring"],
+      "styling_tip": "Repeat material rather than matching every accessory exactly."
+    },
+
+    {
+      "id": "fa056",
+      "rule_type": "watch",
+      "name": "Watch casual styling",
+      "guideline": "Casual watches work well with everyday and relaxed outfits.",
+      "recommendations": ["T-shirts", "jeans", "cargo pants", "sneakers"],
+      "styling_tip": "Use sporty or simple watches for casual outfits."
+    },
+    {
+      "id": "fa057",
+      "rule_type": "watch",
+      "name": "Dress watch styling",
+      "guideline": "Slim dress watches complement formal and tailored outfits.",
+      "recommendations": ["blazer", "suit", "formal shirt", "dress trousers"],
+      "styling_tip": "Keep the watch proportionally restrained."
+    },
+    {
+      "id": "fa058",
+      "rule_type": "watch",
+      "name": "Metal watch versatility",
+      "guideline": "Metal bracelets can work across casual, smart-casual and formal looks.",
+      "recommendations": ["stainless steel watch", "minimal dial"],
+      "styling_tip": "Keep other metal accessories within a compatible finish."
+    },
+    {
+      "id": "fa059",
+      "rule_type": "watch",
+      "name": "Gold-tone watch balance",
+      "guideline": "Gold-tone watches introduce warmth and visual richness.",
+      "recommendations": ["cream", "brown", "beige", "black", "navy"],
+      "styling_tip": "Repeat warm metal subtly rather than adding many gold pieces."
+    },
+    {
+      "id": "fa060",
+      "rule_type": "watch",
+      "name": "Black watch coordination",
+      "guideline": "Black watches work naturally with monochrome and dark casual outfits.",
+      "recommendations": ["black T-shirt", "black jeans", "dark cargo"],
+      "styling_tip": "Use black accessories to strengthen a dark outfit's continuity."
+    },
+
+    {
+      "id": "fa061",
+      "rule_type": "watch",
+      "name": "Watch case proportion",
+      "guideline": "Watch case size should remain visually balanced with the wearer's wrist and outfit.",
+      "recommendations": ["medium case for versatile styling", "larger case for rugged outfits"],
+      "styling_tip": "Avoid an oversized watch becoming the only visible focal point."
+    },
+    {
+      "id": "fa062",
+      "rule_type": "watch",
+      "name": "Watch strap material",
+      "guideline": "Strap material affects the perceived formality of the watch.",
+      "recommendations": ["leather for refined", "metal for versatile", "rubber for sporty"],
+      "styling_tip": "Choose strap material according to outfit context."
+    },
+    {
+      "id": "fa063",
+      "rule_type": "watch",
+      "name": "Watch and sleeve clearance",
+      "guideline": "The watch should remain comfortably visible without creating excessive sleeve bunching.",
+      "recommendations": ["clean cuff clearance", "moderate sleeve exposure"],
+      "styling_tip": "Adjust sleeve length rather than forcing the watch into visibility."
+    },
+    {
+      "id": "fa064",
+      "rule_type": "watch",
+      "name": "Watch with rolled sleeves",
+      "guideline": "Rolled sleeves naturally expose the watch and wrist.",
+      "recommendations": ["casual shirts", "overshirts", "linen shirts"],
+      "styling_tip": "Keep the roll clean and consistent."
+    },
+    {
+      "id": "fa065",
+      "rule_type": "watch",
+      "name": "Watch with blazer",
+      "guideline": "A refined watch can complement a blazer without overpowering the sleeve and cuff.",
+      "recommendations": ["dress watch", "minimal metal watch"],
+      "styling_tip": "Keep the watch relatively slim for tailored outfits."
+    },
+
+    {
+      "id": "fa066",
+      "rule_type": "jewelry",
+      "name": "Chain with plain T-shirt",
+      "guideline": "A simple chain can add controlled detail to a plain T-shirt.",
+      "recommendations": ["minimal chain", "medium chain"],
+      "styling_tip": "Choose chain thickness according to the T-shirt's visual weight."
+    },
+    {
+      "id": "fa067",
+      "rule_type": "jewelry",
+      "name": "Chain with graphic T-shirt",
+      "guideline": "Graphic T-shirts already carry visual detail, so jewelry should usually remain restrained.",
+      "recommendations": ["thin chain", "minimal pendant"],
+      "styling_tip": "Avoid competing with a large chest graphic."
+    },
+    {
+      "id": "fa068",
+      "rule_type": "jewelry",
+      "name": "Chain neckline clearance",
+      "guideline": "Chain length should interact intentionally with the neckline.",
+      "recommendations": ["short chain with crew neck", "medium chain with open shirt"],
+      "styling_tip": "Avoid placing the pendant directly over a busy graphic."
+    },
+    {
+      "id": "fa069",
+      "rule_type": "jewelry",
+      "name": "Chain layering",
+      "guideline": "Layered chains should have visible separation in length and visual weight.",
+      "recommendations": ["short + medium", "thin + medium"],
+      "styling_tip": "Two coordinated chains are usually easier to control than many similar chains."
+    },
+    {
+      "id": "fa070",
+      "rule_type": "jewelry",
+      "name": "Chain metal consistency",
+      "guideline": "Repeating the same metal family creates a cleaner accessory system.",
+      "recommendations": ["silver + silver", "gold + gold"],
+      "styling_tip": "Mixed metals can work when intentionally designed."
+    },
+
+    {
+      "id": "fa071",
+      "rule_type": "jewelry",
+      "name": "Silver jewelry with cool palette",
+      "guideline": "Silver jewelry naturally supports cool and neutral color palettes.",
+      "recommendations": ["black", "grey", "white", "navy", "blue"],
+      "styling_tip": "Use silver when the outfit feels crisp and cool."
+    },
+    {
+      "id": "fa072",
+      "rule_type": "jewelry",
+      "name": "Gold jewelry with warm palette",
+      "guideline": "Gold jewelry naturally supports warm and earthy palettes.",
+      "recommendations": ["cream", "beige", "brown", "olive"],
+      "styling_tip": "Use gold as a warm accent rather than making every item gold."
+    },
+    {
+      "id": "fa073",
+      "rule_type": "jewelry",
+      "name": "Chain with open shirt",
+      "guideline": "An open shirt creates visible space for a chain.",
+      "recommendations": ["minimal chain", "medium chain"],
+      "styling_tip": "Keep the chain centered within the shirt opening."
+    },
+    {
+      "id": "fa074",
+      "rule_type": "jewelry",
+      "name": "Chain with turtleneck",
+      "guideline": "Longer chains can work over high-neck garments when intentionally styled.",
+      "recommendations": ["medium pendant", "long chain"],
+      "styling_tip": "Avoid tiny chains disappearing against thick knitwear."
+    },
+    {
+      "id": "fa075",
+      "rule_type": "jewelry",
+      "name": "Pendant scale",
+      "guideline": "Pendant size should remain proportional to neckline and garment scale.",
+      "recommendations": ["small pendant for minimal tops", "larger pendant for oversized casual looks"],
+      "styling_tip": "Keep the pendant from competing with large graphics."
+    },
+
+    {
+      "id": "fa076",
+      "rule_type": "ring",
+      "name": "Single ring minimalism",
+      "guideline": "One ring provides subtle hand-level detail without increasing accessory density significantly.",
+      "recommendations": ["plain band", "signet ring"],
+      "styling_tip": "Use one strong ring when the outfit is already detailed."
+    },
+    {
+      "id": "fa077",
+      "rule_type": "ring",
+      "name": "Ring stacking control",
+      "guideline": "Multiple rings should vary slightly in size or position to avoid visual crowding.",
+      "recommendations": ["two coordinated rings", "thin + signet"],
+      "styling_tip": "Avoid filling every finger with equally bold rings."
+    },
+    {
+      "id": "fa078",
+      "rule_type": "ring",
+      "name": "Ring and chain metal",
+      "guideline": "Matching metal families can make jewelry appear intentionally coordinated.",
+      "recommendations": ["silver ring + silver chain", "gold ring + gold chain"],
+      "styling_tip": "Consistency is especially useful in minimal outfits."
+    },
+    {
+      "id": "fa079",
+      "rule_type": "ring",
+      "name": "Statement ring control",
+      "guideline": "A large statement ring should usually be supported by simpler jewelry.",
+      "recommendations": ["minimal chain", "simple watch"],
+      "styling_tip": "Let one hand-level piece carry the attention."
+    },
+    {
+      "id": "fa080",
+      "rule_type": "ring",
+      "name": "Ring with casual outfit",
+      "guideline": "Rings can add personality to casual outfits without changing the base silhouette.",
+      "recommendations": ["T-shirt", "overshirt", "denim", "cargo"],
+      "styling_tip": "Use matte or simple finishes for understated casual styling."
+    },
+
+    {
+      "id": "fa081",
+      "rule_type": "bracelet",
+      "name": "Bracelet with watch",
+      "guideline": "A bracelet can complement a watch when both have controlled visual weight.",
+      "recommendations": ["thin metal bracelet", "simple bead bracelet"],
+      "styling_tip": "Avoid stacking several bulky pieces beside a large watch."
+    },
+    {
+      "id": "fa082",
+      "rule_type": "bracelet",
+      "name": "Bracelet material repetition",
+      "guideline": "Bracelet material can repeat another accessory material.",
+      "recommendations": ["metal bracelet + metal watch", "leather bracelet + leather strap"],
+      "styling_tip": "Keep repeated materials visually intentional."
+    },
+    {
+      "id": "fa083",
+      "rule_type": "bracelet",
+      "name": "Bracelet with rolled sleeve",
+      "guideline": "Rolled sleeves create useful space for wrist accessories.",
+      "recommendations": ["shirt", "overshirt", "linen shirt"],
+      "styling_tip": "Keep bracelet stacking controlled."
+    },
+    {
+      "id": "fa084",
+      "rule_type": "bracelet",
+      "name": "Bracelet with formal outfit",
+      "guideline": "Formal outfits generally benefit from restrained wrist accessories.",
+      "recommendations": ["single thin bracelet", "minimal metal bracelet"],
+      "styling_tip": "Avoid visibly bulky casual bracelets with formal tailoring."
+    },
+    {
+      "id": "fa085",
+      "rule_type": "bracelet",
+      "name": "Bracelet stacking limit",
+      "guideline": "Too many bracelets can create unnecessary visual density around the wrist.",
+      "recommendations": ["one to two coordinated pieces"],
+      "styling_tip": "Reduce bracelet count when the watch is visually prominent."
+    },
+
+    {
+      "id": "fa086",
+      "rule_type": "belt",
+      "name": "Black belt with black footwear",
+      "guideline": "Black leather belts naturally coordinate with black leather footwear.",
+      "recommendations": ["black loafers", "black boots", "black formal shoes"],
+      "styling_tip": "Use this connection in formal and smart-casual outfits."
+    },
+    {
+      "id": "fa087",
+      "rule_type": "belt",
+      "name": "Brown belt with brown footwear",
+      "guideline": "Brown belt and brown footwear create a traditional leather connection.",
+      "recommendations": ["brown loafers", "brown boots", "brown derbies"],
+      "styling_tip": "Shade matching can be approximate within the same brown family."
+    },
+    {
+      "id": "fa088",
+      "rule_type": "belt",
+      "name": "Belt width and formality",
+      "guideline": "Narrower belts generally suit refined outfits while wider belts suit casual styling.",
+      "recommendations": ["slim belt for tailoring", "medium belt for casual"],
+      "styling_tip": "Match belt hardware scale to the outfit."
+    },
+    {
+      "id": "fa089",
+      "rule_type": "belt",
+      "name": "Belt buckle scale",
+      "guideline": "Large buckles create more visual emphasis around the waist.",
+      "recommendations": ["minimal buckle for formal", "larger buckle for casual"],
+      "styling_tip": "Avoid a large buckle when the outfit needs a clean waistline."
+    },
+    {
+      "id": "fa090",
+      "rule_type": "belt",
+      "name": "Belt with tucked shirt",
+      "guideline": "A tucked shirt exposes the belt as part of the outfit's visual structure.",
+      "recommendations": ["coordinated leather belt", "minimal buckle"],
+      "styling_tip": "Use the belt to create a clean connection between shirt and trousers."
+    },
+
+    {
+      "id": "fa091",
+      "rule_type": "bag",
+      "name": "Crossbody casual role",
+      "guideline": "Crossbody bags naturally support casual and streetwear outfits.",
+      "recommendations": ["T-shirts", "cargo pants", "oversized shirts"],
+      "styling_tip": "Match bag size to the outfit's visual scale."
+    },
+    {
+      "id": "fa092",
+      "rule_type": "bag",
+      "name": "Crossbody strap position",
+      "guideline": "Crossbody strap placement changes the visual direction of an outfit.",
+      "recommendations": ["diagonal strap", "short shoulder placement"],
+      "styling_tip": "Keep strap placement intentional and comfortable."
+    },
+    {
+      "id": "fa093",
+      "rule_type": "bag",
+      "name": "Crossbody and oversized outfit",
+      "guideline": "A moderately sized crossbody can add structure to oversized clothing.",
+      "recommendations": ["boxy T-shirt", "oversized shirt", "baggy trousers"],
+      "styling_tip": "Avoid an extremely tiny bag disappearing against oversized garments."
+    },
+    {
+      "id": "fa094",
+      "rule_type": "bag",
+      "name": "Structured bag formal role",
+      "guideline": "Structured bags support polished and professional outfits.",
+      "recommendations": ["blazer", "formal shirt", "tailored trousers"],
+      "styling_tip": "Use clean geometry when the clothing is tailored."
+    },
+    {
+      "id": "fa095",
+      "rule_type": "bag",
+      "name": "Canvas tote casual role",
+      "guideline": "Canvas totes support casual, minimal and relaxed outfits.",
+      "recommendations": ["denim", "T-shirts", "overshirts", "sneakers"],
+      "styling_tip": "Keep the tote's graphics controlled when the outfit is already patterned."
+    },
+
+    {
+      "id": "fa096",
+      "rule_type": "bag",
+      "name": "Backpack casual utility",
+      "guideline": "Backpacks naturally communicate casual and functional styling.",
+      "recommendations": ["streetwear", "college outfits", "travel outfits"],
+      "styling_tip": "Match backpack volume to the outfit rather than choosing an oversized bag automatically."
+    },
+    {
+      "id": "fa097",
+      "rule_type": "bag",
+      "name": "Bag color neutralization",
+      "guideline": "Neutral bags can support outfits with stronger clothing colors.",
+      "recommendations": ["black", "brown", "beige", "grey"],
+      "styling_tip": "Use neutral bags when the outfit already contains several colors."
+    },
+    {
+      "id": "fa098",
+      "rule_type": "bag",
+      "name": "Bag material coordination",
+      "guideline": "Bag material should broadly match the outfit's formality.",
+      "recommendations": ["leather for refined", "canvas for casual", "technical fabric for sporty"],
+      "styling_tip": "Avoid mixing extremely formal and sporty materials without intention."
+    },
+    {
+      "id": "fa099",
+      "rule_type": "bag",
+      "name": "Bag visual weight",
+      "guideline": "Large bags increase the visual weight of the carrying side.",
+      "recommendations": ["moderate bag for balanced outfits", "larger bag for travel"],
+      "styling_tip": "Consider bag volume when styling oversized clothing."
+    },
+    {
+      "id": "fa100",
+      "rule_type": "bag",
+      "name": "Bag hardware coordination",
+      "guideline": "Bag hardware can repeat the metal finish used in watches or jewelry.",
+      "recommendations": ["silver hardware + silver watch", "gold hardware + gold jewelry"],
+      "styling_tip": "Use hardware repetition subtly."
+    },
+
+    {
+      "id": "fa101",
+      "rule_type": "cap",
+      "name": "Baseball cap casual role",
+      "guideline": "Baseball caps work naturally with casual and streetwear outfits.",
+      "recommendations": ["T-shirts", "hoodies", "denim", "sneakers"],
+      "styling_tip": "Keep cap structure compatible with the outfit's casual level."
+    },
+    {
+      "id": "fa102",
+      "rule_type": "cap",
+      "name": "Minimal cap styling",
+      "guideline": "A plain cap supports outfits without creating excessive visual competition.",
+      "recommendations": ["monochrome outfits", "minimal outfits", "smart-casual casual looks"],
+      "styling_tip": "Use minimal branding when the outfit is already detailed."
+    },
+    {
+      "id": "fa103",
+      "rule_type": "cap",
+      "name": "Cap color repetition",
+      "guideline": "Cap color can subtly repeat a garment or footwear color.",
+      "recommendations": ["black cap + black shoes", "beige cap + beige shoes"],
+      "styling_tip": "One color connection is sufficient."
+    },
+    {
+      "id": "fa104",
+      "rule_type": "cap",
+      "name": "Cap and formal outfit boundary",
+      "guideline": "Baseball caps reduce the perceived formality of traditional tailoring.",
+      "recommendations": ["casual blazer combinations", "relaxed tailoring"],
+      "styling_tip": "Avoid caps when the dress code requires conventional formal styling."
+    },
+    {
+      "id": "fa105",
+      "rule_type": "cap",
+      "name": "Cap and oversized silhouette",
+      "guideline": "Caps can complement relaxed and oversized proportions.",
+      "recommendations": ["oversized T-shirt", "baggy jeans", "hoodie"],
+      "styling_tip": "Choose a cap with enough visual presence to remain balanced."
+    },
+
+    {
+      "id": "fa106",
+      "rule_type": "headwear",
+      "name": "Beanie winter role",
+      "guideline": "Beanies naturally support winter and cold-weather outfits.",
+      "recommendations": ["coats", "jackets", "hoodies", "knitwear"],
+      "styling_tip": "Coordinate beanie thickness with the weight of outerwear."
+    },
+    {
+      "id": "fa107",
+      "rule_type": "headwear",
+      "name": "Beanie color coordination",
+      "guideline": "Neutral beanies are easier to coordinate with layered winter outfits.",
+      "recommendations": ["black", "grey", "cream", "brown"],
+      "styling_tip": "Repeat the beanie color subtly in another winter accessory when useful."
+    },
+    {
+      "id": "fa108",
+      "rule_type": "headwear",
+      "name": "Beanie and face framing",
+      "guideline": "Beanie height and fold can affect the visual framing of the head.",
+      "recommendations": ["moderate cuff", "controlled volume"],
+      "styling_tip": "Avoid excessive fabric volume around the head."
+    },
+    {
+      "id": "fa109",
+      "rule_type": "headwear",
+      "name": "Bucket hat casual role",
+      "guideline": "Bucket hats strongly communicate relaxed and streetwear styling.",
+      "recommendations": ["graphic T-shirts", "oversized shirts", "cargo pants"],
+      "styling_tip": "Keep the rest of the outfit intentionally casual."
+    },
+    {
+      "id": "fa110",
+      "rule_type": "headwear",
+      "name": "Bucket hat pattern control",
+      "guideline": "A patterned bucket hat can become the outfit's focal accessory.",
+      "recommendations": ["plain clothing", "minimal graphics"],
+      "styling_tip": "Reduce other patterns when the hat is highly visible."
+    },
+
+    {
+      "id": "fa111",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses casual coordination",
+      "guideline": "Sunglasses work naturally with casual, summer and travel outfits.",
+      "recommendations": ["T-shirts", "shirts", "linen", "resort outfits"],
+      "styling_tip": "Match frame visual weight to the overall outfit."
+    },
+    {
+      "id": "fa112",
+      "rule_type": "sunglasses",
+      "name": "Black sunglasses versatility",
+      "guideline": "Black frames work with most neutral and high-contrast outfits.",
+      "recommendations": ["black", "white", "grey", "navy", "denim"],
+      "styling_tip": "Use black frames when the outfit needs a strong neutral anchor."
+    },
+    {
+      "id": "fa113",
+      "rule_type": "sunglasses",
+      "name": "Brown sunglasses warm coordination",
+      "guideline": "Brown frames support warm and earthy color palettes.",
+      "recommendations": ["beige", "cream", "brown", "olive", "tan"],
+      "styling_tip": "Repeat warm tones subtly through shoes or accessories."
+    },
+    {
+      "id": "fa114",
+      "rule_type": "sunglasses",
+      "name": "Metal frame refinement",
+      "guideline": "Metal frames can create a cleaner and more refined accessory impression.",
+      "recommendations": ["minimal shirts", "tailored casual", "smart-casual"],
+      "styling_tip": "Coordinate frame metal with visible jewelry when possible."
+    },
+    {
+      "id": "fa115",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses and jewelry metal",
+      "guideline": "Frame hardware can coordinate with chain, ring or watch metal.",
+      "recommendations": ["silver frame + silver jewelry", "gold frame + gold jewelry"],
+      "styling_tip": "Do not force matching if the frame has minimal hardware."
+    },
+
+    {
+      "id": "fa116",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses outfit focal point",
+      "guideline": "Bold sunglasses can become a facial focal point.",
+      "recommendations": ["simple neckline", "minimal accessories"],
+      "styling_tip": "Reduce competing accessories when sunglasses are highly distinctive."
+    },
+    {
+      "id": "fa117",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses frame color repetition",
+      "guideline": "Frame color can subtly repeat an outfit color.",
+      "recommendations": ["brown frame + brown belt", "black frame + black shoes"],
+      "styling_tip": "Keep repetition subtle rather than matching every element."
+    },
+    {
+      "id": "fa118",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses with linen",
+      "guideline": "Lightweight sunglasses complement relaxed linen outfits.",
+      "recommendations": ["metal frames", "brown frames", "minimal acetate"],
+      "styling_tip": "Avoid overly aggressive sporty frames with refined linen styling."
+    },
+    {
+      "id": "fa119",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses with streetwear",
+      "guideline": "Streetwear can support stronger and more geometric sunglasses.",
+      "recommendations": ["wraparound", "rectangular", "bold acetate"],
+      "styling_tip": "Keep frame volume balanced with oversized garments."
+    },
+    {
+      "id": "fa120",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses and occasion",
+      "guideline": "Sunglasses should fit the practical and social context of the outfit.",
+      "recommendations": ["casual outdoor", "travel", "resort", "daytime"],
+      "styling_tip": "Avoid treating sunglasses as a universal formal accessory."
+    },
+
+    {
+      "id": "fa121",
+      "rule_type": "socks",
+      "name": "Visible sock coordination",
+      "guideline": "Visible socks should either blend with the outfit or provide intentional contrast.",
+      "recommendations": ["matching trousers", "matching footwear", "controlled contrast"],
+      "styling_tip": "Avoid accidental color clashes."
+    },
+    {
+      "id": "fa122",
+      "rule_type": "socks",
+      "name": "White socks casual role",
+      "guideline": "White socks can support sporty and casual sneaker outfits.",
+      "recommendations": ["sneakers", "shorts", "casual trousers"],
+      "styling_tip": "Keep the socks clean because their visibility makes them a focal detail."
+    },
+    {
+      "id": "fa123",
+      "rule_type": "socks",
+      "name": "Black socks dark continuity",
+      "guideline": "Black socks can visually connect dark trousers and footwear.",
+      "recommendations": ["black trousers", "black shoes", "dark outfits"],
+      "styling_tip": "Use black socks to minimize visual interruption."
+    },
+    {
+      "id": "fa124",
+      "rule_type": "socks",
+      "name": "Dress sock coordination",
+      "guideline": "Dress socks should support the trouser and formal shoe combination.",
+      "recommendations": ["navy socks with navy trousers", "charcoal socks with charcoal trousers"],
+      "styling_tip": "Avoid athletic socks with formal shoes."
+    },
+    {
+      "id": "fa125",
+      "rule_type": "socks",
+      "name": "Contrast socks",
+      "guideline": "Contrast socks can intentionally add personality to a simple outfit.",
+      "recommendations": ["plain trousers", "minimal footwear"],
+      "styling_tip": "Keep the rest of the outfit controlled when using statement socks."
+    },
+
+    {
+      "id": "fa126",
+      "rule_type": "footwear",
+      "name": "No-show socks with loafers",
+      "guideline": "No-show socks create an ankle-exposed appearance with loafers.",
+      "recommendations": ["summer smart-casual", "resort tailoring"],
+      "styling_tip": "Use only when appropriate for the outfit and climate."
+    },
+    {
+      "id": "fa127",
+      "rule_type": "footwear",
+      "name": "Socks with boots",
+      "guideline": "Boot outfits benefit from socks that provide sufficient coverage and comfort.",
+      "recommendations": ["crew socks", "boot socks"],
+      "styling_tip": "Coordinate sock color with trousers or boots for visual continuity."
+    },
+    {
+      "id": "fa128",
+      "rule_type": "footwear",
+      "name": "Socks with sandals",
+      "guideline": "Socks with sandals create a distinct casual or streetwear styling signal.",
+      "recommendations": ["intentional streetwear"],
+      "styling_tip": "Use this combination only when the styling direction supports it."
+    },
+    {
+      "id": "fa129",
+      "rule_type": "footwear",
+      "name": "Sock thickness and shoe fit",
+      "guideline": "Very thick socks can alter the fit of close-fitting shoes.",
+      "recommendations": ["thin socks for loafers", "moderate socks for sneakers", "thicker socks for boots"],
+      "styling_tip": "Consider both comfort and silhouette."
+    },
+    {
+      "id": "fa130",
+      "rule_type": "footwear",
+      "name": "Sock pattern density",
+      "guideline": "Patterned socks add visual detail around the ankle.",
+      "recommendations": ["plain trousers", "simple shoes"],
+      "styling_tip": "Reduce other small-scale patterns when socks are highly visible."
+    },
+
+    {
+      "id": "fa131",
+      "rule_type": "footwear",
+      "name": "Monochrome footwear",
+      "guideline": "Footwear within the same color family as the outfit reinforces monochrome styling.",
+      "recommendations": ["black outfit + black shoes", "cream outfit + beige shoes"],
+      "styling_tip": "Use tonal differences to prevent the outfit from appearing flat."
+    },
+    {
+      "id": "fa132",
+      "rule_type": "footwear",
+      "name": "Tonal footwear",
+      "guideline": "Tonal footwear uses a nearby shade rather than exact color matching.",
+      "recommendations": ["cream + beige", "brown + dark brown", "grey + charcoal"],
+      "styling_tip": "Tonal styling often looks more natural than exact matching."
+    },
+    {
+      "id": "fa133",
+      "rule_type": "footwear",
+      "name": "Complementary shoe accent",
+      "guideline": "A complementary shoe color can create controlled contrast.",
+      "recommendations": ["navy outfit + brown shoes", "blue outfit + tan shoes"],
+      "styling_tip": "Keep the remaining accessories restrained."
+    },
+    {
+      "id": "fa134",
+      "rule_type": "footwear",
+      "name": "Neutral footwear with bright clothing",
+      "guideline": "Neutral footwear can prevent bright garments from becoming visually overwhelming.",
+      "recommendations": ["white", "cream", "grey", "black"],
+      "styling_tip": "Let the clothing carry the main color statement."
+    },
+    {
+      "id": "fa135",
+      "rule_type": "footwear",
+      "name": "Colored sneaker statement",
+      "guideline": "Colored sneakers can become the focal point of an otherwise neutral outfit.",
+      "recommendations": ["neutral top", "neutral trousers", "minimal accessories"],
+      "styling_tip": "Repeat a small amount of the sneaker color if needed."
+    },
+
+    {
+      "id": "fa136",
+      "rule_type": "accessory",
+      "name": "Black accessory foundation",
+      "guideline": "Black accessories provide a strong neutral foundation for men's outfits.",
+      "recommendations": ["black watch", "black belt", "black bag", "black shoes"],
+      "styling_tip": "Use black accessories consistently in dark or high-contrast looks."
+    },
+    {
+      "id": "fa137",
+      "rule_type": "accessory",
+      "name": "Brown accessory foundation",
+      "guideline": "Brown accessories support warm, earthy and classic palettes.",
+      "recommendations": ["brown belt", "brown shoes", "brown watch strap"],
+      "styling_tip": "Repeat brown in two or three places rather than everywhere."
+    },
+    {
+      "id": "fa138",
+      "rule_type": "accessory",
+      "name": "Silver accessory system",
+      "guideline": "Silver accessories create a cool and clean visual system.",
+      "recommendations": ["silver watch", "silver chain", "silver ring"],
+      "styling_tip": "Keep finishes reasonably compatible."
+    },
+    {
+      "id": "fa139",
+      "rule_type": "accessory",
+      "name": "Gold accessory system",
+      "guideline": "Gold accessories create a warm and richer visual system.",
+      "recommendations": ["gold watch", "gold chain", "gold ring"],
+      "styling_tip": "Keep gold accents limited when the outfit is already visually strong."
+    },
+    {
+      "id": "fa140",
+      "rule_type": "accessory",
+      "name": "Mixed metal control",
+      "guideline": "Mixed metals can work when one finish remains dominant.",
+      "recommendations": ["silver dominant + small gold accent"],
+      "styling_tip": "Avoid equal amounts of competing metal finishes unless intentionally styled."
+    },
+
+    {
+      "id": "fa141",
+      "rule_type": "accessory",
+      "name": "Minimalist accessory balance",
+      "guideline": "Minimal outfits benefit from accessories that add detail without destroying simplicity.",
+      "recommendations": ["watch", "thin chain", "single ring"],
+      "styling_tip": "Leave enough visual negative space."
+    },
+    {
+      "id": "fa142",
+      "rule_type": "accessory",
+      "name": "Streetwear accessory balance",
+      "guideline": "Streetwear can support stronger accessories when garment volume is already relaxed.",
+      "recommendations": ["crossbody", "cap", "chain", "chunky watch"],
+      "styling_tip": "Keep one or two elements dominant rather than making everything oversized."
+    },
+    {
+      "id": "fa143",
+      "rule_type": "accessory",
+      "name": "Smart-casual accessory balance",
+      "guideline": "Smart-casual styling benefits from refined accessories with moderate visual weight.",
+      "recommendations": ["watch", "minimal belt", "simple sunglasses"],
+      "styling_tip": "Avoid overly sporty accessories with polished garments."
+    },
+    {
+      "id": "fa144",
+      "rule_type": "accessory",
+      "name": "Formal accessory restraint",
+      "guideline": "Formal outfits generally require fewer and more refined accessories.",
+      "recommendations": ["watch", "belt", "minimal ring"],
+      "styling_tip": "Avoid excessive chains, bracelets and casual bags."
+    },
+    {
+      "id": "fa145",
+      "rule_type": "accessory",
+      "name": "Festive accessory richness",
+      "guideline": "Festive outfits can support more visible accessories than everyday outfits.",
+      "recommendations": ["watch", "ring", "chain", "bracelet"],
+      "styling_tip": "Coordinate accessories with garment richness rather than adding them randomly."
+    },
+
+    {
+      "id": "fa146",
+      "rule_type": "accessory",
+      "name": "Wedding guest accessory control",
+      "guideline": "Wedding guest outfits can use refined accessories without competing with the main garment.",
+      "recommendations": ["dress watch", "minimal bracelet", "pocket square"],
+      "styling_tip": "Let the outfit's primary garment remain the focal point."
+    },
+    {
+      "id": "fa147",
+      "rule_type": "accessory",
+      "name": "Kurta footwear pairing",
+      "guideline": "Kurta outfits can transition between traditional and contemporary footwear.",
+      "recommendations": ["mojari", "loafers", "minimal sneakers", "sandals"],
+      "styling_tip": "Choose footwear according to how traditional or modern the kurta styling is."
+    },
+    {
+      "id": "fa148",
+      "rule_type": "accessory",
+      "name": "Kurta accessory restraint",
+      "guideline": "Traditional outfits usually benefit from controlled accessory density.",
+      "recommendations": ["watch", "minimal bracelet", "simple ring"],
+      "styling_tip": "Avoid too many western accessories when the kurta is heavily detailed."
+    },
+    {
+      "id": "fa149",
+      "rule_type": "accessory",
+      "name": "Nehru jacket footwear",
+      "guideline": "Nehru jacket outfits can work with formal, traditional and refined casual footwear.",
+      "recommendations": ["loafers", "mojari", "derbies"],
+      "styling_tip": "Use polished footwear when the jacket is structured."
+    },
+    {
+      "id": "fa150",
+      "rule_type": "accessory",
+      "name": "Sherwani footwear",
+      "guideline": "Sherwani styling generally works best with traditional or highly polished footwear.",
+      "recommendations": ["mojari", "juttis", "formal traditional shoes"],
+      "styling_tip": "Keep footwear refined enough to support the garment's formality."
+    },
+
+    {
+      "id": "fa151",
+      "rule_type": "footwear",
+      "name": "Mojari traditional connection",
+      "guideline": "Mojaris strongly reinforce traditional Indian outfit language.",
+      "recommendations": ["kurta", "Nehru jacket", "sherwani"],
+      "styling_tip": "Use traditional footwear when maintaining cultural continuity is important."
+    },
+    {
+      "id": "fa152",
+      "rule_type": "footwear",
+      "name": "Jutti casual traditional balance",
+      "guideline": "Juttis can support both festive and relaxed traditional outfits.",
+      "recommendations": ["kurta pajama", "short kurta", "festive sets"],
+      "styling_tip": "Coordinate jutti color with the outfit without requiring exact matching."
+    },
+    {
+      "id": "fa153",
+      "rule_type": "footwear",
+      "name": "Kurta sneaker fusion",
+      "guideline": "Minimal sneakers can modernize simple kurta outfits.",
+      "recommendations": ["plain kurta", "straight pajama", "minimal colors"],
+      "styling_tip": "Keep the sneaker clean and low-profile."
+    },
+    {
+      "id": "fa154",
+      "rule_type": "footwear",
+      "name": "Kurta loafer fusion",
+      "guideline": "Loafers provide a refined modern bridge with contemporary kurta styling.",
+      "recommendations": ["solid kurta", "tailored trousers", "churidar"],
+      "styling_tip": "Use loafers when the outfit leans modern rather than heavily traditional."
+    },
+    {
+      "id": "fa155",
+      "rule_type": "footwear",
+      "name": "Kurta sandal fusion",
+      "guideline": "Simple sandals work naturally with relaxed warm-weather kurta outfits.",
+      "recommendations": ["linen kurta", "cotton kurta", "summer festive outfits"],
+      "styling_tip": "Choose clean minimal sandals rather than overly sporty styles."
+    },
+
+    {
+      "id": "fa156",
+      "rule_type": "occasion",
+      "name": "Office footwear",
+      "guideline": "Office footwear should align with the workplace dress code.",
+      "recommendations": ["Derby", "Oxford", "loafers", "clean minimal sneakers where permitted"],
+      "styling_tip": "Prioritize polished and clean footwear."
+    },
+    {
+      "id": "fa157",
+      "rule_type": "occasion",
+      "name": "Date footwear",
+      "guideline": "Date outfits can use footwear that is polished while retaining personality.",
+      "recommendations": ["loafers", "minimal sneakers", "Chelsea boots"],
+      "styling_tip": "Avoid visibly worn footwear."
+    },
+    {
+      "id": "fa158",
+      "rule_type": "occasion",
+      "name": "Party footwear",
+      "guideline": "Party outfits can support more distinctive footwear.",
+      "recommendations": ["retro sneakers", "Chelsea boots", "statement loafers"],
+      "styling_tip": "Use footwear as a controlled statement rather than adding multiple loud accessories."
+    },
+    {
+      "id": "fa159",
+      "rule_type": "occasion",
+      "name": "Travel footwear",
+      "guideline": "Travel footwear should prioritize comfort while matching the outfit's casual direction.",
+      "recommendations": ["comfortable sneakers", "walking shoes", "clean casual footwear"],
+      "styling_tip": "Avoid uncomfortable formal shoes for long walking days."
+    },
+    {
+      "id": "fa160",
+      "rule_type": "occasion",
+      "name": "Beach footwear",
+      "guideline": "Beach outfits naturally support sandals and slides.",
+      "recommendations": ["slides", "sandals", "water-friendly footwear"],
+      "styling_tip": "Keep footwear lightweight and practical."
+    },
+
+    {
+      "id": "fa161",
+      "rule_type": "occasion",
+      "name": "Gym footwear boundary",
+      "guideline": "Gym footwear should prioritize performance and stability rather than fashion alone.",
+      "recommendations": ["training shoes", "running shoes where appropriate"],
+      "styling_tip": "Do not treat lifestyle sneakers as substitutes for activity-specific footwear."
+    },
+    {
+      "id": "fa162",
+      "rule_type": "occasion",
+      "name": "Brunch footwear",
+      "guideline": "Brunch outfits can use relaxed refined footwear.",
+      "recommendations": ["loafers", "minimal sneakers", "clean sandals"],
+      "styling_tip": "Match footwear formality to the venue."
+    },
+    {
+      "id": "fa163",
+      "rule_type": "occasion",
+      "name": "College footwear",
+      "guideline": "College outfits generally support comfortable casual footwear.",
+      "recommendations": ["sneakers", "retro sneakers", "casual boots"],
+      "styling_tip": "Use footwear that can handle everyday movement."
+    },
+    {
+      "id": "fa164",
+      "rule_type": "occasion",
+      "name": "Wedding footwear",
+      "guideline": "Wedding footwear should match the formality of the outfit and event.",
+      "recommendations": ["loafers", "formal shoes", "mojaris"],
+      "styling_tip": "Keep footwear polished and coordinated with the outfit."
+    },
+    {
+      "id": "fa165",
+      "rule_type": "occasion",
+      "name": "Festival footwear",
+      "guideline": "Festival outfits can combine traditional footwear with modern options depending on the garment.",
+      "recommendations": ["mojari", "jutti", "loafers", "clean sneakers"],
+      "styling_tip": "Maintain a clear traditional-modern direction."
+    },
+
+    {
+      "id": "fa166",
+      "rule_type": "weather",
+      "name": "Summer sneaker material",
+      "guideline": "Breathable sneaker materials are preferable for hot weather.",
+      "recommendations": ["mesh", "canvas", "lightweight textile"],
+      "styling_tip": "Coordinate breathable footwear with lightweight clothing."
+    },
+    {
+      "id": "fa167",
+      "rule_type": "weather",
+      "name": "Summer sandal role",
+      "guideline": "Sandals provide a natural warm-weather footwear option.",
+      "recommendations": ["linen trousers", "shorts", "summer shirts"],
+      "styling_tip": "Keep the footwear clean and simple."
+    },
+    {
+      "id": "fa168",
+      "rule_type": "weather",
+      "name": "Monsoon footwear practicality",
+      "guideline": "Monsoon outfits require footwear that can handle wet conditions.",
+      "recommendations": ["water-resistant sneakers", "rubber sandals", "weather-ready shoes"],
+      "styling_tip": "Prioritize practicality while maintaining outfit coordination."
+    },
+    {
+      "id": "fa169",
+      "rule_type": "weather",
+      "name": "Winter boot role",
+      "guideline": "Boots add warmth and visual weight to winter outfits.",
+      "recommendations": ["coats", "jackets", "knitwear"],
+      "styling_tip": "Balance boot volume with heavier winter garments."
+    },
+    {
+      "id": "fa170",
+      "rule_type": "weather",
+      "name": "Winter leather coordination",
+      "guideline": "Leather boots pair naturally with leather belts and winter accessories.",
+      "recommendations": ["leather belt", "leather gloves", "leather bag"],
+      "styling_tip": "Repeat leather strategically."
+    },
+
+    {
+      "id": "fa171",
+      "rule_type": "accessory",
+      "name": "Scarf casual coordination",
+      "guideline": "Scarves can add texture and visual depth to cold-weather outfits.",
+      "recommendations": ["coats", "jackets", "knitwear"],
+      "styling_tip": "Coordinate scarf texture with the rest of the winter layers."
+    },
+    {
+      "id": "fa172",
+      "rule_type": "accessory",
+      "name": "Scarf color repetition",
+      "guideline": "A scarf can repeat a color from the outfit for visual continuity.",
+      "recommendations": ["scarf matching sweater family", "scarf matching footwear accent"],
+      "styling_tip": "Avoid repeating too many colors at once."
+    },
+    {
+      "id": "fa173",
+      "rule_type": "accessory",
+      "name": "Scarf pattern control",
+      "guideline": "Patterned scarves should be balanced with simpler garments.",
+      "recommendations": ["plain coat", "solid sweater"],
+      "styling_tip": "Avoid combining several equally strong patterns."
+    },
+    {
+      "id": "fa174",
+      "rule_type": "accessory",
+      "name": "Glove leather coordination",
+      "guideline": "Leather gloves can coordinate with leather footwear and bags.",
+      "recommendations": ["black gloves + black boots", "brown gloves + brown shoes"],
+      "styling_tip": "Use the same leather family for a cohesive winter look."
+    },
+    {
+      "id": "fa175",
+      "rule_type": "accessory",
+      "name": "Winter accessory layering",
+      "guideline": "Winter accessories should complement rather than compete with outerwear.",
+      "recommendations": ["watch", "scarf", "beanie", "gloves"],
+      "styling_tip": "Let the coat remain the primary structural layer."
+    },
+
+    {
+      "id": "fa176",
+      "rule_type": "accessory",
+      "name": "Pocket square formal role",
+      "guideline": "Pocket squares add controlled detail to formal and tailored outfits.",
+      "recommendations": ["blazer", "suit", "Nehru jacket"],
+      "styling_tip": "Coordinate color without requiring an exact tie or shirt match."
+    },
+    {
+      "id": "fa177",
+      "rule_type": "accessory",
+      "name": "Pocket square contrast",
+      "guideline": "A pocket square can use controlled contrast against the jacket.",
+      "recommendations": ["white pocket square with dark blazer", "tonal pocket square"],
+      "styling_tip": "Keep the pattern scale refined."
+    },
+    {
+      "id": "fa178",
+      "rule_type": "accessory",
+      "name": "Tie and pocket square coordination",
+      "guideline": "Tie and pocket square should coordinate without looking like an identical set.",
+      "recommendations": ["shared color family", "different pattern"],
+      "styling_tip": "Repeat color, not necessarily pattern."
+    },
+    {
+      "id": "fa179",
+      "rule_type": "accessory",
+      "name": "Tie clip restraint",
+      "guideline": "Tie clips should remain proportionally subtle in formal outfits.",
+      "recommendations": ["minimal metal clip"],
+      "styling_tip": "Coordinate the metal with the watch or other visible hardware."
+    },
+    {
+      "id": "fa180",
+      "rule_type": "accessory",
+      "name": "Formal accessory metal",
+      "guideline": "Formal metal accessories benefit from a consistent finish.",
+      "recommendations": ["silver watch + silver tie clip", "gold-tone accessories"],
+      "styling_tip": "Avoid unnecessary metal variety."
+    },
+
+    {
+      "id": "fa181",
+      "rule_type": "accessory",
+      "name": "Wallet visibility",
+      "guideline": "A wallet should generally remain functional rather than becoming a visible fashion focal point.",
+      "recommendations": ["slim wallet", "minimal card holder"],
+      "styling_tip": "Avoid bulky pockets that distort trouser silhouette."
+    },
+    {
+      "id": "fa182",
+      "rule_type": "accessory",
+      "name": "Keychain visual control",
+      "guideline": "Large keychains can create unnecessary detail around trouser pockets.",
+      "recommendations": ["minimal keychain"],
+      "styling_tip": "Keep hanging accessories short and controlled."
+    },
+    {
+      "id": "fa183",
+      "rule_type": "accessory",
+      "name": "Phone pocket bulk",
+      "guideline": "Bulky phone placement can distort trousers and reduce silhouette quality.",
+      "recommendations": ["bag", "structured pocket", "minimal pocket load"],
+      "styling_tip": "Keep trouser pockets visually clean."
+    },
+    {
+      "id": "fa184",
+      "rule_type": "accessory",
+      "name": "Accessory pocket placement",
+      "guideline": "Items carried in pockets can change the garment's visual shape.",
+      "recommendations": ["distribute load", "use bag when needed"],
+      "styling_tip": "Avoid excessive pocket bulk."
+    },
+    {
+      "id": "fa185",
+      "rule_type": "accessory",
+      "name": "Functional accessory priority",
+      "guideline": "Functional accessories should remain practical without unnecessarily disrupting outfit proportions.",
+      "recommendations": ["crossbody", "backpack", "watch"],
+      "styling_tip": "Choose function-compatible accessories first."
+    },
+
+    {
+      "id": "fa186",
+      "rule_type": "footwear",
+      "name": "Sneaker cleanliness",
+      "guideline": "Clean sneakers maintain the intended polish of casual outfits.",
+      "recommendations": ["clean uppers", "clean soles"],
+      "styling_tip": "Footwear condition should match the outfit's cleanliness."
+    },
+    {
+      "id": "fa187",
+      "rule_type": "footwear",
+      "name": "White sneaker maintenance",
+      "guideline": "White footwear shows dirt more visibly than darker footwear.",
+      "recommendations": ["regular cleaning", "sole maintenance"],
+      "styling_tip": "Keep white sneakers clean when using them as a visual anchor."
+    },
+    {
+      "id": "fa188",
+      "rule_type": "footwear",
+      "name": "Leather shoe shine",
+      "guideline": "Leather footwear can appear more formal when maintained with an appropriate finish.",
+      "recommendations": ["polished leather", "controlled shine"],
+      "styling_tip": "Avoid excessive shine in relaxed outfits."
+    },
+    {
+      "id": "fa189",
+      "rule_type": "footwear",
+      "name": "Suede footwear care",
+      "guideline": "Suede footwear should maintain an even and clean texture.",
+      "recommendations": ["suede brush", "appropriate protection"],
+      "styling_tip": "Use suede in suitable weather and setting."
+    },
+    {
+      "id": "fa190",
+      "rule_type": "footwear",
+      "name": "Worn footwear formality mismatch",
+      "guideline": "Heavily worn footwear can conflict with formal or polished clothing.",
+      "recommendations": ["well-maintained formal shoes", "clean loafers"],
+      "styling_tip": "Match footwear condition to outfit formality."
+    },
+
+    {
+      "id": "fa191",
+      "rule_type": "footwear",
+      "name": "Toe shape and trouser width",
+      "guideline": "Broader footwear shapes generally support wider trousers better than extremely narrow shoes.",
+      "recommendations": ["wide trousers + substantial toe shape", "tailored trousers + streamlined toe"],
+      "styling_tip": "Maintain a consistent visual width progression."
+    },
+    {
+      "id": "fa192",
+      "rule_type": "footwear",
+      "name": "Pointed shoe restraint",
+      "guideline": "Pointed shoes create a sharper visual direction and require proportion control.",
+      "recommendations": ["tailored trousers", "formal trousers"],
+      "styling_tip": "Avoid extreme pointed footwear with highly relaxed streetwear unless intentional."
+    },
+    {
+      "id": "fa193",
+      "rule_type": "footwear",
+      "name": "Rounded shoe casual role",
+      "guideline": "Rounded toe shapes generally appear softer and more casual.",
+      "recommendations": ["jeans", "chinos", "casual trousers"],
+      "styling_tip": "Use rounded footwear with relaxed silhouettes."
+    },
+    {
+      "id": "fa194",
+      "rule_type": "footwear",
+      "name": "Square toe statement",
+      "guideline": "Square toe footwear adds a stronger geometric element.",
+      "recommendations": ["tailored outfits", "fashion-forward casual"],
+      "styling_tip": "Keep other accessories controlled when the shoe shape is distinctive."
+    },
+    {
+      "id": "fa195",
+      "rule_type": "footwear",
+      "name": "Footwear sole thickness",
+      "guideline": "Thicker soles increase footwear visual weight.",
+      "recommendations": ["chunky sneakers", "platform-inspired footwear", "heavy boots"],
+      "styling_tip": "Balance sole thickness with trouser width."
+    },
+
+    {
+      "id": "fa196",
+      "rule_type": "footwear",
+      "name": "Slim sole refinement",
+      "guideline": "Slim soles support refined and streamlined outfits.",
+      "recommendations": ["loafers", "minimal sneakers", "dress shoes"],
+      "styling_tip": "Use slim soles when the outfit has clean tailoring."
+    },
+    {
+      "id": "fa197",
+      "rule_type": "footwear",
+      "name": "Sneaker sole color",
+      "guideline": "Contrasting soles can create a visual break at the footwear.",
+      "recommendations": ["white sole with dark upper", "tonal sole for minimal looks"],
+      "styling_tip": "Use sole contrast intentionally."
+    },
+    {
+      "id": "fa198",
+      "rule_type": "footwear",
+      "name": "Boot shaft visibility",
+      "guideline": "Visible boot shaft changes the lower-leg visual structure.",
+      "recommendations": ["controlled trouser opening", "appropriate boot height"],
+      "styling_tip": "Avoid awkward bunching around the shaft."
+    },
+    {
+      "id": "fa199",
+      "rule_type": "footwear",
+      "name": "Shoe lacing visibility",
+      "guideline": "Lacing detail adds visual information to footwear.",
+      "recommendations": ["clean lacing", "tonal laces", "controlled contrast"],
+      "styling_tip": "Coordinate lace contrast with outfit detail density."
+    },
+    {
+      "id": "fa200",
+      "rule_type": "footwear",
+      "name": "Contrast laces",
+      "guideline": "Contrast laces can make sneakers more visually prominent.",
+      "recommendations": ["simple clothing", "minimal outfit"],
+      "styling_tip": "Avoid additional loud footwear details when laces are already prominent."
+    },
+
+    {
+      "id": "fa201",
+      "rule_type": "accessory",
+      "name": "Accessory focal hierarchy",
+      "guideline": "Accessories should have a clear primary, secondary and supporting hierarchy.",
+      "recommendations": ["watch primary + chain secondary", "sunglasses primary + watch secondary"],
+      "styling_tip": "Do not give every accessory equal visual intensity."
+    },
+    {
+      "id": "fa202",
+      "rule_type": "accessory",
+      "name": "Accessory repetition spacing",
+      "guideline": "Repeated accessory details should be distributed across the outfit rather than clustered.",
+      "recommendations": ["wrist + neck", "head + footwear"],
+      "styling_tip": "Use spatial distribution to prevent one area becoming overloaded."
+    },
+    {
+      "id": "fa203",
+      "rule_type": "accessory",
+      "name": "Accessory negative space",
+      "guideline": "Leaving some areas free from accessories keeps the outfit visually breathable.",
+      "recommendations": ["minimal neck", "minimal wrists", "simple footwear"],
+      "styling_tip": "Negative space is especially useful with layered outfits."
+    },
+    {
+      "id": "fa204",
+      "rule_type": "accessory",
+      "name": "Accessory and graphic density",
+      "guideline": "Graphic-heavy clothing should usually use simpler accessories.",
+      "recommendations": ["plain watch", "thin chain", "simple ring"],
+      "styling_tip": "Avoid competing patterns and logos."
+    },
+    {
+      "id": "fa205",
+      "rule_type": "accessory",
+      "name": "Accessory and texture density",
+      "guideline": "Highly textured clothing can become visually crowded with many textured accessories.",
+      "recommendations": ["smooth metal accessories", "simple footwear"],
+      "styling_tip": "Use material contrast strategically."
+    },
+
+    {
+      "id": "fa206",
+      "rule_type": "accessory",
+      "name": "Logo accessory control",
+      "guideline": "Multiple visible logos can create unnecessary branding density.",
+      "recommendations": ["one visible logo", "minimal branding"],
+      "styling_tip": "Let the outfit identity remain stronger than individual logos."
+    },
+    {
+      "id": "fa207",
+      "rule_type": "accessory",
+      "name": "Luxury accessory restraint",
+      "guideline": "Premium-looking accessories work better when used selectively.",
+      "recommendations": ["quality watch", "minimal leather belt", "clean shoes"],
+      "styling_tip": "Avoid making every accessory a statement piece."
+    },
+    {
+      "id": "fa208",
+      "rule_type": "accessory",
+      "name": "Street accessory layering",
+      "guideline": "Streetwear can support multiple accessories when visual hierarchy remains clear.",
+      "recommendations": ["cap", "chain", "crossbody", "watch"],
+      "styling_tip": "Keep only one or two accessories visually dominant."
+    },
+    {
+      "id": "fa209",
+      "rule_type": "accessory",
+      "name": "Monochrome accessory system",
+      "guideline": "Accessories within the same color family strengthen monochrome styling.",
+      "recommendations": ["black bag + black shoes", "silver jewelry + grey outfit"],
+      "styling_tip": "Use texture differences to avoid a flat appearance."
+    },
+    {
+      "id": "fa210",
+      "rule_type": "accessory",
+      "name": "Tonal accessory system",
+      "guideline": "Accessories can use nearby shades for a subtle coordinated look.",
+      "recommendations": ["tan + brown", "cream + beige", "charcoal + black"],
+      "styling_tip": "Tonal relationships should remain visually clear."
+    },
+
+    {
+      "id": "fa211",
+      "rule_type": "footwear",
+      "name": "Black and beige footwear contrast",
+      "guideline": "Black footwear creates stronger contrast with beige trousers.",
+      "recommendations": ["beige trousers + black loafers", "beige trousers + black sneakers"],
+      "styling_tip": "Repeat black in a small upper accessory when needed."
+    },
+    {
+      "id": "fa212",
+      "rule_type": "footwear",
+      "name": "White footwear with beige",
+      "guideline": "White footwear creates a light tonal connection with beige clothing.",
+      "recommendations": ["beige trousers", "cream tops"],
+      "styling_tip": "Use white footwear for a softer summer appearance."
+    },
+    {
+      "id": "fa213",
+      "rule_type": "footwear",
+      "name": "Brown footwear with beige",
+      "guideline": "Brown footwear creates a warm tonal connection with beige.",
+      "recommendations": ["beige trousers", "cream shirt"],
+      "styling_tip": "Use different brown and beige depths to create separation."
+    },
+    {
+      "id": "fa214",
+      "rule_type": "footwear",
+      "name": "White footwear with black",
+      "guideline": "White shoes create a strong high-contrast lower-body accent with black clothing.",
+      "recommendations": ["black jeans", "black trousers"],
+      "styling_tip": "Repeat white subtly in the upper half if desired."
+    },
+    {
+      "id": "fa215",
+      "rule_type": "footwear",
+      "name": "Black footwear with black",
+      "guideline": "Black footwear creates lower-body continuity with black trousers.",
+      "recommendations": ["black jeans", "black trousers", "black cargo"],
+      "styling_tip": "Use texture differences to prevent the outfit appearing flat."
+    },
+
+    {
+      "id": "fa216",
+      "rule_type": "footwear",
+      "name": "White footwear with blue denim",
+      "guideline": "White sneakers provide a clean contrast with blue denim.",
+      "recommendations": ["straight jeans", "baggy jeans", "blue denim"],
+      "styling_tip": "Keep sneaker design clean for an easy everyday combination."
+    },
+    {
+      "id": "fa217",
+      "rule_type": "footwear",
+      "name": "Brown footwear with blue denim",
+      "guideline": "Brown shoes create a classic warm contrast against blue denim.",
+      "recommendations": ["loafers", "boots", "brown sneakers"],
+      "styling_tip": "Add a brown belt when the outfit is smart-casual."
+    },
+    {
+      "id": "fa218",
+      "rule_type": "footwear",
+      "name": "Black footwear with blue denim",
+      "guideline": "Black shoes create a sharper and darker connection with blue denim.",
+      "recommendations": ["boots", "sneakers", "Derby shoes"],
+      "styling_tip": "Use black footwear when aiming for a stronger contrast."
+    },
+    {
+      "id": "fa219",
+      "rule_type": "footwear",
+      "name": "Beige footwear with blue denim",
+      "guideline": "Beige footwear creates a softer contrast with blue denim.",
+      "recommendations": ["suede sneakers", "loafers", "casual shoes"],
+      "styling_tip": "Use beige footwear for relaxed daytime styling."
+    },
+    {
+      "id": "fa220",
+      "rule_type": "footwear",
+      "name": "Navy footwear with denim",
+      "guideline": "Navy footwear creates a low-contrast tonal relationship with blue denim.",
+      "recommendations": ["navy sneakers", "navy casual shoes"],
+      "styling_tip": "Use different blue depths to maintain separation."
+    },
+
+    {
+      "id": "fa221",
+      "rule_type": "footwear",
+      "name": "Olive outfit footwear",
+      "guideline": "Olive clothing works naturally with neutral and earthy footwear.",
+      "recommendations": ["white", "beige", "brown", "black"],
+      "styling_tip": "Choose footwear based on desired contrast level."
+    },
+    {
+      "id": "fa222",
+      "rule_type": "footwear",
+      "name": "Navy outfit footwear",
+      "guideline": "Navy outfits support white, brown, black and beige footwear.",
+      "recommendations": ["white sneakers", "brown loafers", "black shoes"],
+      "styling_tip": "Brown creates warmth while black creates sharper contrast."
+    },
+    {
+      "id": "fa223",
+      "rule_type": "footwear",
+      "name": "Grey outfit footwear",
+      "guideline": "Grey outfits can support both dark and light footwear.",
+      "recommendations": ["black", "white", "grey", "burgundy"],
+      "styling_tip": "Use footwear color to control the outfit's contrast."
+    },
+    {
+      "id": "fa224",
+      "rule_type": "footwear",
+      "name": "Brown outfit footwear",
+      "guideline": "Brown clothing pairs naturally with cream, beige, brown and dark footwear.",
+      "recommendations": ["cream sneakers", "brown loafers", "dark brown boots"],
+      "styling_tip": "Use tonal differences between brown garments and footwear."
+    },
+    {
+      "id": "fa225",
+      "rule_type": "footwear",
+      "name": "Cream outfit footwear",
+      "guideline": "Cream outfits support light tonal footwear and controlled dark contrast.",
+      "recommendations": ["beige", "white", "brown", "black"],
+      "styling_tip": "Brown creates warmth while black creates stronger definition."
+    },
+
+    {
+      "id": "fa226",
+      "rule_type": "accessory",
+      "name": "Black outfit accessories",
+      "guideline": "Black outfits can support silver, gold and black accessories depending on the intended mood.",
+      "recommendations": ["silver chain", "gold watch", "black bag"],
+      "styling_tip": "Limit accessory count to maintain monochrome clarity."
+    },
+    {
+      "id": "fa227",
+      "rule_type": "accessory",
+      "name": "White outfit accessories",
+      "guideline": "White clothing can support both warm and cool accessories.",
+      "recommendations": ["silver jewelry", "gold watch", "brown leather"],
+      "styling_tip": "Use accessories to introduce controlled contrast."
+    },
+    {
+      "id": "fa228",
+      "rule_type": "accessory",
+      "name": "Navy outfit accessories",
+      "guideline": "Navy supports both silver and warm leather accessories.",
+      "recommendations": ["silver watch", "brown belt", "brown shoes"],
+      "styling_tip": "Brown leather creates a classic contrast with navy."
+    },
+    {
+      "id": "fa229",
+      "rule_type": "accessory",
+      "name": "Olive outfit accessories",
+      "guideline": "Olive supports earthy leather and muted metal accessories.",
+      "recommendations": ["brown leather", "black leather", "gold accents"],
+      "styling_tip": "Keep accessory colors muted when olive is already prominent."
+    },
+    {
+      "id": "fa230",
+      "rule_type": "accessory",
+      "name": "Grey outfit accessories",
+      "guideline": "Grey is flexible and can support silver, black, brown or controlled gold accents.",
+      "recommendations": ["silver watch", "black belt", "brown leather"],
+      "styling_tip": "Use accessory warmth to change the outfit's character."
+    },
+
+    {
+      "id": "fa231",
+      "rule_type": "accessory",
+      "name": "Denim accessory coordination",
+      "guideline": "Denim outfits work well with leather, metal and casual fabric accessories.",
+      "recommendations": ["leather belt", "metal watch", "canvas bag"],
+      "styling_tip": "Match accessory formality to denim wash and garment style."
+    },
+    {
+      "id": "fa232",
+      "rule_type": "accessory",
+      "name": "Cargo outfit accessories",
+      "guideline": "Cargo outfits support functional and utility-inspired accessories.",
+      "recommendations": ["crossbody", "cap", "chunky watch"],
+      "styling_tip": "Avoid adding too many utility pockets and accessories simultaneously."
+    },
+    {
+      "id": "fa233",
+      "rule_type": "accessory",
+      "name": "Oversized T-shirt accessories",
+      "guideline": "Oversized T-shirts can support medium-scale accessories.",
+      "recommendations": ["chain", "watch", "crossbody"],
+      "styling_tip": "Avoid tiny accessories disappearing against heavy fabric volume."
+    },
+    {
+      "id": "fa234",
+      "rule_type": "accessory",
+      "name": "Boxy T-shirt accessories",
+      "guideline": "Boxy T-shirts work well with clean chains and compact accessories.",
+      "recommendations": ["minimal chain", "watch", "ring"],
+      "styling_tip": "Keep accessories aligned with the clean boxy silhouette."
+    },
+    {
+      "id": "fa235",
+      "rule_type": "accessory",
+      "name": "Oversized shirt accessories",
+      "guideline": "Oversized shirts can support visible accessories while maintaining relaxed proportions.",
+      "recommendations": ["chain", "watch", "bracelet"],
+      "styling_tip": "Use sleeve rolling to create space for wrist accessories."
+    },
+
+    {
+      "id": "fa236",
+      "rule_type": "accessory",
+      "name": "Hoodie accessory control",
+      "guideline": "Hoodies already create visual volume around the upper body and neck.",
+      "recommendations": ["watch", "minimal chain", "cap"],
+      "styling_tip": "Avoid excessive neck accessories when the hood is bulky."
+    },
+    {
+      "id": "fa237",
+      "rule_type": "accessory",
+      "name": "Jacket accessory control",
+      "guideline": "Jackets can support accessories but already provide structural detail.",
+      "recommendations": ["watch", "minimal chain", "sunglasses"],
+      "styling_tip": "Avoid competing with prominent jacket hardware."
+    },
+    {
+      "id": "fa238",
+      "rule_type": "accessory",
+      "name": "Leather jacket accessories",
+      "guideline": "Leather jackets naturally support metal and leather accessories.",
+      "recommendations": ["metal watch", "chain", "leather boots"],
+      "styling_tip": "Use controlled hardware repetition."
+    },
+    {
+      "id": "fa239",
+      "rule_type": "accessory",
+      "name": "Blazer accessories",
+      "guideline": "Blazers benefit from refined and restrained accessories.",
+      "recommendations": ["watch", "pocket square", "minimal ring"],
+      "styling_tip": "Keep accessories proportional to tailoring."
+    },
+    {
+      "id": "fa240",
+      "rule_type": "accessory",
+      "name": "Overshirt accessory system",
+      "guideline": "Overshirts can support casual accessories while preserving layered structure.",
+      "recommendations": ["watch", "chain", "crossbody"],
+      "styling_tip": "Avoid accessories getting hidden by heavy layers."
+    },
+
+    {
+      "id": "fa241",
+      "rule_type": "footwear",
+      "name": "Layered outfit footwear weight",
+      "guideline": "Multiple upper layers can support slightly heavier footwear.",
+      "recommendations": ["boots", "chunky sneakers"],
+      "styling_tip": "Use footwear weight to balance upper-body layering."
+    },
+    {
+      "id": "fa242",
+      "rule_type": "footwear",
+      "name": "Minimal layered outfit footwear",
+      "guideline": "Simple layered outfits can use minimal footwear for a clean finish.",
+      "recommendations": ["minimal sneakers", "loafers"],
+      "styling_tip": "Keep footwear lines clean."
+    },
+    {
+      "id": "fa243",
+      "rule_type": "footwear",
+      "name": "Heavy jacket footwear",
+      "guideline": "Heavy jackets generally pair naturally with visually substantial footwear.",
+      "recommendations": ["boots", "chunky sneakers"],
+      "styling_tip": "Avoid extremely delicate footwear with heavy outerwear."
+    },
+    {
+      "id": "fa244",
+      "rule_type": "footwear",
+      "name": "Light shirt footwear",
+      "guideline": "Lightweight shirts pair naturally with lighter footwear silhouettes.",
+      "recommendations": ["minimal sneakers", "loafers", "sandals"],
+      "styling_tip": "Use footwear weight appropriate to the fabric and season."
+    },
+    {
+      "id": "fa245",
+      "rule_type": "footwear",
+      "name": "Linen outfit footwear",
+      "guideline": "Linen outfits work naturally with lightweight and relaxed footwear.",
+      "recommendations": ["loafers", "minimal sneakers", "sandals"],
+      "styling_tip": "Avoid overly heavy athletic footwear with refined linen."
+    },
+
+    {
+      "id": "fa246",
+      "rule_type": "footwear",
+      "name": "Pleated trouser footwear",
+      "guideline": "Pleated trousers can support loafers, derbies and substantial minimal sneakers.",
+      "recommendations": ["loafers", "Derby shoes", "minimal sneakers"],
+      "styling_tip": "Keep the shoe shape compatible with the trouser volume."
+    },
+    {
+      "id": "fa247",
+      "rule_type": "footwear",
+      "name": "Wide trouser footwear",
+      "guideline": "Wide trousers generally benefit from footwear with enough visual weight.",
+      "recommendations": ["chunky sneakers", "loafers", "boots"],
+      "styling_tip": "Avoid extremely narrow footwear disappearing under wide hems."
+    },
+    {
+      "id": "fa248",
+      "rule_type": "footwear",
+      "name": "Tapered trouser footwear",
+      "guideline": "Tapered trousers work naturally with streamlined footwear.",
+      "recommendations": ["minimal sneakers", "loafers", "slim boots"],
+      "styling_tip": "Avoid extreme shoe bulk at a narrow hem."
+    },
+    {
+      "id": "fa249",
+      "rule_type": "footwear",
+      "name": "Cropped trouser footwear",
+      "guideline": "Cropped trousers expose footwear and therefore make shoe choice more visible.",
+      "recommendations": ["loafers", "minimal sneakers", "clean derbies"],
+      "styling_tip": "Treat footwear as an important visual focal point."
+    },
+    {
+      "id": "fa250",
+      "rule_type": "footwear",
+      "name": "Stacked trouser footwear",
+      "guideline": "Heavy stacking works better with casual and substantial footwear.",
+      "recommendations": ["chunky sneakers", "boots"],
+      "styling_tip": "Avoid excessive stacking over delicate formal shoes."
+    },
+
+    {
+      "id": "fa251",
+      "rule_type": "accessory",
+      "name": "Belt with wide trousers",
+      "guideline": "Wide trousers can support a visible belt when the waistline is intentionally defined.",
+      "recommendations": ["medium-width belt", "clean buckle"],
+      "styling_tip": "Avoid an overly thin belt disappearing against wide proportions."
+    },
+    {
+      "id": "fa252",
+      "rule_type": "accessory",
+      "name": "Belt with tailored trousers",
+      "guideline": "Tailored trousers generally benefit from a refined belt or clean waistband.",
+      "recommendations": ["slim leather belt", "minimal buckle"],
+      "styling_tip": "Keep belt hardware understated."
+    },
+    {
+      "id": "fa253",
+      "rule_type": "accessory",
+      "name": "Beltless tailoring",
+      "guideline": "Tailored trousers can create a cleaner line when designed to be worn without a belt.",
+      "recommendations": ["side adjusters", "clean waistband"],
+      "styling_tip": "Do not add a belt solely because belt loops exist."
+    },
+    {
+      "id": "fa254",
+      "rule_type": "accessory",
+      "name": "Casual canvas belt",
+      "guideline": "Canvas belts support relaxed casual and utility outfits.",
+      "recommendations": ["cargo pants", "denim", "shorts"],
+      "styling_tip": "Avoid canvas belts with highly formal tailoring."
+    },
+    {
+      "id": "fa255",
+      "rule_type": "accessory",
+      "name": "Statement belt",
+      "guideline": "A statement belt can become a strong waist-level focal point.",
+      "recommendations": ["simple top", "simple trousers", "controlled accessories"],
+      "styling_tip": "Reduce other waist and accessory details."
+    },
+
+    {
+      "id": "fa256",
+      "rule_type": "bag",
+      "name": "Bag and body proportion",
+      "guideline": "Bag size should visually relate to body and garment scale.",
+      "recommendations": ["compact bag for streamlined outfit", "larger bag for oversized styling"],
+      "styling_tip": "Avoid extreme size mismatch."
+    },
+    {
+      "id": "fa257",
+      "rule_type": "bag",
+      "name": "Bag placement balance",
+      "guideline": "Bag placement can shift visual weight toward one side of the body.",
+      "recommendations": ["centered backpack", "controlled crossbody placement"],
+      "styling_tip": "Consider asymmetry as part of the outfit composition."
+    },
+    {
+      "id": "fa258",
+      "rule_type": "bag",
+      "name": "Bag and jacket length",
+      "guideline": "Bag placement should not awkwardly interfere with jacket hems.",
+      "recommendations": ["short strap", "controlled crossbody length"],
+      "styling_tip": "Keep bag movement and garment layering visually clean."
+    },
+    {
+      "id": "fa259",
+      "rule_type": "bag",
+      "name": "Bag and shirt graphic",
+      "guideline": "A bag crossing a shirt graphic can partially hide the visual message.",
+      "recommendations": ["plain shirt", "controlled strap position"],
+      "styling_tip": "Avoid covering important graphics unintentionally."
+    },
+    {
+      "id": "fa260",
+      "rule_type": "bag",
+      "name": "Bag and logo competition",
+      "guideline": "Large bag branding can compete with garment branding.",
+      "recommendations": ["minimal bag branding", "single focal logo"],
+      "styling_tip": "Keep total visible branding controlled."
+    },
+
+    {
+      "id": "fa261",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses with cap",
+      "guideline": "Caps and sunglasses can work together when both remain proportionally controlled.",
+      "recommendations": ["minimal cap", "simple sunglasses"],
+      "styling_tip": "Avoid two oversized facial/head accessories competing simultaneously."
+    },
+    {
+      "id": "fa262",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses with beanie",
+      "guideline": "Sunglasses can complement winter headwear when the frame remains visually balanced.",
+      "recommendations": ["minimal frame", "medium frame"],
+      "styling_tip": "Keep the overall head area visually clean."
+    },
+    {
+      "id": "fa263",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses with formal tailoring",
+      "guideline": "Sunglasses can work with relaxed daytime tailoring but may reduce formal signals.",
+      "recommendations": ["minimal frames", "classic frames"],
+      "styling_tip": "Use context and occasion to determine suitability."
+    },
+    {
+      "id": "fa264",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses frame thickness",
+      "guideline": "Thicker frames increase visual weight around the face.",
+      "recommendations": ["bold frame with simple outfit", "thin frame with detailed outfit"],
+      "styling_tip": "Balance frame weight against clothing detail."
+    },
+    {
+      "id": "fa265",
+      "rule_type": "sunglasses",
+      "name": "Sunglasses lens contrast",
+      "guideline": "Strong lens contrast can make eyewear more visually prominent.",
+      "recommendations": ["dark lens with neutral outfit", "lighter lens for softer styling"],
+      "styling_tip": "Treat eyewear as part of the outfit's focal hierarchy."
+    },
+
+    {
+      "id": "fa266",
+      "rule_type": "accessory",
+      "name": "Accessory color echo",
+      "guideline": "A small accessory color echo can connect distant outfit elements.",
+      "recommendations": ["watch strap + shoes", "cap + sneakers", "bag + belt"],
+      "styling_tip": "Use one or two echoes instead of repeating every color."
+    },
+    {
+      "id": "fa267",
+      "rule_type": "accessory",
+      "name": "Accessory contrast anchor",
+      "guideline": "One contrasting accessory can add visual definition to a neutral outfit.",
+      "recommendations": ["dark watch", "colored cap", "statement sunglasses"],
+      "styling_tip": "Keep the contrast isolated."
+    },
+    {
+      "id": "fa268",
+      "rule_type": "accessory",
+      "name": "Accessory tonal anchor",
+      "guideline": "A tonal accessory can strengthen monochromatic styling without breaking the palette.",
+      "recommendations": ["beige bag with cream outfit", "dark brown belt with brown outfit"],
+      "styling_tip": "Use shade variation to maintain depth."
+    },
+    {
+      "id": "fa269",
+      "rule_type": "accessory",
+      "name": "Accessory texture contrast",
+      "guideline": "Smooth accessories can balance textured garments and vice versa.",
+      "recommendations": ["metal watch + knitwear", "suede shoes + smooth cotton"],
+      "styling_tip": "Use texture contrast without creating material overload."
+    },
+    {
+      "id": "fa270",
+      "rule_type": "accessory",
+      "name": "Accessory finish consistency",
+      "guideline": "Similar finishes across accessories create a more deliberate appearance.",
+      "recommendations": ["matte black", "brushed silver", "polished silver"],
+      "styling_tip": "Do not mix too many competing finishes."
+    },
+
+    {
+      "id": "fa271",
+      "rule_type": "footwear",
+      "name": "Matte footwear casual signal",
+      "guideline": "Matte footwear generally appears softer and more casual than highly polished footwear.",
+      "recommendations": ["suede", "matte leather", "textile sneakers"],
+      "styling_tip": "Use matte footwear with relaxed fabrics."
+    },
+    {
+      "id": "fa272",
+      "rule_type": "footwear",
+      "name": "Glossy footwear formal signal",
+      "guideline": "Higher-shine leather generally communicates greater formality.",
+      "recommendations": ["formal shoes", "polished loafers"],
+      "styling_tip": "Balance shine with formal garments."
+    },
+    {
+      "id": "fa273",
+      "rule_type": "footwear",
+      "name": "Textured footwear",
+      "guideline": "Textured footwear introduces additional visual information.",
+      "recommendations": ["suede", "woven shoes", "textured leather"],
+      "styling_tip": "Keep surrounding accessories simpler."
+    },
+    {
+      "id": "fa274",
+      "rule_type": "footwear",
+      "name": "Minimal footwear surface",
+      "guideline": "Clean footwear surfaces work well when the outfit already has several details.",
+      "recommendations": ["plain sneakers", "simple loafers"],
+      "styling_tip": "Use footwear as a quiet foundation."
+    },
+    {
+      "id": "fa275",
+      "rule_type": "footwear",
+      "name": "Detailed footwear surface",
+      "guideline": "Detailed footwear should be balanced with simpler garments or accessories.",
+      "recommendations": ["plain trousers", "plain tops"],
+      "styling_tip": "Avoid competing patterns near the footwear."
+    },
+
+    {
+      "id": "fa276",
+      "rule_type": "footwear",
+      "name": "Footwear and trouser color continuity",
+      "guideline": "Similar trouser and footwear colors create a longer visual line.",
+      "recommendations": ["black trousers + black shoes", "brown trousers + brown shoes"],
+      "styling_tip": "Use this when a continuous lower-body appearance is desired."
+    },
+    {
+      "id": "fa277",
+      "rule_type": "footwear",
+      "name": "Footwear and trouser contrast",
+      "guideline": "Contrasting shoes interrupt the lower-body color line.",
+      "recommendations": ["black trousers + white sneakers", "beige trousers + black shoes"],
+      "styling_tip": "Use contrast intentionally rather than accidentally."
+    },
+    {
+      "id": "fa278",
+      "rule_type": "footwear",
+      "name": "Shoe and hem visibility",
+      "guideline": "The shoe should remain visually identifiable when the trouser hem is intentional.",
+      "recommendations": ["controlled break", "cropped hem", "clean stacking"],
+      "styling_tip": "Avoid accidental shoe concealment."
+    },
+    {
+      "id": "fa279",
+      "rule_type": "footwear",
+      "name": "Heel height and trouser length",
+      "guideline": "Heel height can affect how trousers fall and should be considered when assessing hem length.",
+      "recommendations": ["consistent shoe height", "adjusted trouser length"],
+      "styling_tip": "Judge trouser length with the intended footwear."
+    },
+    {
+      "id": "fa280",
+      "rule_type": "footwear",
+      "name": "Platform sneaker proportion",
+      "guideline": "Platform soles increase apparent height and lower-body weight.",
+      "recommendations": ["wide trousers", "straight jeans", "oversized outfits"],
+      "styling_tip": "Balance platform volume with the rest of the silhouette."
+    },
+
+    {
+      "id": "fa281",
+      "rule_type": "accessory",
+      "name": "Minimal belt hardware",
+      "guideline": "Minimal buckles support clean and refined outfits.",
+      "recommendations": ["office", "smart-casual", "formal"],
+      "styling_tip": "Keep buckle width proportional to belt width."
+    },
+    {
+      "id": "fa282",
+      "rule_type": "accessory",
+      "name": "Casual belt hardware",
+      "guideline": "More visible buckles can work in rugged and casual outfits.",
+      "recommendations": ["denim", "cargo", "workwear"],
+      "styling_tip": "Coordinate hardware with other metal details."
+    },
+    {
+      "id": "fa283",
+      "rule_type": "accessory",
+      "name": "Belt leather finish",
+      "guideline": "Belt finish should broadly match footwear formality.",
+      "recommendations": ["smooth leather with formal shoes", "matte leather with casual boots"],
+      "styling_tip": "Avoid combining highly polished belt leather with very casual shoes."
+    },
+    {
+      "id": "fa284",
+      "rule_type": "accessory",
+      "name": "Belt and denim",
+      "guideline": "Denim outfits can support both leather and casual fabric belts.",
+      "recommendations": ["leather belt", "canvas belt"],
+      "styling_tip": "Choose based on the overall outfit direction."
+    },
+    {
+      "id": "fa285",
+      "rule_type": "accessory",
+      "name": "Belt and cargo pants",
+      "guideline": "Cargo pants can support utility-style belts but should not become overloaded.",
+      "recommendations": ["simple belt", "canvas belt"],
+      "styling_tip": "Keep hardware controlled when cargo pockets are prominent."
+    },
+
+    {
+      "id": "fa286",
+      "rule_type": "accessory",
+      "name": "Chain and hoodie",
+      "guideline": "A chain can add contrast against a hoodie but should account for hood volume.",
+      "recommendations": ["medium chain", "short chain"],
+      "styling_tip": "Avoid excessive chain length around a bulky hood."
+    },
+    {
+      "id": "fa287",
+      "rule_type": "accessory",
+      "name": "Chain and blazer",
+      "guideline": "A subtle chain can modernize relaxed blazer styling.",
+      "recommendations": ["thin chain", "small pendant"],
+      "styling_tip": "Keep the chain refined when the blazer is tailored."
+    },
+    {
+      "id": "fa288",
+      "rule_type": "accessory",
+      "name": "Chain and kurta",
+      "guideline": "A subtle chain can work with contemporary minimal kurta styling.",
+      "recommendations": ["thin chain", "simple pendant"],
+      "styling_tip": "Reduce jewelry when the kurta has heavy embroidery."
+    },
+    {
+      "id": "fa289",
+      "rule_type": "accessory",
+      "name": "Chain and shirt collar",
+      "guideline": "Open collars provide more visible space for chains.",
+      "recommendations": ["open collar", "one or two buttons open"],
+      "styling_tip": "Keep the chain centered within the collar opening."
+    },
+    {
+      "id": "fa290",
+      "rule_type": "accessory",
+      "name": "Chain and crew neck",
+      "guideline": "Crew-neck T-shirts work well with short chains that sit near the neckline.",
+      "recommendations": ["short chain", "small pendant"],
+      "styling_tip": "Avoid chain lengths that disappear completely under the shirt."
+    },
+
+    {
+      "id": "fa291",
+      "rule_type": "accessory",
+      "name": "Watch and bracelet spacing",
+      "guideline": "Watch and bracelet should have enough visual separation to remain readable.",
+      "recommendations": ["one bracelet beside watch", "minimal stacking"],
+      "styling_tip": "Reduce bracelet thickness when the watch is large."
+    },
+    {
+      "id": "fa292",
+      "rule_type": "accessory",
+      "name": "Watch and ring coordination",
+      "guideline": "Watch and ring can share metal or finish for visual continuity.",
+      "recommendations": ["silver watch + silver ring", "gold watch + gold ring"],
+      "styling_tip": "One repeated metal connection is enough."
+    },
+    {
+      "id": "fa293",
+      "rule_type": "accessory",
+      "name": "Watch and cuff exposure",
+      "guideline": "Watch visibility should remain intentional around shirt cuffs.",
+      "recommendations": ["slight exposure", "rolled sleeve"],
+      "styling_tip": "Avoid excessive cuff bunching around the watch."
+    },
+    {
+      "id": "fa294",
+      "rule_type": "accessory",
+      "name": "Watch with sweatshirt",
+      "guideline": "A sporty or minimal watch works naturally with sweatshirts.",
+      "recommendations": ["sport watch", "simple metal watch"],
+      "styling_tip": "Choose watch visual weight compatible with sweatshirt volume."
+    },
+    {
+      "id": "fa295",
+      "rule_type": "accessory",
+      "name": "Watch with cargo outfit",
+      "guideline": "A functional-looking watch can reinforce cargo styling.",
+      "recommendations": ["field watch", "sport watch", "chunky watch"],
+      "styling_tip": "Avoid overly delicate watches with heavy utility garments."
+    },
+
+    {
+      "id": "fa296",
+      "rule_type": "accessory",
+      "name": "Cap and sneaker color echo",
+      "guideline": "Matching cap and sneaker accents can connect the top and bottom of the outfit.",
+      "recommendations": ["black cap + black sneakers", "white cap detail + white sneakers"],
+      "styling_tip": "Keep the color echo subtle."
+    },
+    {
+      "id": "fa297",
+      "rule_type": "accessory",
+      "name": "Cap and bag coordination",
+      "guideline": "Cap and bag can share color or style language.",
+      "recommendations": ["black cap + black crossbody", "canvas cap + canvas tote"],
+      "styling_tip": "Coordinate material when color matching is not appropriate."
+    },
+    {
+      "id": "fa298",
+      "rule_type": "accessory",
+      "name": "Cap and graphic clothing",
+      "guideline": "A graphic cap combined with graphic clothing can increase visual density.",
+      "recommendations": ["plain cap with graphic tee", "graphic cap with plain tee"],
+      "styling_tip": "Usually keep one graphic element dominant."
+    },
+    {
+      "id": "fa299",
+      "rule_type": "accessory",
+      "name": "Cap and monochrome outfit",
+      "guideline": "A cap can add subtle contrast to monochrome clothing.",
+      "recommendations": ["black cap", "tonal cap", "accent cap"],
+      "styling_tip": "Choose cap contrast based on whether the outfit needs definition."
+    },
+    {
+      "id": "fa300",
+      "rule_type": "accessory",
+      "name": "Cap and tailoring",
+      "guideline": "Caps can work with relaxed tailoring but reduce traditional formality.",
+      "recommendations": ["relaxed blazer", "wide trousers", "minimal sneakers"],
+      "styling_tip": "Keep the styling deliberately contemporary."
+    },
+
+    {
+      "id": "fa301",
+      "rule_type": "footwear",
+      "name": "Sneaker with blazer",
+      "guideline": "Clean minimal sneakers can modernize a relaxed blazer outfit.",
+      "recommendations": ["plain white sneakers", "minimal leather sneakers"],
+      "styling_tip": "Keep trousers clean and tailoring relaxed."
+    },
+    {
+      "id": "fa302",
+      "rule_type": "footwear",
+      "name": "Loafer with blazer",
+      "guideline": "Loafers reinforce the polished side of blazer styling.",
+      "recommendations": ["penny loafers", "tassel loafers"],
+      "styling_tip": "Use loafers when the outfit should remain refined."
+    },
+    {
+      "id": "fa303",
+      "rule_type": "footwear",
+      "name": "Boot with blazer",
+      "guideline": "Streamlined boots can add structure to contemporary blazer outfits.",
+      "recommendations": ["Chelsea boots", "sleek leather boots"],
+      "styling_tip": "Keep boot shape refined enough for the blazer."
+    },
+    {
+      "id": "fa304",
+      "rule_type": "footwear",
+      "name": "Sneaker with shirt",
+      "guideline": "Minimal sneakers work naturally with casual shirts.",
+      "recommendations": ["oversized shirt", "Oxford shirt worn casually", "linen shirt"],
+      "styling_tip": "Use clean sneakers for a polished casual appearance."
+    },
+    {
+      "id": "fa305",
+      "rule_type": "footwear",
+      "name": "Loafer with shirt",
+      "guideline": "Loafers elevate a shirt and trouser combination.",
+      "recommendations": ["chinos", "tailored trousers", "dark denim"],
+      "styling_tip": "Use a clean shirt silhouette to support the footwear."
+    },
+
+    {
+      "id": "fa306",
+      "rule_type": "footwear",
+      "name": "Sneaker with polo",
+      "guideline": "Clean sneakers support casual and smart-casual polo outfits.",
+      "recommendations": ["chinos", "shorts", "straight trousers"],
+      "styling_tip": "Match sneaker formality to the polo's styling."
+    },
+    {
+      "id": "fa307",
+      "rule_type": "footwear",
+      "name": "Loafer with polo",
+      "guideline": "Loafers can elevate a polo into refined smart-casual territory.",
+      "recommendations": ["chinos", "linen trousers", "tailored shorts"],
+      "styling_tip": "Keep accessories minimal."
+    },
+    {
+      "id": "fa308",
+      "rule_type": "footwear",
+      "name": "Sandal with polo",
+      "guideline": "Minimal sandals can work with relaxed warm-weather polo outfits.",
+      "recommendations": ["linen trousers", "shorts"],
+      "styling_tip": "Keep the polo untucked or styled casually when appropriate."
+    },
+    {
+      "id": "fa309",
+      "rule_type": "footwear",
+      "name": "Sneaker with kurta",
+      "guideline": "Minimal sneakers create a modern casual interpretation of a kurta outfit.",
+      "recommendations": ["plain kurta", "straight trousers", "minimal palette"],
+      "styling_tip": "Avoid heavily ornate sneakers."
+    },
+    {
+      "id": "fa310",
+      "rule_type": "footwear",
+      "name": "Loafer with kurta",
+      "guideline": "Loafers provide a polished modern bridge for contemporary kurta outfits.",
+      "recommendations": ["solid kurta", "tailored trousers"],
+      "styling_tip": "Keep the overall outfit refined."
+    },
+
+    {
+      "id": "fa311",
+      "rule_type": "accessory",
+      "name": "Sunglasses and shirt color",
+      "guideline": "Sunglasses can either blend with or contrast the shirt color.",
+      "recommendations": ["neutral frames", "tonal frames"],
+      "styling_tip": "Choose the frame based on the outfit's desired focal point."
+    },
+    {
+      "id": "fa312",
+      "rule_type": "accessory",
+      "name": "Sunglasses and jacket",
+      "guideline": "Sunglasses can reinforce a jacket's style direction.",
+      "recommendations": ["aviators with classic jackets", "bold frames with streetwear jackets"],
+      "styling_tip": "Keep eyewear consistent with jacket character."
+    },
+    {
+      "id": "fa313",
+      "rule_type": "accessory",
+      "name": "Sunglasses and leather jacket",
+      "guideline": "Classic or bold sunglasses can complement leather jackets.",
+      "recommendations": ["aviator", "rectangular", "dark acetate"],
+      "styling_tip": "Avoid adding too many additional statement accessories."
+    },
+    {
+      "id": "fa314",
+      "rule_type": "accessory",
+      "name": "Sunglasses and linen shirt",
+      "guideline": "Light frames support the relaxed character of linen shirts.",
+      "recommendations": ["metal frames", "brown acetate"],
+      "styling_tip": "Keep eyewear visually lightweight."
+    },
+    {
+      "id": "fa315",
+      "rule_type": "accessory",
+      "name": "Sunglasses and monochrome outfit",
+      "guideline": "Sunglasses can become a controlled accent within a monochrome outfit.",
+      "recommendations": ["same-color frame", "contrasting neutral frame"],
+      "styling_tip": "Use eyewear to either reinforce or intentionally break the monochrome."
+    },
+
+    {
+      "id": "fa316",
+      "rule_type": "accessory",
+      "name": "Bracelet with casual shirt",
+      "guideline": "Bracelets can complement rolled or relaxed shirt sleeves.",
+      "recommendations": ["metal bracelet", "beaded bracelet"],
+      "styling_tip": "Keep stacking moderate."
+    },
+    {
+      "id": "fa317",
+      "rule_type": "accessory",
+      "name": "Bracelet with T-shirt",
+      "guideline": "T-shirts provide a clean visual background for wrist accessories.",
+      "recommendations": ["simple bracelet", "watch + bracelet"],
+      "styling_tip": "Use wrist accessories to add controlled detail."
+    },
+    {
+      "id": "fa318",
+      "rule_type": "accessory",
+      "name": "Bracelet with kurta",
+      "guideline": "A subtle bracelet can complement contemporary kurta styling.",
+      "recommendations": ["simple metal bracelet", "minimal bead bracelet"],
+      "styling_tip": "Reduce jewelry when the kurta is heavily embellished."
+    },
+    {
+      "id": "fa319",
+      "rule_type": "accessory",
+      "name": "Bracelet with blazer",
+      "guideline": "Bracelets should remain subtle when worn with tailoring.",
+      "recommendations": ["thin metal bracelet"],
+      "styling_tip": "Avoid bulky casual bracelets."
+    },
+    {
+      "id": "fa320",
+      "rule_type": "accessory",
+      "name": "Bracelet with leather jacket",
+      "guideline": "Leather and metal bracelets can reinforce the rugged character of leather jackets.",
+      "recommendations": ["metal cuff", "leather bracelet"],
+      "styling_tip": "Coordinate hardware without overloading the wrist."
+    },
+
+    {
+      "id": "fa321",
+      "rule_type": "accessory",
+      "name": "Ring with formalwear",
+      "guideline": "A single refined ring can complement formalwear without distracting from tailoring.",
+      "recommendations": ["plain band", "small signet"],
+      "styling_tip": "Keep the ring simple."
+    },
+    {
+      "id": "fa322",
+      "rule_type": "accessory",
+      "name": "Ring with streetwear",
+      "guideline": "Streetwear can support stronger ring shapes and multiple rings.",
+      "recommendations": ["signet", "chunky band", "controlled stacking"],
+      "styling_tip": "Keep total hand-level density balanced."
+    },
+    {
+      "id": "fa323",
+      "rule_type": "accessory",
+      "name": "Ring with monochrome outfit",
+      "guideline": "Metal rings can add subtle contrast to monochrome outfits.",
+      "recommendations": ["silver with black", "gold with cream"],
+      "styling_tip": "Use jewelry as a controlled accent."
+    },
+    {
+      "id": "fa324",
+      "rule_type": "accessory",
+      "name": "Ring with graphic outfit",
+      "guideline": "Graphic outfits usually benefit from simpler rings.",
+      "recommendations": ["plain band", "minimal signet"],
+      "styling_tip": "Do not add excessive hand-level detail."
+    },
+    {
+      "id": "fa325",
+      "rule_type": "accessory",
+      "name": "Ring metal consistency",
+      "guideline": "Consistent metal families create a more intentional jewelry system.",
+      "recommendations": ["silver family", "gold family"],
+      "styling_tip": "Mixed metals should be deliberate rather than accidental."
+    },
+
+    {
+      "id": "fa326",
+      "rule_type": "footwear",
+      "name": "Sneaker with shorts",
+      "guideline": "Sneakers are a natural pairing for casual shorts outfits.",
+      "recommendations": ["minimal sneakers", "retro sneakers"],
+      "styling_tip": "Coordinate sock height with shorts length."
+    },
+    {
+      "id": "fa327",
+      "rule_type": "footwear",
+      "name": "Loafer with shorts",
+      "guideline": "Loafers can create a refined summer smart-casual look with shorts.",
+      "recommendations": ["tailored shorts", "polo", "linen shirt"],
+      "styling_tip": "Keep shorts structured and footwear clean."
+    },
+    {
+      "id": "fa328",
+      "rule_type": "footwear",
+      "name": "Boot with shorts",
+      "guideline": "Boots with shorts create a strong style statement and require deliberate proportion.",
+      "recommendations": ["rugged casual styling", "streetwear"],
+      "styling_tip": "Use only when the overall style direction supports the contrast."
+    },
+    {
+      "id": "fa329",
+      "rule_type": "footwear",
+      "name": "Sandal with shorts",
+      "guideline": "Sandals are a natural warm-weather pairing with shorts.",
+      "recommendations": ["casual shorts", "linen shorts"],
+      "styling_tip": "Keep footwear minimal."
+    },
+    {
+      "id": "fa330",
+      "rule_type": "footwear",
+      "name": "Sneaker and sock height with shorts",
+      "guideline": "Sock height changes the visible ankle proportion in shorts outfits.",
+      "recommendations": ["no-show", "ankle", "crew socks"],
+      "styling_tip": "Choose sock height according to the outfit's style direction."
+    },
+
+    {
+      "id": "fa331",
+      "rule_type": "accessory",
+      "name": "Shorts accessory density",
+      "guideline": "Shorts outfits benefit from controlled accessory density because more leg area is exposed.",
+      "recommendations": ["watch", "sunglasses", "cap"],
+      "styling_tip": "Avoid overloading both upper and lower accessory zones."
+    },
+    {
+      "id": "fa332",
+      "rule_type": "accessory",
+      "name": "Summer watch strap",
+      "guideline": "Lighter watch straps can support warm-weather styling.",
+      "recommendations": ["canvas", "rubber", "light leather"],
+      "styling_tip": "Match strap material to outfit casualness."
+    },
+    {
+      "id": "fa333",
+      "rule_type": "accessory",
+      "name": "Summer jewelry",
+      "guideline": "Warm-weather outfits can support visible jewelry because more skin and neckline may be exposed.",
+      "recommendations": ["chain", "bracelet", "ring"],
+      "styling_tip": "Keep the metal system consistent."
+    },
+    {
+      "id": "fa334",
+      "rule_type": "accessory",
+      "name": "Summer bag",
+      "guideline": "Compact crossbody and canvas bags work naturally in summer casual outfits.",
+      "recommendations": ["crossbody", "canvas tote"],
+      "styling_tip": "Choose breathable and lightweight materials."
+    },
+    {
+      "id": "fa335",
+      "rule_type": "accessory",
+      "name": "Summer hat",
+      "guideline": "Caps and bucket hats can support practical and stylistic summer outfits.",
+      "recommendations": ["baseball cap", "bucket hat"],
+      "styling_tip": "Coordinate hat style with the outfit's casual level."
+    },
+
+    {
+      "id": "fa336",
+      "rule_type": "footwear",
+      "name": "Travel sneaker practicality",
+      "guideline": "Travel sneakers should balance comfort, durability and outfit versatility.",
+      "recommendations": ["neutral sneakers", "walking sneakers"],
+      "styling_tip": "Choose a pair that works with multiple outfits."
+    },
+    {
+      "id": "fa337",
+      "rule_type": "footwear",
+      "name": "Travel loafer practicality",
+      "guideline": "Loafers can work for travel when walking demands are moderate.",
+      "recommendations": ["soft leather loafers", "comfortable loafers"],
+      "styling_tip": "Prioritize comfort over formal appearance during high-mobility travel."
+    },
+    {
+      "id": "fa338",
+      "rule_type": "footwear",
+      "name": "Travel boot practicality",
+      "guideline": "Boots can support travel outfits in colder or rugged environments.",
+      "recommendations": ["comfortable boots", "weather-ready boots"],
+      "styling_tip": "Choose footwear suitable for expected terrain."
+    },
+    {
+      "id": "fa339",
+      "rule_type": "accessory",
+      "name": "Travel crossbody",
+      "guideline": "Crossbody bags provide accessible storage for travel essentials.",
+      "recommendations": ["compact crossbody", "sling bag"],
+      "styling_tip": "Keep bag size proportional to travel needs."
+    },
+    {
+      "id": "fa340",
+      "rule_type": "accessory",
+      "name": "Travel backpack",
+      "guideline": "Backpacks support longer travel while maintaining casual styling.",
+      "recommendations": ["structured backpack", "minimal backpack"],
+      "styling_tip": "Choose neutral colors for maximum outfit compatibility."
+    },
+
+    {
+      "id": "fa341",
+      "rule_type": "footwear",
+      "name": "Office sneaker boundary",
+      "guideline": "Sneakers are appropriate for office styling only when the dress code permits them.",
+      "recommendations": ["minimal leather sneakers", "clean low-profile sneakers"],
+      "styling_tip": "Avoid athletic-looking shoes in conservative offices."
+    },
+    {
+      "id": "fa342",
+      "rule_type": "footwear",
+      "name": "Office loafer preference",
+      "guideline": "Loafers can provide a polished office option without the rigidity of lace-up formal shoes.",
+      "recommendations": ["penny loafers", "minimal loafers"],
+      "styling_tip": "Maintain footwear cleanliness."
+    },
+    {
+      "id": "fa343",
+      "rule_type": "footwear",
+      "name": "Office boot selection",
+      "guideline": "Sleek boots can work in offices when the dress code permits them.",
+      "recommendations": ["Chelsea boots", "sleek leather boots"],
+      "styling_tip": "Avoid rugged soles in conservative settings."
+    },
+    {
+      "id": "fa344",
+      "rule_type": "accessory",
+      "name": "Office watch",
+      "guideline": "A clean watch is a practical office accessory.",
+      "recommendations": ["metal watch", "leather dress watch"],
+      "styling_tip": "Keep watch design refined."
+    },
+    {
+      "id": "fa345",
+      "rule_type": "accessory",
+      "name": "Office bag",
+      "guideline": "Structured bags support professional outfits.",
+      "recommendations": ["leather briefcase", "structured laptop bag"],
+      "styling_tip": "Coordinate bag formality with footwear and tailoring."
+    },
+
+    {
+      "id": "fa346",
+      "rule_type": "occasion",
+      "name": "Date night loafers",
+      "guideline": "Loafers can add refinement to evening date outfits.",
+      "recommendations": ["dark loafers", "suede loafers"],
+      "styling_tip": "Use a clean trouser hem."
+    },
+    {
+      "id": "fa347",
+      "rule_type": "occasion",
+      "name": "Date night boots",
+      "guideline": "Chelsea boots can provide a polished evening alternative.",
+      "recommendations": ["black Chelsea", "dark brown Chelsea"],
+      "styling_tip": "Coordinate leather accessories."
+    },
+    {
+      "id": "fa348",
+      "rule_type": "occasion",
+      "name": "Date night sneaker",
+      "guideline": "Minimal sneakers can work for casual date settings.",
+      "recommendations": ["clean leather sneaker", "minimal sneaker"],
+      "styling_tip": "Avoid heavily worn or athletic footwear."
+    },
+    {
+      "id": "fa349",
+      "rule_type": "occasion",
+      "name": "Date accessory restraint",
+      "guideline": "Date outfits benefit from intentional but not excessive accessories.",
+      "recommendations": ["watch", "subtle chain", "one ring"],
+      "styling_tip": "Keep the overall appearance effortless."
+    },
+    {
+      "id": "fa350",
+      "rule_type": "occasion",
+      "name": "Date sunglasses boundary",
+      "guideline": "Sunglasses are mainly useful for daytime outdoor dates.",
+      "recommendations": ["classic frames", "minimal frames"],
+      "styling_tip": "Avoid treating sunglasses as an evening accessory."
+    },
+
+    {
+      "id": "fa351",
+      "rule_type": "occasion",
+      "name": "Party statement sneaker",
+      "guideline": "Distinctive sneakers can become the focal point of a casual party outfit.",
+      "recommendations": ["retro sneakers", "color-accent sneakers"],
+      "styling_tip": "Keep trousers and accessories relatively controlled."
+    },
+    {
+      "id": "fa352",
+      "rule_type": "occasion",
+      "name": "Party statement accessory",
+      "guideline": "One bold accessory can add personality to a party outfit.",
+      "recommendations": ["statement chain", "bold watch", "sunglasses"],
+      "styling_tip": "Avoid making every accessory equally bold."
+    },
+    {
+      "id": "fa353",
+      "rule_type": "occasion",
+      "name": "Party footwear condition",
+      "guideline": "Party footwear should remain clean even when the style is intentionally casual.",
+      "recommendations": ["clean sneakers", "polished boots"],
+      "styling_tip": "Condition affects perceived outfit quality."
+    },
+    {
+      "id": "fa354",
+      "rule_type": "occasion",
+      "name": "Club footwear practicality",
+      "guideline": "Club footwear should balance appearance with standing and movement comfort.",
+      "recommendations": ["comfortable sneakers", "comfortable boots"],
+      "styling_tip": "Avoid footwear that becomes impractical during movement."
+    },
+    {
+      "id": "fa355",
+      "rule_type": "occasion",
+      "name": "Party bag practicality",
+      "guideline": "Compact bags are useful when carrying essentials during social events.",
+      "recommendations": ["small crossbody", "compact sling"],
+      "styling_tip": "Keep bag size visually proportional."
+    },
+
+    {
+      "id": "fa356",
+      "rule_type": "occasion",
+      "name": "Festival footwear practicality",
+      "guideline": "Festival footwear should account for walking, crowds and outdoor conditions.",
+      "recommendations": ["comfortable sneakers", "secure sandals"],
+      "styling_tip": "Prioritize secure fit and practical sole grip."
+    },
+    {
+      "id": "fa357",
+      "rule_type": "occasion",
+      "name": "Festival accessory color",
+      "guideline": "Festival outfits can support stronger accessory colors than everyday outfits.",
+      "recommendations": ["accent cap", "colored bag", "statement jewelry"],
+      "styling_tip": "Keep one main color accent."
+    },
+    {
+      "id": "fa358",
+      "rule_type": "occasion",
+      "name": "Festival jewelry layering",
+      "guideline": "Festive settings can support moderate jewelry layering.",
+      "recommendations": ["chain + ring", "watch + bracelet"],
+      "styling_tip": "Coordinate metal family."
+    },
+    {
+      "id": "fa359",
+      "rule_type": "occasion",
+      "name": "Festival traditional footwear",
+      "guideline": "Traditional footwear strengthens the cultural direction of festive outfits.",
+      "recommendations": ["jutti", "mojari"],
+      "styling_tip": "Coordinate footwear with garment detailing."
+    },
+    {
+      "id": "fa360",
+      "rule_type": "occasion",
+      "name": "Festival modern footwear",
+      "guideline": "Minimal sneakers or loafers can modernize simple festive outfits.",
+      "recommendations": ["minimal sneakers", "loafers"],
+      "styling_tip": "Use modern footwear with simpler garments."
+    },
+
+    {
+      "id": "fa361",
+      "rule_type": "footwear",
+      "name": "Colorful sneaker with neutral outfit",
+      "guideline": "Colorful sneakers can act as the primary lower-body accent.",
+      "recommendations": ["black outfit", "white outfit", "grey outfit"],
+      "styling_tip": "Repeat only a small amount of the accent color."
+    },
+    {
+      "id": "fa362",
+      "rule_type": "footwear",
+      "name": "Colorful shoe with patterned outfit",
+      "guideline": "Patterned clothing and colorful shoes can create excessive competition.",
+      "recommendations": ["simplify pattern", "use neutral shoe"],
+      "styling_tip": "Choose one primary visual statement."
+    },
+    {
+      "id": "fa363",
+      "rule_type": "footwear",
+      "name": "Neutral shoe with patterned trousers",
+      "guideline": "Neutral footwear helps patterned trousers remain the focal point.",
+      "recommendations": ["black", "white", "beige", "brown"],
+      "styling_tip": "Keep shoe details minimal."
+    },
+    {
+      "id": "fa364",
+      "rule_type": "footwear",
+      "name": "Statement shoe with plain trousers",
+      "guideline": "Plain trousers create space for distinctive footwear.",
+      "recommendations": ["textured loafers", "retro sneakers", "bold boots"],
+      "styling_tip": "Keep upper accessories controlled."
+    },
+    {
+      "id": "fa365",
+      "rule_type": "footwear",
+      "name": "Statement shoe focal hierarchy",
+      "guideline": "When footwear is the focal point, other lower-body details should remain quiet.",
+      "recommendations": ["plain socks", "simple trousers", "minimal belt"],
+      "styling_tip": "Let the shoe carry the visual emphasis."
+    },
+
+    {
+      "id": "fa366",
+      "rule_type": "accessory",
+      "name": "Statement watch focal hierarchy",
+      "guideline": "A large watch can serve as the primary accessory.",
+      "recommendations": ["minimal chain", "single ring"],
+      "styling_tip": "Avoid multiple large wrist pieces."
+    },
+    {
+      "id": "fa367",
+      "rule_type": "accessory",
+      "name": "Statement chain focal hierarchy",
+      "guideline": "A bold chain should remain the dominant neck accessory.",
+      "recommendations": ["simple watch", "single ring"],
+      "styling_tip": "Avoid additional large necklaces."
+    },
+    {
+      "id": "fa368",
+      "rule_type": "accessory",
+      "name": "Statement sunglasses focal hierarchy",
+      "guideline": "Bold sunglasses dominate the upper face area.",
+      "recommendations": ["minimal cap", "simple chain"],
+      "styling_tip": "Reduce competing head and neck details."
+    },
+    {
+      "id": "fa369",
+      "rule_type": "accessory",
+      "name": "Statement bag focal hierarchy",
+      "guideline": "A distinctive bag can become a strong torso-level focal point.",
+      "recommendations": ["plain shirt", "simple footwear"],
+      "styling_tip": "Avoid multiple competing bags or large logos."
+    },
+    {
+      "id": "fa370",
+      "rule_type": "accessory",
+      "name": "Statement cap focal hierarchy",
+      "guideline": "A bold cap can become the primary head accessory.",
+      "recommendations": ["simple sunglasses", "minimal jewelry"],
+      "styling_tip": "Keep other accessories quiet."
+    },
+
+    {
+      "id": "fa371",
+      "rule_type": "footwear",
+      "name": "Footwear and accessory hierarchy",
+      "guideline": "Footwear should support rather than compete with major accessories unless intentionally selected as the focal point.",
+      "recommendations": ["statement accessory + minimal shoes", "statement shoes + minimal accessories"],
+      "styling_tip": "Choose one main visual anchor."
+    },
+    {
+      "id": "fa372",
+      "rule_type": "accessory",
+      "name": "Head-to-foot accessory balance",
+      "guideline": "Accessory emphasis should be distributed rather than concentrated only at the head or feet.",
+      "recommendations": ["cap + simple shoes", "statement shoes + simple cap"],
+      "styling_tip": "Balance visual weight across the outfit."
+    },
+    {
+      "id": "fa373",
+      "rule_type": "accessory",
+      "name": "Upper accessory density",
+      "guideline": "Multiple neck, wrist and head accessories can create upper-body crowding.",
+      "recommendations": ["reduce one category", "use one focal accessory"],
+      "styling_tip": "Keep the upper body visually breathable."
+    },
+    {
+      "id": "fa374",
+      "rule_type": "accessory",
+      "name": "Lower accessory density",
+      "guideline": "Large shoes, visible socks and belts can create strong lower-body detail.",
+      "recommendations": ["simple socks", "minimal belt", "controlled footwear"],
+      "styling_tip": "Avoid stacking several lower-body statements."
+    },
+    {
+      "id": "fa375",
+      "rule_type": "accessory",
+      "name": "Accessory distribution",
+      "guideline": "Accessories should create a balanced visual rhythm across head, torso, wrist and feet.",
+      "recommendations": ["head + wrist", "neck + feet"],
+      "styling_tip": "Use distribution rather than maximum quantity."
+    },
+
+    {
+      "id": "fa376",
+      "rule_type": "footwear",
+      "name": "Footwear and body visual balance",
+      "guideline": "Footwear visual weight should complement the overall body and garment silhouette.",
+      "recommendations": ["substantial shoes with relaxed fits", "streamlined shoes with tailored fits"],
+      "styling_tip": "Avoid extreme volume mismatch."
+    },
+    {
+      "id": "fa377",
+      "rule_type": "footwear",
+      "name": "Footwear and oversized top",
+      "guideline": "Oversized tops can support footwear with moderate or substantial visual weight.",
+      "recommendations": ["retro sneakers", "chunky sneakers", "boots"],
+      "styling_tip": "Keep bottom volume proportionally balanced."
+    },
+    {
+      "id": "fa378",
+      "rule_type": "footwear",
+      "name": "Footwear and fitted top",
+      "guideline": "More fitted tops can support streamlined or moderately substantial footwear depending on bottom silhouette.",
+      "recommendations": ["minimal sneakers", "loafers", "boots"],
+      "styling_tip": "Evaluate the full outfit rather than the top alone."
+    },
+    {
+      "id": "fa379",
+      "rule_type": "footwear",
+      "name": "Footwear and baggy jeans",
+      "guideline": "Baggy jeans generally work best with footwear that can visually hold the lower-body volume.",
+      "recommendations": ["retro sneakers", "chunky sneakers", "boots"],
+      "styling_tip": "Avoid extremely delicate footwear."
+    },
+    {
+      "id": "fa380",
+      "rule_type": "footwear",
+      "name": "Footwear and straight jeans",
+      "guideline": "Straight jeans provide broad footwear compatibility.",
+      "recommendations": ["minimal sneakers", "retro sneakers", "loafers", "boots"],
+      "styling_tip": "Choose footwear based on occasion and formality."
+    },
+
+    {
+      "id": "fa381",
+      "rule_type": "accessory",
+      "name": "Minimal sneaker accessory system",
+      "guideline": "Minimal sneakers work well with clean accessory systems.",
+      "recommendations": ["simple watch", "minimal chain", "plain cap"],
+      "styling_tip": "Maintain the clean visual language."
+    },
+    {
+      "id": "fa382",
+      "rule_type": "accessory",
+      "name": "Retro sneaker accessory system",
+      "guideline": "Retro sneakers can support slightly more playful accessories.",
+      "recommendations": ["cap", "retro watch", "crossbody"],
+      "styling_tip": "Repeat one sneaker accent color when possible."
+    },
+    {
+      "id": "fa383",
+      "rule_type": "accessory",
+      "name": "Boot accessory system",
+      "guideline": "Boots can support leather and metal accessories.",
+      "recommendations": ["leather belt", "metal watch", "leather bag"],
+      "styling_tip": "Use accessories that reinforce the boot's style character."
+    },
+    {
+      "id": "fa384",
+      "rule_type": "accessory",
+      "name": "Loafer accessory system",
+      "guideline": "Loafers benefit from refined accessories.",
+      "recommendations": ["dress watch", "leather belt", "minimal sunglasses"],
+      "styling_tip": "Avoid overly sporty accessories."
+    },
+    {
+      "id": "fa385",
+      "rule_type": "accessory",
+      "name": "Sandal accessory system",
+      "guideline": "Sandals pair naturally with relaxed lightweight accessories.",
+      "recommendations": ["canvas bag", "minimal watch", "sunglasses"],
+      "styling_tip": "Keep materials appropriate for warm weather."
+    },
+
+    {
+      "id": "fa386",
+      "rule_type": "accessory",
+      "name": "Leather accessory family",
+      "guideline": "Leather accessories can create continuity across shoes, belt, watch and bag.",
+      "recommendations": ["shoes + belt", "shoes + watch strap", "shoes + bag"],
+      "styling_tip": "Coordinate leather family without demanding exact shades."
+    },
+    {
+      "id": "fa387",
+      "rule_type": "accessory",
+      "name": "Canvas accessory family",
+      "guideline": "Canvas accessories reinforce casual and utilitarian styling.",
+      "recommendations": ["canvas tote", "canvas belt", "canvas cap"],
+      "styling_tip": "Use canvas selectively."
+    },
+    {
+      "id": "fa388",
+      "rule_type": "accessory",
+      "name": "Metal accessory family",
+      "guideline": "Metal accessories can share finish for visual cohesion.",
+      "recommendations": ["watch", "chain", "ring", "bracelet"],
+      "styling_tip": "Keep one metal finish dominant."
+    },
+    {
+      "id": "fa389",
+      "rule_type": "accessory",
+      "name": "Textile accessory family",
+      "guideline": "Textile accessories can create a softer casual appearance.",
+      "recommendations": ["canvas bag", "fabric strap", "knit beanie"],
+      "styling_tip": "Use textile accessories with casual garments."
+    },
+    {
+      "id": "fa390",
+      "rule_type": "accessory",
+      "name": "Technical accessory family",
+      "guideline": "Technical bags and sporty accessories reinforce functional streetwear.",
+      "recommendations": ["technical sling", "sport watch", "performance cap"],
+      "styling_tip": "Keep technical materials consistent with the outfit direction."
+    },
+
+    {
+      "id": "fa391",
+      "rule_type": "footwear",
+      "name": "Footwear material and clothing material",
+      "guideline": "Footwear material should complement the perceived material formality of clothing.",
+      "recommendations": ["suede with knitwear", "leather with tailoring", "textile with casual cotton"],
+      "styling_tip": "Use material harmony to support the outfit's formality."
+    },
+    {
+      "id": "fa392",
+      "rule_type": "footwear",
+      "name": "Suede and knitwear",
+      "guideline": "Suede footwear naturally complements the soft texture of knitwear.",
+      "recommendations": ["suede loafers", "suede boots"],
+      "styling_tip": "Use earthy tones for a softer winter palette."
+    },
+    {
+      "id": "fa393",
+      "rule_type": "footwear",
+      "name": "Leather and tailoring",
+      "guideline": "Smooth leather footwear supports structured tailoring.",
+      "recommendations": ["Oxfords", "Derbies", "loafers"],
+      "styling_tip": "Match leather finish to outfit formality."
+    },
+    {
+      "id": "fa394",
+      "rule_type": "footwear",
+      "name": "Canvas and casual cotton",
+      "guideline": "Canvas footwear supports relaxed cotton clothing.",
+      "recommendations": ["canvas sneakers", "canvas slip-ons"],
+      "styling_tip": "Use simple designs for a clean casual look."
+    },
+    {
+      "id": "fa395",
+      "rule_type": "footwear",
+      "name": "Technical footwear and activewear",
+      "guideline": "Technical footwear naturally supports active and performance-inspired clothing.",
+      "recommendations": ["training shoes", "running shoes"],
+      "styling_tip": "Do not use performance footwear as formal footwear."
+    },
+
+    {
+      "id": "fa396",
+      "rule_type": "accessory",
+      "name": "Accessory weather adaptation",
+      "guideline": "Accessories should adapt to weather and clothing layers.",
+      "recommendations": ["beanie in winter", "sunglasses in bright conditions", "light bag in summer"],
+      "styling_tip": "Prioritize functional relevance."
+    },
+    {
+      "id": "fa397",
+      "rule_type": "accessory",
+      "name": "Rain accessory coordination",
+      "guideline": "Rain-ready accessories should maintain the outfit's practical style direction.",
+      "recommendations": ["water-resistant bag", "cap", "weather-ready footwear"],
+      "styling_tip": "Choose materials appropriate for wet conditions."
+    },
+    {
+      "id": "fa398",
+      "rule_type": "accessory",
+      "name": "Cold weather accessory layering",
+      "guideline": "Cold-weather accessories should support outerwear without excessive bulk.",
+      "recommendations": ["beanie", "scarf", "gloves"],
+      "styling_tip": "Coordinate color and material across winter accessories."
+    },
+    {
+      "id": "fa399",
+      "rule_type": "accessory",
+      "name": "Hot weather accessory reduction",
+      "guideline": "Hot-weather outfits generally benefit from fewer and lighter accessories.",
+      "recommendations": ["watch", "sunglasses", "minimal bracelet"],
+      "styling_tip": "Reduce unnecessary layers and bulky accessories."
+    },
+    {
+      "id": "fa400",
+      "rule_type": "accessory",
+      "name": "Seasonal material consistency",
+      "guideline": "Accessory materials should broadly support seasonal clothing materials.",
+      "recommendations": ["leather and wool in winter", "canvas and textile in summer"],
+      "styling_tip": "Avoid obvious material-season mismatches."
+    },
+
+    {
+      "id": "fa401",
+      "rule_type": "recommendation",
+      "name": "Primary footwear selection",
+      "guideline": "Choose footwear based first on occasion, then outfit silhouette, then color.",
+      "recommendations": ["occasion", "silhouette", "color"],
+      "styling_tip": "Do not choose footwear by color alone."
+    },
+    {
+      "id": "fa402",
+      "rule_type": "recommendation",
+      "name": "Primary accessory selection",
+      "guideline": "Choose accessories based on outfit goal before adding decorative pieces.",
+      "recommendations": ["function", "occasion", "style direction"],
+      "styling_tip": "Start with one useful or defining accessory."
+    },
+    {
+      "id": "fa403",
+      "rule_type": "recommendation",
+      "name": "Footwear recommendation priority",
+      "guideline": "When recommending footwear, prioritize suitability over trendiness.",
+      "recommendations": ["occasion fit", "comfort", "silhouette", "color"],
+      "styling_tip": "Trend should not override basic outfit compatibility."
+    },
+    {
+      "id": "fa404",
+      "rule_type": "recommendation",
+      "name": "Accessory recommendation priority",
+      "guideline": "Accessory recommendations should preserve the outfit's existing visual hierarchy.",
+      "recommendations": ["support focal point", "avoid clutter"],
+      "styling_tip": "Add only accessories that solve a styling need."
+    },
+    {
+      "id": "fa405",
+      "rule_type": "recommendation",
+      "name": "Single accessory improvement",
+      "guideline": "When an outfit is already balanced, recommend only a small accessory adjustment.",
+      "recommendations": ["watch", "chain", "belt", "sunglasses"],
+      "styling_tip": "Do not change multiple successful elements unnecessarily."
+    },
+
+    {
+      "id": "fa406",
+      "rule_type": "recommendation",
+      "name": "Footwear uncertainty handling",
+      "guideline": "If footwear type cannot be confidently identified, avoid making highly specific assumptions.",
+      "recommendations": ["identify broad category", "use conditional advice"],
+      "styling_tip": "State uncertainty before specific footwear recommendations."
+    },
+    {
+      "id": "fa407",
+      "rule_type": "recommendation",
+      "name": "Accessory uncertainty handling",
+      "guideline": "If an accessory is partially hidden, distinguish visible evidence from assumptions.",
+      "recommendations": ["visible accessory only", "conditional recommendation"],
+      "styling_tip": "Do not invent unseen accessory details."
+    },
+    {
+      "id": "fa408",
+      "rule_type": "recommendation",
+      "name": "Footwear color uncertainty",
+      "guideline": "Lighting can change perceived footwear color.",
+      "recommendations": ["identify broad color family", "avoid exact shade claims"],
+      "styling_tip": "Use neutral descriptions when color evidence is weak."
+    },
+    {
+      "id": "fa409",
+      "rule_type": "recommendation",
+      "name": "Accessory color uncertainty",
+      "guideline": "Metal and leather colors can be distorted by lighting and reflections.",
+      "recommendations": ["silver-tone", "gold-tone", "dark leather"],
+      "styling_tip": "Avoid claiming exact material when image evidence is unclear."
+    },
+    {
+      "id": "fa410",
+      "rule_type": "recommendation",
+      "name": "Footwear visibility check",
+      "guideline": "Footwear recommendations should account for whether the shoe is fully visible.",
+      "recommendations": ["full visibility", "partial visibility", "hidden footwear"],
+      "styling_tip": "Do not infer exact shoe construction from a hidden area."
+    },
+
+    {
+      "id": "fa411",
+      "rule_type": "recommendation",
+      "name": "Accessory visibility check",
+      "guideline": "Only visible accessories should be treated as confirmed outfit elements.",
+      "recommendations": ["visible", "partially visible", "not confirmed"],
+      "styling_tip": "Keep analysis evidence-based."
+    },
+    {
+      "id": "fa412",
+      "rule_type": "recommendation",
+      "name": "Footwear replacement threshold",
+      "guideline": "Recommend changing footwear only when it materially conflicts with occasion, silhouette or style.",
+      "recommendations": ["occasion mismatch", "major proportion mismatch", "strong color conflict"],
+      "styling_tip": "Do not replace footwear unnecessarily."
+    },
+    {
+      "id": "fa413",
+      "rule_type": "recommendation",
+      "name": "Accessory replacement threshold",
+      "guideline": "Recommend replacing an accessory only when it creates a clear coordination problem.",
+      "recommendations": ["excessive density", "formality mismatch", "strong color conflict"],
+      "styling_tip": "Prefer adjustment over replacement when possible."
+    },
+    {
+      "id": "fa414",
+      "rule_type": "recommendation",
+      "name": "Footwear alternative selection",
+      "guideline": "Alternative footwear should perform the same styling role as the original.",
+      "recommendations": ["sneaker to sneaker", "loafer to loafer", "boot to boot"],
+      "styling_tip": "Preserve the outfit's intended direction."
+    },
+    {
+      "id": "fa415",
+      "rule_type": "recommendation",
+      "name": "Accessory alternative selection",
+      "guideline": "Accessory substitutions should preserve function and visual role.",
+      "recommendations": ["watch to watch", "crossbody to sling", "chain to minimal chain"],
+      "styling_tip": "Do not substitute purely by color."
+    },
+
+    {
+      "id": "fa416",
+      "rule_type": "comparison",
+      "name": "Sneaker versus loafer",
+      "guideline": "Sneakers generally reduce formality while loafers generally increase refinement.",
+      "recommendations": ["sneaker for casual", "loafer for smart-casual"],
+      "styling_tip": "Use occasion to decide between them."
+    },
+    {
+      "id": "fa417",
+      "rule_type": "comparison",
+      "name": "Loafer versus boot",
+      "guideline": "Loafers create a lighter refined lower-body impression while boots add structure and weight.",
+      "recommendations": ["loafer for refined", "boot for structured"],
+      "styling_tip": "Match footwear weight to garment weight."
+    },
+    {
+      "id": "fa418",
+      "rule_type": "comparison",
+      "name": "Sneaker versus sandal",
+      "guideline": "Sneakers provide more coverage and versatility while sandals create a warmer-weather signal.",
+      "recommendations": ["sneaker for active casual", "sandal for relaxed summer"],
+      "styling_tip": "Consider weather and occasion."
+    },
+    {
+      "id": "fa419",
+      "rule_type": "comparison",
+      "name": "Boot versus formal shoe",
+      "guideline": "Boots generally add more visual weight while formal shoes create a cleaner formal line.",
+      "recommendations": ["boot for contemporary structure", "formal shoe for traditional formality"],
+      "styling_tip": "Use the dress code as the deciding factor."
+    },
+    {
+      "id": "fa420",
+      "rule_type": "comparison",
+      "name": "Minimal sneaker versus chunky sneaker",
+      "guideline": "Minimal sneakers create a cleaner line while chunky sneakers increase lower-body visual weight.",
+      "recommendations": ["minimal for tailored", "chunky for relaxed"],
+      "styling_tip": "Match sneaker volume to trouser volume."
+    },
+
+    {
+      "id": "fa421",
+      "rule_type": "comparison",
+      "name": "Watch versus bracelet",
+      "guideline": "A watch adds function while a bracelet mainly adds decorative detail.",
+      "recommendations": ["watch for function", "bracelet for styling"],
+      "styling_tip": "A watch can be the primary wrist accessory."
+    },
+    {
+      "id": "fa422",
+      "rule_type": "comparison",
+      "name": "Chain versus pendant",
+      "guideline": "A plain chain creates subtler neck detail while a pendant creates stronger visual focus.",
+      "recommendations": ["chain for minimal", "pendant for statement"],
+      "styling_tip": "Match pendant size to neckline."
+    },
+    {
+      "id": "fa423",
+      "rule_type": "comparison",
+      "name": "Cap versus bucket hat",
+      "guideline": "Caps provide a cleaner sporty signal while bucket hats create a stronger streetwear or relaxed signal.",
+      "recommendations": ["cap for versatile casual", "bucket hat for streetwear"],
+      "styling_tip": "Choose based on the outfit's style language."
+    },
+    {
+      "id": "fa424",
+      "rule_type": "comparison",
+      "name": "Crossbody versus backpack",
+      "guideline": "Crossbody bags create a compact asymmetric look while backpacks distribute volume across both shoulders.",
+      "recommendations": ["crossbody for light carry", "backpack for heavier carry"],
+      "styling_tip": "Consider both function and silhouette."
+    },
+    {
+      "id": "fa425",
+      "rule_type": "comparison",
+      "name": "Leather bag versus canvas bag",
+      "guideline": "Leather bags communicate more refinement while canvas bags communicate more casual utility.",
+      "recommendations": ["leather for smart", "canvas for casual"],
+      "styling_tip": "Match bag material to outfit formality."
+    },
+
+    {
+      "id": "fa426",
+      "rule_type": "style",
+      "name": "Quiet luxury footwear",
+      "guideline": "Refined understated footwear supports a quiet luxury visual direction.",
+      "recommendations": ["minimal loafers", "clean leather sneakers", "sleek boots"],
+      "styling_tip": "Prioritize clean construction and restrained branding."
+    },
+    {
+      "id": "fa427",
+      "rule_type": "style",
+      "name": "Streetwear footwear",
+      "guideline": "Streetwear footwear can emphasize volume, graphic details and casual construction.",
+      "recommendations": ["retro sneakers", "chunky sneakers", "high-top sneakers"],
+      "styling_tip": "Coordinate footwear volume with relaxed garments."
+    },
+    {
+      "id": "fa428",
+      "rule_type": "style",
+      "name": "Old-money accessory direction",
+      "guideline": "Classic leather and restrained metal accessories support traditional refined styling.",
+      "recommendations": ["leather loafers", "dress watch", "leather belt"],
+      "styling_tip": "Keep branding and hardware subtle."
+    },
+    {
+      "id": "fa429",
+      "rule_type": "style",
+      "name": "Minimalist accessory direction",
+      "guideline": "Minimalist styling benefits from fewer accessories with clean forms.",
+      "recommendations": ["simple watch", "thin chain", "single ring"],
+      "styling_tip": "Prioritize negative space."
+    },
+    {
+      "id": "fa430",
+      "rule_type": "style",
+      "name": "Rugged accessory direction",
+      "guideline": "Rugged styling supports leather, metal and utility accessories.",
+      "recommendations": ["boots", "leather belt", "field watch"],
+      "styling_tip": "Repeat rugged materials without overloading the outfit."
+    },
+
+    {
+      "id": "fa431",
+      "rule_type": "style",
+      "name": "Preppy footwear direction",
+      "guideline": "Preppy styling commonly supports loafers, clean sneakers and refined casual shoes.",
+      "recommendations": ["penny loafers", "white sneakers", "Derbies"],
+      "styling_tip": "Keep colors classic and accessories restrained."
+    },
+    {
+      "id": "fa432",
+      "rule_type": "style",
+      "name": "Resort footwear direction",
+      "guideline": "Resort styling supports loafers, sandals and lightweight sneakers.",
+      "recommendations": ["suede loafers", "minimal sandals", "canvas sneakers"],
+      "styling_tip": "Use breathable materials and lighter colors."
+    },
+    {
+      "id": "fa433",
+      "rule_type": "style",
+      "name": "Utility footwear direction",
+      "guideline": "Utility styling benefits from substantial and functional footwear.",
+      "recommendations": ["boots", "utility sneakers", "rugged shoes"],
+      "styling_tip": "Coordinate footwear with cargo and workwear elements."
+    },
+    {
+      "id": "fa434",
+      "rule_type": "style",
+      "name": "Smart casual footwear direction",
+      "guideline": "Smart-casual styling works well with loafers, clean sneakers and refined boots.",
+      "recommendations": ["loafers", "minimal sneakers", "Chelsea boots"],
+      "styling_tip": "Choose footwear based on desired formality."
+    },
+    {
+      "id": "fa435",
+      "rule_type": "style",
+      "name": "Casual footwear direction",
+      "guideline": "Casual outfits support sneakers, casual boots and sandals depending on weather.",
+      "recommendations": ["sneakers", "casual boots", "sandals"],
+      "styling_tip": "Prioritize comfort and silhouette."
+    },
+
+    {
+      "id": "fa436",
+      "rule_type": "style",
+      "name": "Formal footwear direction",
+      "guideline": "Formal styling benefits from polished structured footwear.",
+      "recommendations": ["Oxford", "Derby", "formal loafer"],
+      "styling_tip": "Maintain clean lines and footwear condition."
+    },
+    {
+      "id": "fa437",
+      "rule_type": "style",
+      "name": "Minimal jewelry direction",
+      "guideline": "Minimal jewelry uses simple forms and limited quantity.",
+      "recommendations": ["thin chain", "single ring", "simple watch"],
+      "styling_tip": "Use one metal family when possible."
+    },
+    {
+      "id": "fa438",
+      "rule_type": "style",
+      "name": "Street jewelry direction",
+      "guideline": "Streetwear can support stronger chains, rings and bracelets.",
+      "recommendations": ["medium chain", "signet ring", "chunky watch"],
+      "styling_tip": "Keep one jewelry category dominant."
+    },
+    {
+      "id": "fa439",
+      "rule_type": "style",
+      "name": "Classic jewelry direction",
+      "guideline": "Classic outfits benefit from understated watches, rings and leather accessories.",
+      "recommendations": ["dress watch", "signet ring", "leather belt"],
+      "styling_tip": "Prefer timeless shapes."
+    },
+    {
+      "id": "fa440",
+      "rule_type": "style",
+      "name": "Festive jewelry direction",
+      "guideline": "Festive styling can support richer jewelry while maintaining hierarchy.",
+      "recommendations": ["watch", "chain", "ring", "bracelet"],
+      "styling_tip": "Coordinate metal finish with garment detailing."
+    },
+
+    {
+      "id": "fa441",
+      "rule_type": "quality",
+      "name": "Footwear condition check",
+      "guideline": "Footwear condition should be evaluated before recommending styling changes.",
+      "recommendations": ["clean", "worn", "damaged"],
+      "styling_tip": "Sometimes maintenance is more useful than replacement."
+    },
+    {
+      "id": "fa442",
+      "rule_type": "quality",
+      "name": "Accessory condition check",
+      "guideline": "Visible scratches, stains or damage can affect accessory presentation.",
+      "recommendations": ["clean", "maintained", "worn"],
+      "styling_tip": "Do not confuse wear with poor styling when the style is intentional."
+    },
+    {
+      "id": "fa443",
+      "rule_type": "quality",
+      "name": "Shoe pair consistency",
+      "guideline": "Both shoes should maintain consistent condition, shape and styling.",
+      "recommendations": ["matching pair", "consistent condition"],
+      "styling_tip": "Check both shoes before evaluating the footwear."
+    },
+    {
+      "id": "fa444",
+      "rule_type": "quality",
+      "name": "Accessory pair consistency",
+      "guideline": "Paired accessories should remain visually consistent.",
+      "recommendations": ["matching earrings where relevant", "consistent gloves"],
+      "styling_tip": "Avoid accidental mismatch."
+    },
+    {
+      "id": "fa445",
+      "rule_type": "quality",
+      "name": "Hardware condition",
+      "guideline": "Scratched or damaged hardware can reduce perceived refinement.",
+      "recommendations": ["clean buckles", "clean watch", "maintained metal"],
+      "styling_tip": "Inspect highly visible hardware first."
+    },
+
+    {
+      "id": "fa446",
+      "rule_type": "final_check",
+      "name": "Footwear occasion check",
+      "guideline": "Before final footwear advice, confirm that the footwear suits the occasion.",
+      "recommendations": ["casual", "smart-casual", "formal", "traditional"],
+      "styling_tip": "Occasion compatibility comes before color matching."
+    },
+    {
+      "id": "fa447",
+      "rule_type": "final_check",
+      "name": "Footwear proportion check",
+      "guideline": "Before final footwear advice, check shoe volume against trouser and outfit volume.",
+      "recommendations": ["balanced", "too heavy", "too light"],
+      "styling_tip": "Correct proportion before decorative details."
+    },
+    {
+      "id": "fa448",
+      "rule_type": "final_check",
+      "name": "Footwear color check",
+      "guideline": "After occasion and proportion, check footwear color relationship with the outfit.",
+      "recommendations": ["tonal", "neutral", "contrast"],
+      "styling_tip": "Use color to support the existing outfit rather than automatically changing it."
+    },
+    {
+      "id": "fa449",
+      "rule_type": "final_check",
+      "name": "Accessory density check",
+      "guideline": "Before adding accessories, evaluate existing accessory density.",
+      "recommendations": ["low density", "moderate density", "high density"],
+      "styling_tip": "Add accessories only when they improve the outfit."
+    },
+    {
+      "id": "fa450",
+      "rule_type": "final_check",
+      "name": "Complete footwear accessory check",
+      "guideline": "Final styling should evaluate footwear, accessories, occasion, color, material and visual hierarchy together.",
+      "recommendations": ["occasion", "proportion", "color", "material", "density", "condition"],
+      "styling_tip": "Make the smallest useful change that improves overall coordination."
+    }
+  ]
+}

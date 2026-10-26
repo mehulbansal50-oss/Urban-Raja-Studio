@@ -1,0 +1,1472 @@
+{
+  "category": "grooming",
+  "version": "1.0",
+  "description": "Men's grooming rules for hairstyle, beard, sunglasses, hair characteristics, face-shape compatibility, outfit coordination and occasion-based grooming recommendations.",
+  "rules": [
+    {
+      "id": "gr001",
+      "topic": "face_shape",
+      "rule": "Face shape should be treated as an approximate visual characteristic, not an absolute measurement.",
+      "guidance": "If the image does not clearly show the forehead, cheekbones, jawline and chin, reduce confidence in face-shape classification."
+    },
+    {
+      "id": "gr002",
+      "topic": "face_shape",
+      "rule": "Use multiple visible facial proportions together when estimating face shape.",
+      "guidance": "Compare face length, forehead width, cheekbone width, jaw width and chin structure instead of relying on one feature."
+    },
+    {
+      "id": "gr003",
+      "topic": "face_shape",
+      "rule": "Oval face shapes generally have balanced facial proportions with a slightly longer face.",
+      "guidance": "A wide range of hairstyles and beard shapes can work because the face is visually balanced."
+    },
+    {
+      "id": "gr004",
+      "topic": "face_shape",
+      "rule": "Round face shapes generally have softer jawlines and similar face width and height.",
+      "guidance": "Hairstyles with controlled side volume and some vertical height can create a more elongated visual effect."
+    },
+    {
+      "id": "gr005",
+      "topic": "face_shape",
+      "rule": "Square face shapes usually show a stronger jawline and relatively balanced facial length and width.",
+      "guidance": "Both structured and textured hairstyles can work; excessive width at the sides may emphasize facial width."
+    },
+    {
+      "id": "gr006",
+      "topic": "face_shape",
+      "rule": "Oblong face shapes appear noticeably longer than they are wide.",
+      "guidance": "Avoid adding unnecessary vertical height while maintaining some controlled side volume."
+    },
+    {
+      "id": "gr007",
+      "topic": "face_shape",
+      "rule": "Heart-shaped faces commonly have a wider forehead with a narrower jaw and chin.",
+      "guidance": "Balanced side volume and moderate fringe can help visually distribute attention across the face."
+    },
+    {
+      "id": "gr008",
+      "topic": "face_shape",
+      "rule": "Diamond-shaped faces often have prominent cheekbones with a narrower forehead and jaw.",
+      "guidance": "Textured styles with controlled volume can complement the cheekbone structure."
+    },
+    {
+      "id": "gr009",
+      "topic": "face_shape",
+      "rule": "Triangular face shapes can have a stronger or wider jaw relative to the forehead.",
+      "guidance": "Moderate volume around the upper face can visually balance a stronger lower face."
+    },
+    {
+      "id": "gr010",
+      "topic": "face_shape",
+      "rule": "If the face shape falls between two categories, use a blended recommendation.",
+      "guidance": "Do not force a single face-shape label when the visual evidence is ambiguous."
+    },
+
+    {
+      "id": "gr011",
+      "topic": "hairstyle",
+      "rule": "Hairstyle recommendations should consider face shape and hair characteristics together.",
+      "guidance": "Face shape alone should not determine the hairstyle."
+    },
+    {
+      "id": "gr012",
+      "topic": "hairstyle",
+      "rule": "Hair texture affects how a hairstyle will naturally sit.",
+      "guidance": "Straight, wavy, curly and coily hair should receive different styling recommendations when relevant."
+    },
+    {
+      "id": "gr013",
+      "topic": "hairstyle",
+      "rule": "Hair density should influence hairstyle selection.",
+      "guidance": "Low-density hair generally benefits from styles that avoid excessive weight and can create controlled texture."
+    },
+    {
+      "id": "gr014",
+      "topic": "hairstyle",
+      "rule": "Thick hair can support structured and textured hairstyles.",
+      "guidance": "Use controlled layering or tapering when excessive bulk becomes visually heavy."
+    },
+    {
+      "id": "gr015",
+      "topic": "hairstyle",
+      "rule": "Straight hair often works well with clean structured hairstyles.",
+      "guidance": "Side parts, textured crops, layered styles and controlled quiffs can be considered."
+    },
+    {
+      "id": "gr016",
+      "topic": "hairstyle",
+      "rule": "Wavy hair can benefit from styles that preserve natural movement.",
+      "guidance": "Avoid recommendations that require completely eliminating natural texture unless the user specifically wants that look."
+    },
+    {
+      "id": "gr017",
+      "topic": "hairstyle",
+      "rule": "Curly hair should generally be styled around its natural curl pattern.",
+      "guidance": "Recommend shape and length that control volume without unnecessarily removing natural texture."
+    },
+    {
+      "id": "gr018",
+      "topic": "hairstyle",
+      "rule": "Short hairstyles visually expose more facial structure.",
+      "guidance": "Use shorter styles when a clean and defined appearance is desired."
+    },
+    {
+      "id": "gr019",
+      "topic": "hairstyle",
+      "rule": "Medium-length hairstyles provide more styling flexibility.",
+      "guidance": "They can be used for textured, side-parted, swept-back and layered looks."
+    },
+    {
+      "id": "gr020",
+      "topic": "hairstyle",
+      "rule": "Longer hairstyles require consideration of hair density, texture and maintenance.",
+      "guidance": "Do not recommend long hair solely from face shape."
+    },
+
+    {
+      "id": "gr021",
+      "topic": "hairstyle",
+      "rule": "A textured crop can create a compact and contemporary appearance.",
+      "guidance": "It works especially well when controlled texture is preferred over large volume."
+    },
+    {
+      "id": "gr022",
+      "topic": "hairstyle",
+      "rule": "A classic side part creates a structured and versatile appearance.",
+      "guidance": "It can work for casual, smart-casual and formal outfits depending on styling."
+    },
+    {
+      "id": "gr023",
+      "topic": "hairstyle",
+      "rule": "A quiff adds visual height to the upper part of the hairstyle.",
+      "guidance": "Avoid excessive height when the face already appears noticeably long."
+    },
+    {
+      "id": "gr024",
+      "topic": "hairstyle",
+      "rule": "A pompadour creates substantial vertical volume.",
+      "guidance": "Use controlled height when facial proportions benefit from elongation, but avoid excessive height on already elongated faces."
+    },
+    {
+      "id": "gr025",
+      "topic": "hairstyle",
+      "rule": "A slick-back hairstyle creates a clean and mature visual direction.",
+      "guidance": "It can emphasize facial structure because the forehead and sides are visually exposed."
+    },
+    {
+      "id": "gr026",
+      "topic": "hairstyle",
+      "rule": "A middle part can create symmetrical visual framing.",
+      "guidance": "Consider hair texture and natural fall before recommending it."
+    },
+    {
+      "id": "gr027",
+      "topic": "hairstyle",
+      "rule": "A side-swept fringe can reduce the visual emphasis of a broad forehead.",
+      "guidance": "Use moderate fringe length rather than covering the entire face."
+    },
+    {
+      "id": "gr028",
+      "topic": "hairstyle",
+      "rule": "A fringe can visually shorten the forehead-to-chin distance.",
+      "guidance": "This can be useful when the face appears longer."
+    },
+    {
+      "id": "gr029",
+      "topic": "hairstyle",
+      "rule": "Very high side fades can increase the perception of vertical hairstyle volume.",
+      "guidance": "Balance the top and sides instead of automatically recommending the highest fade."
+    },
+    {
+      "id": "gr030",
+      "topic": "hairstyle",
+      "rule": "A low taper generally creates a subtle and versatile transition.",
+      "guidance": "It works well when the user wants a clean look without an aggressive fade."
+    },
+
+    {
+      "id": "gr031",
+      "topic": "haircut",
+      "rule": "Low taper keeps the sides relatively natural while cleaning the lower edges.",
+      "guidance": "Suitable for understated casual and smart-casual styling."
+    },
+    {
+      "id": "gr032",
+      "topic": "haircut",
+      "rule": "Mid fade creates a more visible transition around the sides.",
+      "guidance": "Use when a sharper contemporary appearance is desired."
+    },
+    {
+      "id": "gr033",
+      "topic": "haircut",
+      "rule": "High fade creates strong contrast between the sides and top.",
+      "guidance": "It should be balanced with the face shape and top-hair volume."
+    },
+    {
+      "id": "gr034",
+      "topic": "haircut",
+      "rule": "Taper and fade are not interchangeable descriptions.",
+      "guidance": "Taper generally maintains more hair on the sides while fade creates a stronger transition."
+    },
+    {
+      "id": "gr035",
+      "topic": "haircut",
+      "rule": "Undercut creates a stronger separation between the top and sides.",
+      "guidance": "Use when a high-contrast hairstyle is intentionally desired."
+    },
+    {
+      "id": "gr036",
+      "topic": "haircut",
+      "rule": "Layering can reduce excessive weight in thick hair.",
+      "guidance": "Use controlled layers instead of removing too much density."
+    },
+    {
+      "id": "gr037",
+      "topic": "haircut",
+      "rule": "Over-thinning thick hair can make the hairstyle appear uneven.",
+      "guidance": "Preserve enough density to maintain the intended silhouette."
+    },
+    {
+      "id": "gr038",
+      "topic": "haircut",
+      "rule": "Hairline visibility should be considered when suggesting very short front styles.",
+      "guidance": "Do not assume a hairstyle will hide or improve a hairline unless the image supports that conclusion."
+    },
+    {
+      "id": "gr039",
+      "topic": "haircut",
+      "rule": "Hairline and forehead proportions can influence the visual result of fringe hairstyles.",
+      "guidance": "Use moderate fringe when facial framing is desired."
+    },
+    {
+      "id": "gr040",
+      "topic": "haircut",
+      "rule": "A haircut should be selected according to maintenance preference when known.",
+      "guidance": "Low-maintenance users should receive simpler styles than users who regularly style their hair."
+    },
+
+    {
+      "id": "gr041",
+      "topic": "beard",
+      "rule": "Beard recommendations should consider jaw structure, face shape and beard density.",
+      "guidance": "Do not recommend a beard style based only on face shape."
+    },
+    {
+      "id": "gr042",
+      "topic": "beard",
+      "rule": "Short boxed beards create a defined but controlled facial frame.",
+      "guidance": "They can work across many casual and smart-casual looks."
+    },
+    {
+      "id": "gr043",
+      "topic": "beard",
+      "rule": "Stubble creates a lighter facial texture than a full beard.",
+      "guidance": "It works well when the user wants definition without heavy facial hair."
+    },
+    {
+      "id": "gr044",
+      "topic": "beard",
+      "rule": "Heavy beard volume can increase the visual weight of the lower face.",
+      "guidance": "Use controlled beard length when the lower face already appears visually heavy."
+    },
+    {
+      "id": "gr045",
+      "topic": "beard",
+      "rule": "A fuller beard can add visual width and presence to a narrower lower face.",
+      "guidance": "Shape the sides and bottom according to the intended facial balance."
+    },
+    {
+      "id": "gr046",
+      "topic": "beard",
+      "rule": "A pointed beard can visually emphasize a longer chin area.",
+      "guidance": "Use cautiously when the lower face already appears elongated."
+    },
+    {
+      "id": "gr047",
+      "topic": "beard",
+      "rule": "A rounded beard shape can soften a sharp jaw appearance.",
+      "guidance": "Maintain clean edges while preserving the intended rounded silhouette."
+    },
+    {
+      "id": "gr048",
+      "topic": "beard",
+      "rule": "A sharp cheek line creates a more defined beard appearance.",
+      "guidance": "It suits polished grooming styles but may look too formal for intentionally rugged styling."
+    },
+    {
+      "id": "gr049",
+      "topic": "beard",
+      "rule": "A natural cheek line creates a softer and more relaxed beard appearance.",
+      "guidance": "Use for casual and relaxed grooming aesthetics."
+    },
+    {
+      "id": "gr050",
+      "topic": "beard",
+      "rule": "Neckline placement strongly affects beard cleanliness.",
+      "guidance": "Keep the neckline controlled rather than allowing an undefined beard edge."
+    },
+
+    {
+      "id": "gr051",
+      "topic": "beard",
+      "rule": "Mustache and beard should visually belong to the same grooming direction.",
+      "guidance": "Avoid pairing a very polished beard shape with an intentionally disconnected mustache style unless deliberate."
+    },
+    {
+      "id": "gr052",
+      "topic": "beard",
+      "rule": "A connected mustache and beard can create a stronger facial frame.",
+      "guidance": "Use when facial hair density supports the connection naturally."
+    },
+    {
+      "id": "gr053",
+      "topic": "beard",
+      "rule": "Patchy facial hair should not automatically be treated as a problem.",
+      "guidance": "Recommend shorter, cleaner shapes when density is uneven."
+    },
+    {
+      "id": "gr054",
+      "topic": "beard",
+      "rule": "Low-density facial hair often looks cleaner at shorter lengths.",
+      "guidance": "Avoid recommending excessive beard length when the growth pattern is visibly uneven."
+    },
+    {
+      "id": "gr055",
+      "topic": "beard",
+      "rule": "High-density facial hair provides more flexibility in beard length and shape.",
+      "guidance": "Use the desired visual style and face balance to determine the final shape."
+    },
+    {
+      "id": "gr056",
+      "topic": "beard",
+      "rule": "A clean-shaven look exposes the full jawline and facial structure.",
+      "guidance": "It can complement formal, minimal and sharp grooming aesthetics."
+    },
+    {
+      "id": "gr057",
+      "topic": "beard",
+      "rule": "A goatee visually concentrates facial hair around the chin and mouth.",
+      "guidance": "Use when that concentrated facial framing matches the desired style."
+    },
+    {
+      "id": "gr058",
+      "topic": "beard",
+      "rule": "A mustache-only style places visual emphasis on the upper lip.",
+      "guidance": "It works best when intentionally coordinated with hairstyle and outfit character."
+    },
+    {
+      "id": "gr059",
+      "topic": "beard",
+      "rule": "Beard length should remain proportionate to hairstyle volume.",
+      "guidance": "Very heavy hair and very heavy beard can create excessive facial visual weight."
+    },
+    {
+      "id": "gr060",
+      "topic": "beard",
+      "rule": "Very short hair combined with a heavy beard creates strong lower-face emphasis.",
+      "guidance": "Use when that contrast is intentional."
+    },
+
+    {
+      "id": "gr061",
+      "topic": "hairstyle_beard",
+      "rule": "Hairstyle and beard should create a coherent visual balance.",
+      "guidance": "When both hair and beard are visually heavy, control at least one area."
+    },
+    {
+      "id": "gr062",
+      "topic": "hairstyle_beard",
+      "rule": "Textured hairstyle with short stubble creates a balanced contemporary casual look.",
+      "guidance": "Suitable for everyday and smart-casual outfits."
+    },
+    {
+      "id": "gr063",
+      "topic": "hairstyle_beard",
+      "rule": "Classic side part with a short boxed beard creates a polished appearance.",
+      "guidance": "Suitable for smart-casual, office and semi-formal styling."
+    },
+    {
+      "id": "gr064",
+      "topic": "hairstyle_beard",
+      "rule": "Slick-back hair with a clean beard shape creates a refined grooming direction.",
+      "guidance": "Coordinate with structured clothing and polished footwear."
+    },
+    {
+      "id": "gr065",
+      "topic": "hairstyle_beard",
+      "rule": "Messy textured hair pairs naturally with light stubble.",
+      "guidance": "Avoid an overly precise beard shape if the hairstyle is intentionally relaxed."
+    },
+    {
+      "id": "gr066",
+      "topic": "hairstyle_beard",
+      "rule": "Longer textured hair can work with a fuller but controlled beard.",
+      "guidance": "Keep overall grooming intentional rather than allowing both areas to become visually uncontrolled."
+    },
+    {
+      "id": "gr067",
+      "topic": "hairstyle_beard",
+      "rule": "Very sharp fade with a very sharp beard creates a highly defined appearance.",
+      "guidance": "Use for clean contemporary looks when the user prefers high grooming definition."
+    },
+    {
+      "id": "gr068",
+      "topic": "hairstyle_beard",
+      "rule": "Minimal haircut with minimal facial hair creates a clean understated aesthetic.",
+      "guidance": "Suitable for minimalist outfits and formal environments."
+    },
+    {
+      "id": "gr069",
+      "topic": "hairstyle_beard",
+      "rule": "A strong beard can balance a relatively simple hairstyle.",
+      "guidance": "Keep the beard shape intentional and proportionate."
+    },
+    {
+      "id": "gr070",
+      "topic": "hairstyle_beard",
+      "rule": "A high-volume hairstyle can be balanced with controlled facial hair.",
+      "guidance": "Avoid excessive visual competition between hair and beard."
+    },
+
+    {
+      "id": "gr071",
+      "topic": "sunglasses",
+      "rule": "Sunglasses should be selected using face width, face shape and frame proportion.",
+      "guidance": "The frame should look proportionate rather than simply following a face-shape chart."
+    },
+    {
+      "id": "gr072",
+      "topic": "sunglasses",
+      "rule": "Frame width should generally correspond reasonably with facial width.",
+      "guidance": "Avoid frames that appear dramatically narrower or wider than the face unless intentionally styled."
+    },
+    {
+      "id": "gr073",
+      "topic": "sunglasses",
+      "rule": "Round frames create softer visual geometry.",
+      "guidance": "They can contrast effectively with angular facial features."
+    },
+    {
+      "id": "gr074",
+      "topic": "sunglasses",
+      "rule": "Square frames create stronger angular structure.",
+      "guidance": "They can complement softer or rounder facial features."
+    },
+    {
+      "id": "gr075",
+      "topic": "sunglasses",
+      "rule": "Rectangular frames create a horizontal structured effect.",
+      "guidance": "They can work well when a sharper visual direction is desired."
+    },
+    {
+      "id": "gr076",
+      "topic": "sunglasses",
+      "rule": "Aviator frames add a classic and visually noticeable accessory element.",
+      "guidance": "Coordinate frame color and lens tone with the outfit."
+    },
+    {
+      "id": "gr077",
+      "topic": "sunglasses",
+      "rule": "Wayfarer-style frames provide a versatile casual-to-smart-casual direction.",
+      "guidance": "They can be used when a balanced everyday frame is desired."
+    },
+    {
+      "id": "gr078",
+      "topic": "sunglasses",
+      "rule": "Browline frames emphasize the upper portion of the face.",
+      "guidance": "Use when stronger upper-face framing is desired."
+    },
+    {
+      "id": "gr079",
+      "topic": "sunglasses",
+      "rule": "Oversized sunglasses create stronger visual emphasis around the eyes.",
+      "guidance": "Use them when the outfit supports a fashion-forward accessory statement."
+    },
+    {
+      "id": "gr080",
+      "topic": "sunglasses",
+      "rule": "Small narrow frames create a more compact accessory footprint.",
+      "guidance": "They should still be proportionate to the face and comfortable to wear."
+    },
+
+    {
+      "id": "gr081",
+      "topic": "sunglasses",
+      "rule": "Angular frames can complement rounder facial structures through geometric contrast.",
+      "guidance": "Prefer moderate frame width and avoid excessive sharpness when a softer look is desired."
+    },
+    {
+      "id": "gr082",
+      "topic": "sunglasses",
+      "rule": "Rounded frames can soften the appearance of angular facial structures.",
+      "guidance": "Use when the overall outfit benefits from softer visual lines."
+    },
+    {
+      "id": "gr083",
+      "topic": "sunglasses",
+      "rule": "Rectangular frames can add horizontal balance to longer facial proportions.",
+      "guidance": "Avoid extremely narrow frames when they make the face appear even longer."
+    },
+    {
+      "id": "gr084",
+      "topic": "sunglasses",
+      "rule": "Vertical frame height should be considered along with frame width.",
+      "guidance": "A very tall frame can visually occupy more facial space."
+    },
+    {
+      "id": "gr085",
+      "topic": "sunglasses",
+      "rule": "Frame color should coordinate with the overall accessory palette.",
+      "guidance": "Black, brown, tortoiseshell and metallic frames can be matched to the outfit's visual direction."
+    },
+    {
+      "id": "gr086",
+      "topic": "sunglasses",
+      "rule": "Gold or warm metallic frames can complement warm accessory palettes.",
+      "guidance": "Coordinate with watches, chains or other visible metal details when possible."
+    },
+    {
+      "id": "gr087",
+      "topic": "sunglasses",
+      "rule": "Silver or cool metallic frames can complement cool accessory palettes.",
+      "guidance": "Keep the metal family consistent when several accessories are visible."
+    },
+    {
+      "id": "gr088",
+      "topic": "sunglasses",
+      "rule": "Black frames provide strong contrast and are highly versatile.",
+      "guidance": "They work particularly well with monochrome and high-contrast outfits."
+    },
+    {
+      "id": "gr089",
+      "topic": "sunglasses",
+      "rule": "Brown or tortoiseshell frames create a warmer and softer accessory direction.",
+      "guidance": "They can coordinate naturally with beige, cream, brown and earth-tone outfits."
+    },
+    {
+      "id": "gr090",
+      "topic": "sunglasses",
+      "rule": "Sunglasses should not be recommended from face shape alone.",
+      "guidance": "Consider frame size, hairstyle, outfit, accessory color and desired aesthetic."
+    },
+
+    {
+      "id": "gr091",
+      "topic": "outfit_grooming",
+      "rule": "Formal outfits generally benefit from controlled and polished grooming.",
+      "guidance": "Use clean hairstyle structure, controlled facial hair and restrained accessories."
+    },
+    {
+      "id": "gr092",
+      "topic": "outfit_grooming",
+      "rule": "Casual outfits allow more texture and relaxed grooming.",
+      "guidance": "Textured hair, light stubble and natural beard lines can work when intentionally styled."
+    },
+    {
+      "id": "gr093",
+      "topic": "outfit_grooming",
+      "rule": "Smart-casual outfits benefit from grooming that sits between relaxed and formal.",
+      "guidance": "Use controlled hair texture and a clean but not overly formal beard shape."
+    },
+    {
+      "id": "gr094",
+      "topic": "outfit_grooming",
+      "rule": "Minimal outfits pair well with clean grooming and limited accessory complexity.",
+      "guidance": "Avoid introducing too many competing grooming statements."
+    },
+    {
+      "id": "gr095",
+      "topic": "outfit_grooming",
+      "rule": "Streetwear outfits can support stronger hairstyle texture and statement sunglasses.",
+      "guidance": "Keep the grooming intentional so the outfit remains visually coherent."
+    },
+    {
+      "id": "gr096",
+      "topic": "outfit_grooming",
+      "rule": "Traditional Indian outfits generally pair well with neat and controlled grooming.",
+      "guidance": "Short textured hair, side-parted hair, controlled beard or clean-shaven grooming can work depending on outfit formality."
+    },
+    {
+      "id": "gr097",
+      "topic": "outfit_grooming",
+      "rule": "Kurta outfits can support both clean-shaven and neatly shaped beard styles.",
+      "guidance": "The beard should complement the neckline and overall formality."
+    },
+    {
+      "id": "gr098",
+      "topic": "outfit_grooming",
+      "rule": "Blazers benefit from structured grooming.",
+      "guidance": "Use a controlled hairstyle and defined but proportionate facial hair."
+    },
+    {
+      "id": "gr099",
+      "topic": "outfit_grooming",
+      "rule": "Oversized outfits can be balanced with clean grooming.",
+      "guidance": "A defined hairstyle or controlled facial hair can prevent the overall look from becoming visually loose."
+    },
+    {
+      "id": "gr100",
+      "topic": "outfit_grooming",
+      "rule": "Very structured outfits can be softened with controlled natural hair texture.",
+      "guidance": "Avoid making every visual element equally rigid unless a highly formal aesthetic is intended."
+    },
+
+    {
+      "id": "gr101",
+      "topic": "occasion",
+      "rule": "Office grooming should prioritize neatness and controlled proportions.",
+      "guidance": "Choose hairstyles and facial hair that remain polished throughout the workday."
+    },
+    {
+      "id": "gr102",
+      "topic": "occasion",
+      "rule": "Interview grooming should be clean, simple and professional.",
+      "guidance": "Avoid experimental hairstyles or highly distracting accessories."
+    },
+    {
+      "id": "gr103",
+      "topic": "occasion",
+      "rule": "Date-night grooming can be polished while retaining some personal style.",
+      "guidance": "Use controlled texture and a defined but natural beard shape."
+    },
+    {
+      "id": "gr104",
+      "topic": "occasion",
+      "rule": "Wedding grooming should match the formality of the outfit.",
+      "guidance": "Structured hairstyles and neatly shaped facial hair work well with formal Indian and Western outfits."
+    },
+    {
+      "id": "gr105",
+      "topic": "occasion",
+      "rule": "Festival grooming can be polished while allowing slightly stronger styling details.",
+      "guidance": "Coordinate hairstyle and beard with the visual richness of the outfit."
+    },
+    {
+      "id": "gr106",
+      "topic": "occasion",
+      "rule": "Gym grooming should prioritize practicality.",
+      "guidance": "Recommend hairstyles that stay manageable during physical activity rather than purely decorative styles."
+    },
+    {
+      "id": "gr107",
+      "topic": "occasion",
+      "rule": "Travel grooming should prioritize low maintenance.",
+      "guidance": "Prefer hairstyles and beard shapes that remain presentable with minimal daily styling."
+    },
+    {
+      "id": "gr108",
+      "topic": "occasion",
+      "rule": "Party grooming can support stronger hairstyle texture or statement accessories.",
+      "guidance": "Keep the statement intentional and coordinated with the outfit."
+    },
+    {
+      "id": "gr109",
+      "topic": "occasion",
+      "rule": "Beach and resort outfits can support relaxed natural hair texture.",
+      "guidance": "Avoid overly formal grooming unless specifically requested."
+    },
+    {
+      "id": "gr110",
+      "topic": "occasion",
+      "rule": "Casual everyday grooming should balance appearance and maintenance effort.",
+      "guidance": "Recommend practical styles that can be recreated consistently."
+    },
+
+    {
+      "id": "gr111",
+      "topic": "hair_length",
+      "rule": "Very short hair creates a clean and low-maintenance appearance.",
+      "guidance": "It also makes facial structure and hairline more visible."
+    },
+    {
+      "id": "gr112",
+      "topic": "hair_length",
+      "rule": "Short hair provides a balance between maintenance and styling flexibility.",
+      "guidance": "It supports fades, tapers, crops, side parts and textured styles."
+    },
+    {
+      "id": "gr113",
+      "topic": "hair_length",
+      "rule": "Medium hair provides greater flexibility for texture and direction.",
+      "guidance": "It can support side parts, middle parts, swept-back looks and layered styles."
+    },
+    {
+      "id": "gr114",
+      "topic": "hair_length",
+      "rule": "Long hair requires more attention to shape and maintenance.",
+      "guidance": "Consider texture and density before recommending it."
+    },
+    {
+      "id": "gr115",
+      "topic": "hair_length",
+      "rule": "Hair length should support the intended hairstyle silhouette.",
+      "guidance": "Do not recommend a hairstyle that requires substantially different length without clearly identifying the required change."
+    },
+    {
+      "id": "gr116",
+      "topic": "hair_texture",
+      "rule": "Natural texture should generally be preserved when it contributes positively to the hairstyle.",
+      "guidance": "Use styling methods that work with the hair rather than against it."
+    },
+    {
+      "id": "gr117",
+      "topic": "hair_texture",
+      "rule": "Fine straight hair can benefit from controlled texture and moderate volume.",
+      "guidance": "Avoid excessive product weight that can flatten the hairstyle."
+    },
+    {
+      "id": "gr118",
+      "topic": "hair_texture",
+      "rule": "Thick straight hair can benefit from layering and controlled side volume.",
+      "guidance": "Reduce excessive bulk without removing the hairstyle's intended density."
+    },
+    {
+      "id": "gr119",
+      "topic": "hair_texture",
+      "rule": "Wavy hair often benefits from medium-length textured styles.",
+      "guidance": "Let natural wave movement contribute to the hairstyle."
+    },
+    {
+      "id": "gr120",
+      "topic": "hair_texture",
+      "rule": "Curly hair often benefits from controlled shape rather than excessive flattening.",
+      "guidance": "Choose length according to curl pattern and desired silhouette."
+    },
+
+    {
+      "id": "gr121",
+      "topic": "hair_texture",
+      "rule": "Very dense curls can require additional shape management.",
+      "guidance": "Recommend styles that control silhouette while maintaining natural curl definition."
+    },
+    {
+      "id": "gr122",
+      "topic": "hair_texture",
+      "rule": "Coily hair should be evaluated according to natural pattern and density.",
+      "guidance": "Avoid applying straight-hair assumptions to coily texture."
+    },
+    {
+      "id": "gr123",
+      "topic": "hair_texture",
+      "rule": "Hair volume should be evaluated separately from hair length.",
+      "guidance": "Long hair is not always high volume and short hair is not always low volume."
+    },
+    {
+      "id": "gr124",
+      "topic": "hair_texture",
+      "rule": "Hair part direction should follow natural fall when possible.",
+      "guidance": "A forced part can make styling less practical."
+    },
+    {
+      "id": "gr125",
+      "topic": "hair_texture",
+      "rule": "Hair texture visible in an image should be treated as an observed characteristic, not a guaranteed permanent trait.",
+      "guidance": "Lighting, styling products and image quality can alter apparent texture."
+    },
+
+    {
+      "id": "gr126",
+      "topic": "grooming_balance",
+      "rule": "Grooming should have one clear visual focal point.",
+      "guidance": "If hairstyle is highly noticeable, keep beard and sunglasses relatively controlled unless a maximalist style is intentional."
+    },
+    {
+      "id": "gr127",
+      "topic": "grooming_balance",
+      "rule": "Highly noticeable sunglasses should be balanced with a simpler hairstyle or beard.",
+      "guidance": "Avoid unnecessary competition among accessories and grooming."
+    },
+    {
+      "id": "gr128",
+      "topic": "grooming_balance",
+      "rule": "A statement hairstyle can remain the focal point when facial hair is controlled.",
+      "guidance": "Use a clean beard outline or shorter beard length."
+    },
+    {
+      "id": "gr129",
+      "topic": "grooming_balance",
+      "rule": "A strong beard can remain the focal point when hairstyle volume is controlled.",
+      "guidance": "Avoid excessive height and width in the hairstyle."
+    },
+    {
+      "id": "gr130",
+      "topic": "grooming_balance",
+      "rule": "Hair, beard and sunglasses should not all use maximum visual intensity simultaneously.",
+      "guidance": "Control at least one or two elements for a more balanced result."
+    },
+
+    {
+      "id": "gr131",
+      "topic": "sunglasses_outfit",
+      "rule": "Black sunglasses coordinate naturally with black, grey, white and high-contrast outfits.",
+      "guidance": "Use black frames when a versatile neutral accessory is needed."
+    },
+    {
+      "id": "gr132",
+      "topic": "sunglasses_outfit",
+      "rule": "Brown sunglasses coordinate naturally with warm earth-tone outfits.",
+      "guidance": "Consider beige, cream, brown, olive and tan clothing."
+    },
+    {
+      "id": "gr133",
+      "topic": "sunglasses_outfit",
+      "rule": "Metallic sunglasses should coordinate with visible metal accessories.",
+      "guidance": "Gold, silver or mixed metals should be selected intentionally."
+    },
+    {
+      "id": "gr134",
+      "topic": "sunglasses_outfit",
+      "rule": "Statement sunglasses can elevate simple outfits.",
+      "guidance": "Use them as the accessory focal point rather than adding multiple competing accessories."
+    },
+    {
+      "id": "gr135",
+      "topic": "sunglasses_outfit",
+      "rule": "Minimal outfits benefit from simple frame shapes.",
+      "guidance": "Avoid unnecessarily decorative sunglasses when the clothing is already highly minimal."
+    },
+    {
+      "id": "gr136",
+      "topic": "sunglasses_outfit",
+      "rule": "Streetwear can support bold frame proportions and contemporary shapes.",
+      "guidance": "Match the frame scale to the oversized or relaxed clothing silhouette."
+    },
+    {
+      "id": "gr137",
+      "topic": "sunglasses_outfit",
+      "rule": "Formal outfits generally benefit from restrained sunglasses designs.",
+      "guidance": "Use classic frame shapes and neutral colors when sunglasses are appropriate."
+    },
+    {
+      "id": "gr138",
+      "topic": "sunglasses_outfit",
+      "rule": "Resort outfits can support lighter-colored or warmer frame palettes.",
+      "guidance": "Coordinate with linen, cream, beige and relaxed summer styling."
+    },
+    {
+      "id": "gr139",
+      "topic": "sunglasses_outfit",
+      "rule": "Monochrome outfits can use contrasting sunglasses as an intentional accent.",
+      "guidance": "Keep the frame proportion controlled so the accent does not overpower the outfit."
+    },
+    {
+      "id": "gr140",
+      "topic": "sunglasses_outfit",
+      "rule": "Accessory repetition improves visual cohesion.",
+      "guidance": "Repeat a frame color or metal tone through another visible accessory when appropriate."
+    },
+
+    {
+      "id": "gr141",
+      "topic": "hair_outfit",
+      "rule": "Clean structured hairstyles complement tailored clothing.",
+      "guidance": "Use side parts, controlled quiffs, slick-backs or neat short styles depending on face and hair characteristics."
+    },
+    {
+      "id": "gr142",
+      "topic": "hair_outfit",
+      "rule": "Textured hairstyles complement relaxed and casual clothing.",
+      "guidance": "Preserve natural movement instead of forcing a formal finish."
+    },
+    {
+      "id": "gr143",
+      "topic": "hair_outfit",
+      "rule": "Medium-length textured hair can complement oversized streetwear.",
+      "guidance": "Keep the hairstyle's volume proportionate to the oversized silhouette."
+    },
+    {
+      "id": "gr144",
+      "topic": "hair_outfit",
+      "rule": "Very polished hair can create contrast with distressed or rugged outfits.",
+      "guidance": "Use this contrast intentionally rather than automatically treating it as mismatched."
+    },
+    {
+      "id": "gr145",
+      "topic": "hair_outfit",
+      "rule": "Natural textured hair can soften highly structured outfits.",
+      "guidance": "Maintain controlled texture so the look remains intentional."
+    },
+    {
+      "id": "gr146",
+      "topic": "hair_outfit",
+      "rule": "Minimal clothing pairs well with clean understated hairstyles.",
+      "guidance": "Avoid unnecessary styling complexity."
+    },
+    {
+      "id": "gr147",
+      "topic": "hair_outfit",
+      "rule": "Traditional outfits can support classic side parts and neatly controlled textured hairstyles.",
+      "guidance": "Choose grooming intensity according to outfit richness and occasion."
+    },
+    {
+      "id": "gr148",
+      "topic": "hair_outfit",
+      "rule": "Black outfits can support both sharp and textured hairstyles.",
+      "guidance": "Select the hairstyle according to the desired character of the outfit."
+    },
+    {
+      "id": "gr149",
+      "topic": "hair_outfit",
+      "rule": "Light summer outfits often work well with natural textured grooming.",
+      "guidance": "Avoid unnecessarily heavy styling products or overly rigid silhouettes."
+    },
+    {
+      "id": "gr150",
+      "topic": "hair_outfit",
+      "rule": "Winter layered outfits can support slightly fuller hairstyle volume.",
+      "guidance": "Keep hair volume proportionate to the overall clothing layers."
+    },
+
+    {
+      "id": "gr151",
+      "topic": "grooming_confidence",
+      "rule": "AI should communicate grooming recommendations as styling suggestions rather than guaranteed outcomes.",
+      "guidance": "Use language such as 'can work well' when the image does not provide enough evidence."
+    },
+    {
+      "id": "gr152",
+      "topic": "grooming_confidence",
+      "rule": "Do not infer exact hair texture when image quality is insufficient.",
+      "guidance": "Mark texture as uncertain and provide adaptable options."
+    },
+    {
+      "id": "gr153",
+      "topic": "grooming_confidence",
+      "rule": "Do not infer exact beard density from a low-resolution image.",
+      "guidance": "Recommend styles compatible with both moderate and high density when uncertain."
+    },
+    {
+      "id": "gr154",
+      "topic": "grooming_confidence",
+      "rule": "Do not make medical or diagnostic claims from facial or hair appearance.",
+      "guidance": "Keep recommendations focused on styling and grooming."
+    },
+    {
+      "id": "gr155",
+      "topic": "grooming_confidence",
+      "rule": "Do not assume a person's age from appearance for grooming recommendations.",
+      "guidance": "Use visible styling characteristics instead."
+    },
+    {
+      "id": "gr156",
+      "topic": "grooming_confidence",
+      "rule": "Do not infer personality from hairstyle, beard or facial appearance.",
+      "guidance": "Recommendations should be based on visible styling characteristics and stated preferences."
+    },
+    {
+      "id": "gr157",
+      "topic": "grooming_confidence",
+      "rule": "If the face is partially covered, sunglasses or hairstyle recommendations should have lower confidence.",
+      "guidance": "Use only visible facial proportions and provide alternatives."
+    },
+    {
+      "id": "gr158",
+      "topic": "grooming_confidence",
+      "rule": "If the image is front-facing, face-shape analysis can generally be more reliable than from a strong side angle.",
+      "guidance": "Reduce confidence when perspective distortion is significant."
+    },
+    {
+      "id": "gr159",
+      "topic": "grooming_confidence",
+      "rule": "Lighting should be considered before assessing hair and facial proportions.",
+      "guidance": "Strong shadows can distort visible facial boundaries."
+    },
+    {
+      "id": "gr160",
+      "topic": "grooming_confidence",
+      "rule": "Image filters should not be treated as natural hair or skin characteristics.",
+      "guidance": "Base recommendations on visible structural information rather than color filters."
+    },
+
+    {
+      "id": "gr161",
+      "topic": "hair_maintenance",
+      "rule": "Low-maintenance users should receive hairstyles requiring minimal daily styling.",
+      "guidance": "Prefer short textured cuts, tapers or naturally manageable styles."
+    },
+    {
+      "id": "gr162",
+      "topic": "hair_maintenance",
+      "rule": "High-maintenance styling should only be recommended when the user appears willing to style regularly.",
+      "guidance": "Mention styling effort when a recommendation requires significant daily work."
+    },
+    {
+      "id": "gr163",
+      "topic": "hair_maintenance",
+      "rule": "Short fades and tapers require regular maintenance to preserve their sharp appearance.",
+      "guidance": "Consider upkeep frequency when recommending very precise cuts."
+    },
+    {
+      "id": "gr164",
+      "topic": "hair_maintenance",
+      "rule": "Medium-length textured styles can provide a balance between flexibility and maintenance.",
+      "guidance": "They can often be styled in multiple directions."
+    },
+    {
+      "id": "gr165",
+      "topic": "hair_maintenance",
+      "rule": "Longer hairstyles generally require more attention to shape and condition.",
+      "guidance": "Recommend them when the user accepts additional maintenance."
+    },
+    {
+      "id": "gr166",
+      "topic": "hair_maintenance",
+      "rule": "A hairstyle recommendation should include a maintenance level when useful.",
+      "guidance": "Use simple labels such as low, medium or high maintenance."
+    },
+    {
+      "id": "gr167",
+      "topic": "hair_maintenance",
+      "rule": "A hairstyle should be realistically achievable from the user's visible current hair length.",
+      "guidance": "If additional growth is needed, state that the result requires length."
+    },
+    {
+      "id": "gr168",
+      "topic": "hair_maintenance",
+      "rule": "A hairstyle requiring substantially shorter sides should be described as a haircut change rather than simple styling.",
+      "guidance": "Distinguish between styling and cutting requirements."
+    },
+    {
+      "id": "gr169",
+      "topic": "hair_maintenance",
+      "rule": "Product recommendations should focus on styling purpose rather than unnecessary product quantity.",
+      "guidance": "Recommend lightweight, medium or strong hold only according to the desired hairstyle."
+    },
+    {
+      "id": "gr170",
+      "topic": "hair_maintenance",
+      "rule": "Hair styling should preserve a natural appearance when the outfit aesthetic is relaxed.",
+      "guidance": "Avoid recommending an overly rigid finish for casual looks."
+    },
+
+    {
+      "id": "gr171",
+      "topic": "beard_maintenance",
+      "rule": "Short beard styles generally require regular trimming to maintain clean proportions.",
+      "guidance": "Keep cheek and neckline boundaries controlled."
+    },
+    {
+      "id": "gr172",
+      "topic": "beard_maintenance",
+      "rule": "Longer beards require more shape management than short stubble.",
+      "guidance": "Consider beard density and desired silhouette before recommending length."
+    },
+    {
+      "id": "gr173",
+      "topic": "beard_maintenance",
+      "rule": "Uneven beard growth is often easier to manage with shorter lengths.",
+      "guidance": "Avoid forcing a long beard shape when density is visibly inconsistent."
+    },
+    {
+      "id": "gr174",
+      "topic": "beard_maintenance",
+      "rule": "A clean neckline improves the visual definition of most beard styles.",
+      "guidance": "Use a controlled neckline rather than an undefined transition."
+    },
+    {
+      "id": "gr175",
+      "topic": "beard_maintenance",
+      "rule": "Beard edges should match the intended grooming level.",
+      "guidance": "Sharp edges suit polished looks while softer edges suit relaxed styles."
+    },
+
+    {
+      "id": "gr176",
+      "topic": "face_hair_balance",
+      "rule": "A narrow chin can visually support moderate beard fullness around the lower face.",
+      "guidance": "Avoid excessive pointed length if the goal is visual balance."
+    },
+    {
+      "id": "gr177",
+      "topic": "face_hair_balance",
+      "rule": "A broad jaw can be complemented by controlled beard sides.",
+      "guidance": "Avoid adding unnecessary width when the lower face is already visually strong."
+    },
+    {
+      "id": "gr178",
+      "topic": "face_hair_balance",
+      "rule": "A longer face can be visually balanced with controlled beard length and moderate hairstyle height.",
+      "guidance": "Avoid adding excessive vertical length to both hair and beard."
+    },
+    {
+      "id": "gr179",
+      "topic": "face_hair_balance",
+      "rule": "A rounder face can benefit from controlled side hair volume and some upper-face height.",
+      "guidance": "Keep the beard sides controlled to avoid increasing lower-face width."
+    },
+    {
+      "id": "gr180",
+      "topic": "face_hair_balance",
+      "rule": "A square face can support structured beard lines and textured hairstyles.",
+      "guidance": "Use the natural jaw structure rather than trying to hide it."
+    },
+
+    {
+      "id": "gr181",
+      "topic": "grooming_formula",
+      "rule": "For a black oversized t-shirt outfit, clean textured hair and short stubble can create a balanced casual look.",
+      "guidance": "Use controlled grooming to balance the relaxed clothing silhouette."
+    },
+    {
+      "id": "gr182",
+      "topic": "grooming_formula",
+      "rule": "For a white shirt and dark trousers, a side part or controlled textured hairstyle can support a smart-casual look.",
+      "guidance": "Keep facial hair neat and proportionate."
+    },
+    {
+      "id": "gr183",
+      "topic": "grooming_formula",
+      "rule": "For a blazer and trousers, structured hair with clean facial hair creates a cohesive polished direction.",
+      "guidance": "Keep sunglasses minimal if they are used."
+    },
+    {
+      "id": "gr184",
+      "topic": "grooming_formula",
+      "rule": "For a denim jacket outfit, textured hair and light-to-medium facial hair can reinforce the casual character.",
+      "guidance": "Avoid overly formal grooming unless intentional contrast is desired."
+    },
+    {
+      "id": "gr185",
+      "topic": "grooming_formula",
+      "rule": "For a leather jacket outfit, textured hair and defined stubble can complement the stronger outfit character.",
+      "guidance": "Keep the beard shape controlled rather than excessively elaborate."
+    },
+    {
+      "id": "gr186",
+      "topic": "grooming_formula",
+      "rule": "For a linen outfit, natural textured hair and lighter facial hair can support a relaxed summer aesthetic.",
+      "guidance": "Avoid overly rigid styling."
+    },
+    {
+      "id": "gr187",
+      "topic": "grooming_formula",
+      "rule": "For a kurta, neatly styled hair and a controlled beard create a polished traditional look.",
+      "guidance": "Increase grooming precision for more formal festive outfits."
+    },
+    {
+      "id": "gr188",
+      "topic": "grooming_formula",
+      "rule": "For a polo and chinos outfit, a clean taper or side part with short stubble works well for a refined casual direction.",
+      "guidance": "Keep grooming clean but not excessively formal."
+    },
+    {
+      "id": "gr189",
+      "topic": "grooming_formula",
+      "rule": "For a hoodie and jogger outfit, natural textured hair and light stubble maintain a relaxed visual direction.",
+      "guidance": "Avoid overly formal hair styling."
+    },
+    {
+      "id": "gr190",
+      "topic": "grooming_formula",
+      "rule": "For a monochrome outfit, grooming can introduce texture without adding unnecessary color complexity.",
+      "guidance": "Use hairstyle shape or beard texture as the visual detail."
+    },
+
+    {
+      "id": "gr191",
+      "topic": "grooming_formula",
+      "rule": "For a date outfit, grooming should look intentional but not excessively rigid.",
+      "guidance": "Controlled hairstyle texture and clean facial hair usually create a balanced appearance."
+    },
+    {
+      "id": "gr192",
+      "topic": "grooming_formula",
+      "rule": "For an office outfit, grooming should remain consistent with a professional environment.",
+      "guidance": "Prefer clean lines, controlled texture and restrained accessories."
+    },
+    {
+      "id": "gr193",
+      "topic": "grooming_formula",
+      "rule": "For a wedding outfit, grooming precision should match the formality of the clothing.",
+      "guidance": "Structured hairstyle and neatly shaped facial hair can complement formal tailoring."
+    },
+    {
+      "id": "gr194",
+      "topic": "grooming_formula",
+      "rule": "For a festival outfit, grooming can be slightly more expressive while remaining coordinated.",
+      "guidance": "Stronger hairstyle texture or a polished beard shape can complement richer clothing."
+    },
+    {
+      "id": "gr195",
+      "topic": "grooming_formula",
+      "rule": "For travel outfits, choose grooming styles that remain manageable with limited styling time.",
+      "guidance": "Favor practical hair length and controlled facial hair."
+    },
+    {
+      "id": "gr196",
+      "topic": "grooming_formula",
+      "rule": "For gym outfits, shorter or naturally manageable hairstyles can improve practicality.",
+      "guidance": "The recommendation should prioritize comfort and maintenance."
+    },
+    {
+      "id": "gr197",
+      "topic": "grooming_formula",
+      "rule": "For party outfits, a statement hairstyle or sunglasses can act as the grooming focal point.",
+      "guidance": "Avoid making every grooming element equally bold."
+    },
+    {
+      "id": "gr198",
+      "topic": "grooming_formula",
+      "rule": "For resort outfits, relaxed hair texture and lighter grooming can support the environment.",
+      "guidance": "Keep the overall look intentional rather than overly formal."
+    },
+    {
+      "id": "gr199",
+      "topic": "grooming_formula",
+      "rule": "For formal black outfits, clean structured grooming creates a cohesive appearance.",
+      "guidance": "Use restrained sunglasses and controlled facial hair if visible."
+    },
+    {
+      "id": "gr200",
+      "topic": "grooming_formula",
+      "rule": "For earth-tone outfits, warm accessory tones and natural grooming textures can create visual harmony.",
+      "guidance": "Brown or tortoiseshell sunglasses can be considered when frame proportions suit the face."
+    },
+
+    {
+      "id": "gr201",
+      "topic": "recommendation_output",
+      "rule": "A grooming recommendation should provide a primary hairstyle option and at least one practical alternative when confidence is moderate.",
+      "guidance": "This prevents the system from presenting one uncertain prediction as a fixed answer."
+    },
+    {
+      "id": "gr202",
+      "topic": "recommendation_output",
+      "rule": "Hairstyle recommendations should include the required hair length when it differs from the visible current length.",
+      "guidance": "Clearly distinguish current-hair styling from haircut or growth requirements."
+    },
+    {
+      "id": "gr203",
+      "topic": "recommendation_output",
+      "rule": "Sunglasses recommendations should include frame shape and approximate visual scale.",
+      "guidance": "For example, describe a medium-width rectangular frame rather than only saying 'rectangular sunglasses'."
+    },
+    {
+      "id": "gr204",
+      "topic": "recommendation_output",
+      "rule": "Beard recommendations should include approximate length and shape.",
+      "guidance": "Use practical descriptions such as short boxed beard, light stubble or controlled full beard."
+    },
+    {
+      "id": "gr205",
+      "topic": "recommendation_output",
+      "rule": "Grooming recommendations should explain the visual reason briefly.",
+      "guidance": "Use explanations such as 'adds structure', 'keeps the sides controlled' or 'balances the outfit volume'."
+    },
+    {
+      "id": "gr206",
+      "topic": "recommendation_output",
+      "rule": "Recommendations should distinguish between hairstyle, haircut and grooming finish.",
+      "guidance": "A haircut changes structure; styling changes how existing hair is arranged; finish describes texture or hold."
+    },
+    {
+      "id": "gr207",
+      "topic": "recommendation_output",
+      "rule": "When multiple styles are compatible, recommendations should present alternatives based on desired aesthetic.",
+      "guidance": "Examples include clean, textured, classic and fashion-forward directions."
+    },
+    {
+      "id": "gr208",
+      "topic": "recommendation_output",
+      "rule": "When image evidence is weak, recommendations should remain adaptable.",
+      "guidance": "Use conditional language and avoid overly specific structural claims."
+    },
+    {
+      "id": "gr209",
+      "topic": "recommendation_output",
+      "rule": "Grooming advice should remain focused on style rather than changing a person's identity or facial characteristics.",
+      "guidance": "Recommend styling choices, not claims about inherent attractiveness or personality."
+    },
+    {
+      "id": "gr210",
+      "topic": "recommendation_output",
+      "rule": "If the user provides a specific desired aesthetic, that preference should take priority over generic grooming formulas.",
+      "guidance": "Use the knowledge base to refine the requested style rather than replacing it."
+    },
+
+    {
+      "id": "gr211",
+      "topic": "style_direction",
+      "rule": "Clean grooming emphasizes precision, simplicity and controlled shapes.",
+      "guidance": "Suitable for formal, office and minimalist styling."
+    },
+    {
+      "id": "gr212",
+      "topic": "style_direction",
+      "rule": "Textured grooming emphasizes natural movement and visual depth.",
+      "guidance": "Suitable for casual, streetwear and contemporary styling."
+    },
+    {
+      "id": "gr213",
+      "topic": "style_direction",
+      "rule": "Classic grooming emphasizes timeless shapes and moderate styling.",
+      "guidance": "Side parts, controlled tapers and neat facial hair can support this direction."
+    },
+    {
+      "id": "gr214",
+      "topic": "style_direction",
+      "rule": "Rugged grooming uses visible texture and less polished facial-hair edges.",
+      "guidance": "Keep the overall appearance intentional rather than uncontrolled."
+    },
+    {
+      "id": "gr215",
+      "topic": "style_direction",
+      "rule": "Fashion-forward grooming can use stronger silhouettes or statement accessories.",
+      "guidance": "Use one or two clear statement elements rather than making every element extreme."
+    },
+    {
+      "id": "gr216",
+      "topic": "style_direction",
+      "rule": "Minimal grooming reduces visual complexity.",
+      "guidance": "Use simple hair structure, restrained facial hair and limited accessories."
+    },
+    {
+      "id": "gr217",
+      "topic": "style_direction",
+      "rule": "Luxury-inspired grooming generally benefits from precision and restraint.",
+      "guidance": "Clean hair structure, controlled beard lines and subtle premium accessories work well."
+    },
+    {
+      "id": "gr218",
+      "topic": "style_direction",
+      "rule": "Sporty grooming should prioritize practicality and clean structure.",
+      "guidance": "Use manageable hair and controlled facial hair."
+    },
+    {
+      "id": "gr219",
+      "topic": "style_direction",
+      "rule": "Preppy grooming often works with neat side parts, tapered cuts and controlled facial hair.",
+      "guidance": "Coordinate grooming with polos, shirts, chinos and structured casual clothing."
+    },
+    {
+      "id": "gr220",
+      "topic": "style_direction",
+      "rule": "Streetwear grooming can support textured hair, modern fades and statement eyewear.",
+      "guidance": "Keep proportions consistent with oversized or relaxed clothing."
+    },
+
+    {
+      "id": "gr221",
+      "topic": "visual_analysis",
+      "rule": "Before recommending grooming, identify which grooming elements are already visible in the image.",
+      "guidance": "Record hairstyle length, texture, beard presence, beard length, eyewear and visible face areas."
+    },
+    {
+      "id": "gr222",
+      "topic": "visual_analysis",
+      "rule": "Do not recommend changing an already suitable grooming element without a clear styling reason.",
+      "guidance": "Improve or coordinate the existing look when possible."
+    },
+    {
+      "id": "gr223",
+      "topic": "visual_analysis",
+      "rule": "When sunglasses are already present, evaluate their frame proportion before suggesting alternatives.",
+      "guidance": "Recommend alternatives only when they improve coordination or address a visible proportion mismatch."
+    },
+    {
+      "id": "gr224",
+      "topic": "visual_analysis",
+      "rule": "When a beard is already styled, evaluate its shape before suggesting a different beard category.",
+      "guidance": "Small shape adjustments may be more appropriate than completely changing the beard."
+    },
+    {
+      "id": "gr225",
+      "topic": "visual_analysis",
+      "rule": "When hair is already styled, distinguish between styling improvement and a completely different haircut.",
+      "guidance": "Give the least disruptive useful recommendation first."
+    },
+    {
+      "id": "gr226",
+      "topic": "visual_analysis",
+      "rule": "If the face is partly hidden by hair, mask, phone or sunglasses, reduce face-shape confidence.",
+      "guidance": "Use only clearly visible facial boundaries."
+    },
+    {
+      "id": "gr227",
+      "topic": "visual_analysis",
+      "rule": "If the image angle creates strong perspective distortion, avoid highly specific face-shape conclusions.",
+      "guidance": "Prefer general frame and hairstyle recommendations."
+    },
+    {
+      "id": "gr228",
+      "topic": "visual_analysis",
+      "rule": "If lighting changes facial boundaries, avoid treating shadows as actual jaw or cheekbone structure.",
+      "guidance": "Use visible geometry from well-lit areas."
+    },
+    {
+      "id": "gr229",
+      "topic": "visual_analysis",
+      "rule": "If hair color appears altered by lighting or filters, do not make strong color recommendations from the image alone.",
+      "guidance": "Treat apparent color as uncertain when necessary."
+    },
+    {
+      "id": "gr230",
+      "topic": "visual_analysis",
+      "rule": "If the image resolution is too low to distinguish grooming details, return broad recommendations instead of fabricated precision.",
+      "guidance": "Accuracy is more important than forcing a specific style label."
+    },
+
+    {
+      "id": "gr231",
+      "topic": "final_recommendation",
+      "rule": "The final grooming recommendation should prioritize the user's outfit, face visibility, hair characteristics and desired occasion together.",
+      "guidance": "Do not generate recommendations from a single input feature."
+    },
+    {
+      "id": "gr232",
+      "topic": "final_recommendation",
+      "rule": "For everyday casual styling, prioritize practical grooming that can be recreated easily.",
+      "guidance": "Avoid overly complex routines unless the user requests them."
+    },
+    {
+      "id": "gr233",
+      "topic": "final_recommendation",
+      "rule": "For premium fashion styling, grooming should appear intentional and proportionate to the outfit.",
+      "guidance": "Use controlled hair, facial hair and eyewear coordination."
+    },
+    {
+      "id": "gr234",
+      "topic": "final_recommendation",
+      "rule": "For a minimal fashion look, reduce unnecessary grooming complexity.",
+      "guidance": "Use a simple hairstyle, controlled facial hair and restrained eyewear."
+    },
+    {
+      "id": "gr235",
+      "topic": "final_recommendation",
+      "rule": "For a bold fashion look, allow one clear grooming statement.",
+      "guidance": "The statement can be hairstyle, beard shape or sunglasses."
+    },
+    {
+      "id": "gr236",
+      "topic": "final_recommendation",
+      "rule": "For formal styling, prioritize neatness before experimentation.",
+      "guidance": "Classic shapes are generally easier to coordinate with formal clothing."
+    },
+    {
+      "id": "gr237",
+      "topic": "final_recommendation",
+      "rule": "For casual styling, natural texture can be used as a visual feature.",
+      "guidance": "Do not over-polish an intentionally relaxed outfit."
+    },
+    {
+      "id": "gr238",
+      "topic": "final_recommendation",
+      "rule": "For streetwear styling, grooming volume should be considered alongside clothing volume.",
+      "guidance": "Balance oversized garments with controlled or intentionally textured grooming."
+    },
+    {
+      "id": "gr239",
+      "topic": "final_recommendation",
+      "rule": "For traditional styling, grooming should respect the visual formality and richness of the outfit.",
+      "guidance": "Neat hair and controlled facial hair can support formal festive clothing."
+    },
+    {
+      "id": "gr240",
+      "topic": "final_recommendation",
+      "rule": "When several grooming options are viable, rank them by compatibility with the visible outfit and requested style direction rather than by attractiveness.",
+      "guidance": "Avoid subjective attractiveness judgments."
+    }
+  ]
+}

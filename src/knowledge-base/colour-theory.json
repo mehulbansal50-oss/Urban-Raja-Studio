@@ -1,0 +1,1622 @@
+
+{
+  "category": "Colour Theory",
+  "description": "Men's fashion colour matching rules for Urban Raja AI Stylist.",
+  "rules": [
+    {
+  "category": "Colour Theory",
+  "description": "Men's fashion colour matching rules for Urban Raja AI Stylist.",
+  "rules": [
+    {
+      "combination": ["black", "beige"],
+      "works_well": true,
+      "style": ["casual", "minimal", "smart-casual"],
+      "best_for": ["college", "casual", "date", "travel"],
+      "recommended_footwear": [
+        "white sneakers",
+        "black sneakers",
+        "brown loafers"
+      ],
+      "recommended_accessories": [
+        "minimal watch",
+        "silver chain"
+      ],
+      "reason": "Black and beige create a balanced neutral contrast that looks clean and versatile."
+    },
+
+    {
+  "combination": ["black", "white"],
+  "works_well": true,
+  "style": ["casual", "minimal", "smart-casual"],
+  "best_for": ["college", "casual", "office", "date"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "loafers"
+  ],
+  "recommended_accessories": [
+    "minimal watch",
+    "silver chain"
+  ],
+  "reason": "Black and white create a classic high-contrast combination that is simple, versatile and easy to style."
+},
+
+{
+  "combination": ["white", "blue"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "minimal"],
+  "best_for": ["college", "casual", "office", "date", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "minimal watch",
+    "brown leather watch"
+  ],
+  "reason": "White and blue create a clean and balanced combination. The contrast is noticeable without looking too loud."
+},
+
+{
+  "combination": ["grey", "black"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "streetwear"],
+  "best_for": ["college", "casual", "office", "date", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "black loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "silver chain",
+    "minimal black watch"
+  ],
+  "reason": "Grey and black create a refined monochromatic combination with low visual noise. Different shades and textures can add depth to the outfit."
+},
+
+{
+  "combination": ["olive", "cream"],
+  "works_well": true,
+  "style": ["casual", "minimal", "streetwear"],
+  "best_for": ["college", "casual", "travel", "weekend"],
+  "recommended_footwear": [
+    "white sneakers",
+    "beige sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "brown bracelet"
+  ],
+  "reason": "Olive and cream create a soft earthy combination. The muted contrast gives the outfit a relaxed and sophisticated appearance."
+},
+
+{
+  "combination": ["blue", "beige"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "minimal"],
+  "best_for": ["college", "casual", "office", "date", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "silver watch"
+  ],
+  "reason": "Blue and beige create a balanced combination between a cool colour and a warm neutral. It looks polished without being too formal."
+},
+
+{
+  "rule_type": "contrast",
+  "name": "Light and dark balance",
+  "guideline": "Pairing a light colour with a dark colour usually creates clear visual contrast and makes an outfit easier to read.",
+  "examples": [
+    ["black", "beige"],
+    ["navy", "white"],
+    ["dark blue", "cream"],
+    ["charcoal", "white"]
+  ],
+  "styling_tip": "When using strong light-dark contrast, keep the remaining pieces relatively simple to avoid visual clutter."
+},
+
+{
+  "rule_type": "monochrome",
+  "name": "Monochromatic outfit",
+  "guideline": "A monochromatic outfit uses different shades, tones or tints from the same colour family.",
+  "examples": [
+    ["black", "charcoal", "dark grey"],
+    ["navy", "medium blue", "light blue"],
+    ["cream", "beige", "tan"],
+    ["dark green", "olive", "sage"]
+  ],
+  "works_well_for": [
+    "minimal",
+    "smart-casual",
+    "streetwear",
+    "modern"
+  ],
+  "styling_tip": "Use differences in shade, texture or fabric to prevent the outfit from looking flat."
+},
+
+{
+  "rule_type": "neutral_colours",
+  "name": "Neutral colour foundation",
+  "guideline": "Neutral colours are versatile and can usually be combined with other neutrals or stronger accent colours.",
+  "neutral_colours": [
+    "black",
+    "white",
+    "grey",
+    "charcoal",
+    "beige",
+    "cream",
+    "off-white",
+    "brown",
+    "navy",
+    "olive"
+  ],
+  "easy_combinations": [
+    ["black", "white"],
+    ["black", "beige"],
+    ["grey", "white"],
+    ["navy", "beige"],
+    ["brown", "cream"],
+    ["olive", "cream"]
+  ],
+  "styling_tip": "Use neutral colours as the base of an outfit and add one stronger colour when you want more visual interest."
+},
+
+{
+  "rule_type": "colour_intensity",
+  "name": "Balance strong colours",
+  "guideline": "When an outfit contains a bright or highly saturated colour, balance it with neutral or muted colours.",
+  "examples": [
+    {
+      "strong_colour": "red",
+      "balanced_with": ["black", "white", "grey", "beige", "navy"]
+    },
+    {
+      "strong_colour": "royal blue",
+      "balanced_with": ["white", "black", "grey", "beige"]
+    },
+    {
+      "strong_colour": "bright green",
+      "balanced_with": ["white", "black", "cream", "beige"]
+    },
+    {
+      "strong_colour": "orange",
+      "balanced_with": ["white", "black", "cream", "navy"]
+    }
+  ],
+  "styling_tip": "If one clothing piece is visually loud, keep the other major pieces relatively simple so the outfit does not become visually overwhelming."
+},
+
+{
+  "rule_type": "colour_balance",
+  "name": "60-30-10 colour balance",
+  "guideline": "A useful styling guideline is to use one dominant colour, one secondary colour and a smaller accent colour.",
+  "proportion": {
+    "dominant": "approximately 60%",
+    "secondary": "approximately 30%",
+    "accent": "approximately 10%"
+  },
+  "example": {
+    "dominant": "beige",
+    "secondary": "black",
+    "accent": "white"
+  },
+  "styling_tip": "The 60-30-10 approach is a guideline rather than a strict mathematical rule. Outfit proportions, patterns and textures can change the visual balance."
+},
+
+{
+  "rule_type": "colour_temperature",
+  "name": "Warm and cool colour balance",
+  "warm_colours": [
+    "red",
+    "orange",
+    "yellow",
+    "rust",
+    "terracotta",
+    "brown",
+    "camel"
+  ],
+  "cool_colours": [
+    "blue",
+    "navy",
+    "cyan",
+    "teal",
+    "cool green",
+    "purple"
+  ],
+  "neutral_colours": [
+    "black",
+    "white",
+    "grey",
+    "beige",
+    "cream"
+  ],
+  "guideline": "Warm and cool colours can be combined successfully when their intensity and proportions are balanced. Neutral colours can help connect different colour temperatures.",
+  "examples": [
+    ["navy", "beige"],
+    ["blue", "brown"],
+    ["olive", "cream"],
+    ["rust", "navy"],
+    ["teal", "cream"]
+  ],
+  "styling_tip": "Use neutral colours when you want to make a warm-and-cool combination feel more cohesive."
+},
+
+{
+  "rule_type": "visual_clutter",
+  "name": "Limit multiple strong colours",
+  "guideline": "Using several highly saturated or visually dominant colours in one outfit can make the outfit look visually busy.",
+  "recommendation": {
+    "preferred_strong_colours": "1 to 2",
+    "supporting_colours": "Use neutral or muted colours to balance strong colours."
+  },
+  "examples": [
+    {
+      "outfit": ["red", "black", "white"],
+      "assessment": "Generally easy to balance because black and white are neutral."
+    },
+    {
+      "outfit": ["bright red", "bright green", "bright orange"],
+      "assessment": "High visual intensity and may look visually busy."
+    }
+  ],
+  "styling_tip": "When one item is highly colourful or patterned, keep the remaining major pieces simpler."
+},
+
+{
+  "rule_type": "patterns_and_prints",
+  "name": "Pattern colour balance",
+  "guideline": "When one clothing piece has a strong print or pattern, the remaining pieces should usually use colours taken from the pattern or neutral colours.",
+  "recommendations": [
+    "Match one colour from the print with another outfit piece.",
+    "Use neutral bottoms with visually strong printed tops.",
+    "Avoid adding multiple competing bold prints unless a deliberate statement look is intended."
+  ],
+  "examples": [
+    {
+      "outfit": "floral shirt + beige trousers + white sneakers",
+      "assessment": "Balanced because the neutral trousers allow the printed shirt to remain the visual focus."
+    },
+    {
+      "outfit": "printed shirt + solid trousers in a colour from the print",
+      "assessment": "Cohesive because the trousers repeat an existing colour."
+    },
+    {
+      "outfit": "bold patterned shirt + bold patterned trousers",
+      "assessment": "High visual complexity and requires careful coordination."
+    }
+  ],
+  "styling_tip": "If the print is already visually strong, keep footwear and accessories relatively simple."
+},
+
+{
+  "rule_type": "occasion_colour",
+  "name": "Colour selection by occasion",
+  "guideline": "Colour combinations should also be evaluated according to the occasion, dress code and desired level of formality.",
+  "occasions": {
+    "office": {
+      "preferred_colours": [
+        "navy",
+        "white",
+        "grey",
+        "charcoal",
+        "beige",
+        "light blue"
+      ],
+      "styling_tip": "Prefer controlled contrast and muted colours for a polished professional appearance."
+    },
+    "college": {
+      "preferred_colours": [
+        "black",
+        "white",
+        "blue",
+        "grey",
+        "olive",
+        "beige"
+      ],
+      "styling_tip": "Casual combinations can have more flexibility while keeping the overall outfit balanced."
+    },
+    "date": {
+      "preferred_colours": [
+        "black",
+        "white",
+        "navy",
+        "beige",
+        "burgundy",
+        "dark green"
+      ],
+      "styling_tip": "Use balanced colours and avoid unnecessary visual clutter."
+    },
+    "wedding": {
+      "preferred_colours": [
+        "cream",
+        "beige",
+        "navy",
+        "maroon",
+        "dark green",
+        "pastel shades"
+      ],
+      "styling_tip": "Consider the wedding setting, time of day and level of formality before choosing colours."
+    },
+    "casual": {
+      "preferred_colours": [
+        "black",
+        "white",
+        "blue",
+        "grey",
+        "olive",
+        "beige",
+        "brown"
+      ],
+      "styling_tip": "Casual outfits allow more flexibility in colour and contrast."
+    }
+  }
+},
+
+{
+  "rule_type": "skin_tone_colour_guidance",
+  "name": "Colour selection based on skin undertone",
+  "guideline": "Colour recommendations can consider warm, cool or neutral undertones, but clothing colour suitability is not absolute and personal preference, contrast and styling context also matter.",
+  "undertones": {
+    "warm": {
+      "often_complementary": [
+        "cream",
+        "beige",
+        "camel",
+        "brown",
+        "olive",
+        "rust",
+        "terracotta",
+        "warm green"
+      ]
+    },
+    "cool": {
+      "often_complementary": [
+        "navy",
+        "blue",
+        "cool grey",
+        "burgundy",
+        "emerald",
+        "cool green",
+        "lavender"
+      ]
+    },
+    "neutral": {
+      "often_complementary": [
+        "black",
+        "white",
+        "grey",
+        "navy",
+        "beige",
+        "olive",
+        "burgundy"
+      ]
+    }
+  },
+  "important_note": "Do not reject a colour solely because of skin undertone. Contrast, shade intensity, lighting, personal preference and the complete outfit should also be considered.",
+  "styling_tip": "When suggesting colours near the face, consider undertone and contrast together rather than using a fixed list of 'allowed' colours."
+},
+
+{
+  "rule_type": "colour_and_proportion",
+  "name": "Colour placement and visual proportion",
+  "guideline": "Colour placement can influence where visual attention is drawn, but it should be treated as a styling tool rather than a strict body-type rule.",
+  "principles": [
+    {
+      "placement": "upper_body",
+      "effect": "A brighter or more contrasting top can draw more visual attention toward the upper body."
+    },
+    {
+      "placement": "lower_body",
+      "effect": "A brighter or more contrasting bottom can draw more visual attention toward the lower body."
+    },
+    {
+      "placement": "same_colour_top_and_bottom",
+      "effect": "Similar colours can create visual continuity and may make the outfit appear more streamlined."
+    },
+    {
+      "placement": "dark_bottom_light_top",
+      "effect": "Creates clear separation between the upper and lower body."
+    }
+  ],
+  "styling_tip": "Use colour placement according to the wearer's preferred visual balance, not as a fixed rule based on body type."
+},
+
+{
+  "rule_type": "colour_and_texture",
+  "name": "Colour interaction with fabric and texture",
+  "guideline": "The visual effect of a colour can change depending on fabric, texture, finish and lighting.",
+  "examples": [
+    {
+      "colour": "black",
+      "matte_fabric": "Often creates a clean and understated appearance.",
+      "shiny_fabric": "Can appear more dramatic and attention-grabbing."
+    },
+    {
+      "colour": "beige",
+      "textured_fabric": "Can create a relaxed and earthy appearance.",
+      "smooth_fabric": "Can appear cleaner and more refined."
+    },
+    {
+      "colour": "white",
+      "cotton": "Usually creates a casual and clean appearance.",
+      "linen": "Often creates a relaxed and breathable visual impression."
+    }
+  ],
+  "styling_tip": "When an outfit contains several textures, keep the colour palette relatively controlled so the outfit does not become visually overwhelming."
+},
+
+{
+  "rule_type": "time_of_day_colour",
+  "name": "Colour selection by time of day",
+  "guideline": "The perceived appearance of colours can change with natural and artificial lighting, so time of day and lighting should be considered when recommending an outfit.",
+  "daytime": {
+    "often_suitable": [
+      "white",
+      "cream",
+      "beige",
+      "light blue",
+      "light grey",
+      "pastel shades",
+      "olive"
+    ],
+    "styling_tip": "Lighter and softer colours can work well in bright daytime settings, depending on the occasion."
+  },
+  "evening": {
+    "often_suitable": [
+      "black",
+      "navy",
+      "charcoal",
+      "burgundy",
+      "dark green",
+      "brown"
+    ],
+    "styling_tip": "Deeper colours can create a refined evening appearance, especially when paired with appropriate textures and footwear."
+  },
+  "important_note": "This is not a strict rule. Venue lighting, dress code, season and personal preference can change the recommendation."
+},
+
+{
+  "rule_type": "seasonal_colour",
+  "name": "Colour selection by season",
+  "guideline": "Season can influence colour preference, but there are no strict colours that must be worn in a particular season.",
+  "summer": {
+    "often_suitable": [
+      "white",
+      "cream",
+      "beige",
+      "light blue",
+      "pastel green",
+      "light grey"
+    ],
+    "styling_tip": "Lighter colours can create a fresh and relaxed summer appearance."
+  },
+  "monsoon": {
+    "often_suitable": [
+      "navy",
+      "black",
+      "charcoal",
+      "olive",
+      "dark blue",
+      "brown"
+    ],
+    "styling_tip": "Darker and practical colours can be easier to manage in wet conditions."
+  },
+  "winter": {
+    "often_suitable": [
+      "black",
+      "charcoal",
+      "navy",
+      "brown",
+      "burgundy",
+      "dark green",
+      "cream"
+    ],
+    "styling_tip": "Deeper colours and warm neutrals can work well with winter layers and heavier textures."
+  },
+  "important_note": "Season should be considered together with weather, occasion, fabric, lighting and personal preference."
+},
+
+{
+  "rule_type": "colour_and_footwear",
+  "name": "Footwear colour coordination",
+  "guideline": "Footwear should support the overall colour palette rather than compete with the main outfit.",
+  "footwear_rules": [
+    {
+      "footwear": "white sneakers",
+      "works_well_with": [
+        "black",
+        "blue",
+        "beige",
+        "grey",
+        "olive",
+        "cream",
+        "white"
+      ],
+      "style": ["casual", "minimal", "smart-casual"]
+    },
+    {
+      "footwear": "black sneakers",
+      "works_well_with": [
+        "black",
+        "grey",
+        "white",
+        "blue",
+        "olive",
+        "beige"
+      ],
+      "style": ["casual", "streetwear", "minimal"]
+    },
+    {
+      "footwear": "brown loafers",
+      "works_well_with": [
+        "beige",
+        "cream",
+        "navy",
+        "white",
+        "brown",
+        "olive"
+      ],
+      "style": ["smart-casual", "formal", "minimal"]
+    },
+    {
+      "footwear": "brown sneakers",
+      "works_well_with": [
+        "beige",
+        "cream",
+        "olive",
+        "navy",
+        "white",
+        "brown"
+      ],
+      "style": ["casual", "minimal"]
+    }
+  ],
+  "styling_tip": "Neutral footwear colours are generally versatile. Strongly coloured footwear can be treated as an accent and should be considered with the rest of the outfit."
+},
+
+{
+  "rule_type": "colour_and_accessories",
+  "name": "Accessory colour coordination",
+  "guideline": "Accessories should complement the outfit's colour palette and style without creating unnecessary visual competition.",
+  "accessory_rules": [
+    {
+      "accessory": "silver watch",
+      "works_well_with": [
+        "black",
+        "white",
+        "grey",
+        "navy",
+        "blue",
+        "olive"
+      ],
+      "style": ["minimal", "casual", "smart-casual"]
+    },
+    {
+      "accessory": "brown leather watch",
+      "works_well_with": [
+        "beige",
+        "cream",
+        "brown",
+        "olive",
+        "navy",
+        "white"
+      ],
+      "style": ["casual", "smart-casual", "classic"]
+    },
+    {
+      "accessory": "silver chain",
+      "works_well_with": [
+        "black",
+        "white",
+        "grey",
+        "navy",
+        "blue",
+        "olive"
+      ],
+      "style": ["streetwear", "casual", "minimal"]
+    },
+    {
+      "accessory": "brown leather bag",
+      "works_well_with": [
+        "beige",
+        "cream",
+        "brown",
+        "olive",
+        "navy",
+        "white"
+      ],
+      "style": ["casual", "smart-casual", "classic"]
+    }
+  ],
+  "styling_tip": "If the outfit already contains a strong colour or pattern, keep accessories relatively simple. Metallic accessories can work as subtle accents."
+},
+
+{
+  "rule_type": "colour_and_layering",
+  "name": "Layering colour coordination",
+  "guideline": "When multiple layers are worn, the colours should create a deliberate visual hierarchy rather than making every layer equally dominant.",
+  "principles": [
+    {
+      "rule": "neutral_base",
+      "description": "A neutral inner layer can make a stronger outer layer easier to style."
+    },
+    {
+      "rule": "same_colour_family",
+      "description": "Different shades from the same colour family can create a cohesive layered outfit."
+    },
+    {
+      "rule": "contrast_layer",
+      "description": "A contrasting outer layer can become the visual focus while simpler colours support it."
+    }
+  ],
+  "examples": [
+    {
+      "outfit": "white T-shirt + blue overshirt + beige trousers",
+      "assessment": "Balanced because the neutral T-shirt and trousers support the blue outer layer."
+    },
+    {
+      "outfit": "black T-shirt + black overshirt + grey trousers",
+      "assessment": "Creates a controlled dark upper-body palette with a lighter lower-body contrast."
+    },
+    {
+      "outfit": "cream T-shirt + beige overshirt + brown trousers",
+      "assessment": "Uses warm neutral shades to create a cohesive layered look."
+    }
+  ],
+  "styling_tip": "If the outer layer has a bold colour or pattern, keep the inner layer and other major pieces relatively simple."
+},
+
+{
+  "combination": ["navy", "white"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "casual"],
+  "best_for": ["college", "office", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "brown leather watch"
+  ],
+  "reason": "Navy and white create a clean, high-contrast combination that works across casual and smart-casual settings."
+},
+
+{
+  "combination": ["navy", "beige"],
+  "works_well": true,
+  "style": ["smart-casual", "minimal", "casual"],
+  "best_for": ["office", "date", "college", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "brown leather belt"
+  ],
+  "reason": "Navy provides a deep cool base while beige adds a warm neutral contrast, creating a polished and versatile combination."
+},
+
+{
+  "combination": ["brown", "cream"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "casual", "classic"],
+  "best_for": ["date", "casual", "travel", "office", "wedding"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal gold watch",
+    "brown leather belt"
+  ],
+  "reason": "Brown and cream create a warm, low-intensity neutral palette that feels cohesive and refined."
+},
+
+{
+  "combination": ["green", "black"],
+  "works_well": true,
+  "style": ["streetwear", "casual", "minimal"],
+  "best_for": ["college", "casual", "travel", "party"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "black boots"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "silver chain",
+    "black watch"
+  ],
+  "reason": "Green and black create a strong, grounded combination. Darker greens such as olive and forest green work especially well with black."
+},
+
+{
+  "combination": ["burgundy", "beige"],
+  "works_well": true,
+  "style": ["smart-casual", "classic", "minimal"],
+  "best_for": ["date", "dinner", "party", "wedding", "casual"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal gold watch",
+    "brown leather belt"
+  ],
+  "reason": "Burgundy provides a rich deep colour while beige softens the palette, creating a balanced and refined combination."
+},
+
+{
+  "combination": ["grey", "white"],
+  "works_well": true,
+  "style": ["minimal", "casual", "smart-casual"],
+  "best_for": ["college", "office", "casual", "date", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "grey sneakers",
+    "black loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "silver chain",
+    "minimal black watch"
+  ],
+  "reason": "Grey and white create a clean low-saturation palette. Different shades and textures can add depth while keeping the outfit simple."
+},
+
+{
+  "combination": ["khaki", "black"],
+  "works_well": true,
+  "style": ["casual", "streetwear", "smart-casual"],
+  "best_for": ["college", "casual", "travel", "date"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "black watch",
+    "silver watch",
+    "minimal silver chain"
+  ],
+  "reason": "Khaki adds a muted warm-neutral tone while black provides strong contrast. The combination works well for relaxed and contemporary outfits."
+},
+
+{
+  "combination": ["tan", "navy"],
+  "works_well": true,
+  "style": ["smart-casual", "classic", "minimal"],
+  "best_for": ["office", "date", "dinner", "casual", "travel"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "brown leather belt",
+    "minimal watch"
+  ],
+  "reason": "Tan adds a warm earthy tone while navy provides a deep cool contrast, creating a polished and versatile colour palette."
+},
+
+{
+  "combination": ["olive", "black"],
+  "works_well": true,
+  "style": ["streetwear", "casual", "minimal"],
+  "best_for": ["college", "casual", "travel", "party"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "black boots"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "black watch",
+    "silver chain"
+  ],
+  "reason": "Olive adds a muted earthy tone while black creates strong contrast, resulting in a grounded and versatile combination."
+},
+
+{
+  "combination": ["white", "beige"],
+  "works_well": true,
+  "style": ["minimal", "casual", "smart-casual"],
+  "best_for": ["college", "casual", "date", "travel", "office"],
+  "recommended_footwear": [
+    "white sneakers",
+    "beige sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "brown leather belt"
+  ],
+  "reason": "White and beige create a clean, soft neutral palette that looks minimal, refined and easy to style."
+},
+
+{
+  "combination": ["brown", "blue"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "classic", "minimal"],
+  "best_for": ["college", "office", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "brown leather belt"
+  ],
+  "reason": "Blue provides a cool visual tone while brown adds warmth, creating a balanced and naturally coordinated combination."
+},
+
+{
+  "combination": ["maroon", "cream"],
+  "works_well": true,
+  "style": ["classic", "smart-casual", "minimal", "festive"],
+  "best_for": ["date", "dinner", "wedding", "party", "casual"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal gold watch",
+    "brown leather belt"
+  ],
+  "reason": "Maroon adds rich depth while cream softens the outfit, creating a refined and balanced warm-toned combination."
+},
+
+{
+  "combination": ["navy", "grey"],
+  "works_well": true,
+  "style": ["smart-casual", "minimal", "classic", "casual"],
+  "best_for": ["office", "college", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "black loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "minimal black watch",
+    "silver chain"
+  ],
+  "reason": "Navy and grey create a sophisticated low-saturation combination that looks clean, versatile and easy to dress up or down."
+},
+
+{
+  "combination": ["black", "brown"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "classic", "minimal"],
+  "best_for": ["date", "dinner", "casual", "travel", "party"],
+  "recommended_footwear": [
+    "brown loafers",
+    "brown sneakers",
+    "black sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal gold watch",
+    "black watch"
+  ],
+  "reason": "Black provides a strong neutral base while brown adds warmth, creating a mature and balanced combination."
+},
+
+{
+  "combination": ["blue", "grey"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "minimal", "classic"],
+  "best_for": ["college", "office", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "grey sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "brown leather watch",
+    "minimal silver chain"
+  ],
+  "reason": "Blue adds a cool visual tone while grey keeps the outfit neutral and understated, creating a clean and versatile combination."
+},
+
+{
+  "combination": ["beige", "brown"],
+  "works_well": true,
+  "style": ["casual", "minimal", "smart-casual", "classic"],
+  "best_for": ["college", "casual", "date", "travel", "office"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "brown leather belt",
+    "minimal gold watch"
+  ],
+  "reason": "Beige and brown create a warm tonal palette with subtle contrast, giving the outfit an earthy, refined and cohesive appearance."
+},
+
+{
+  "combination": ["black", "navy"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "streetwear", "classic"],
+  "best_for": ["college", "date", "casual", "dinner", "party"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "black loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "black watch",
+    "silver chain"
+  ],
+  "reason": "Black and navy create a dark tonal palette with subtle contrast, giving the outfit a clean, mature and understated appearance."
+},
+
+{
+  "combination": ["cream", "olive"],
+  "works_well": true,
+  "style": ["casual", "minimal", "streetwear", "smart-casual"],
+  "best_for": ["college", "casual", "travel", "weekend", "date"],
+  "recommended_footwear": [
+    "white sneakers",
+    "beige sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "brown bracelet"
+  ],
+  "reason": "Cream softens the earthy olive tone, creating a relaxed, natural and refined combination with low visual intensity."
+},
+
+{
+  "combination": ["grey", "beige"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "casual", "classic"],
+  "best_for": ["office", "college", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown loafers",
+    "beige sneakers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "brown leather watch",
+    "minimal watch"
+  ],
+  "reason": "Grey provides a cool neutral base while beige adds warmth, creating a soft, balanced and sophisticated combination."
+},
+
+{
+  "combination": ["white", "brown"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "classic", "minimal"],
+  "best_for": ["college", "office", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "brown leather belt",
+    "minimal watch"
+  ],
+  "reason": "White keeps the outfit clean and bright while brown adds warmth and depth, creating a balanced and timeless combination."
+},
+
+{
+  "combination": ["navy", "brown"],
+  "works_well": true,
+  "style": ["smart-casual", "classic", "minimal", "casual"],
+  "best_for": ["office", "date", "dinner", "casual", "travel"],
+  "recommended_footwear": [
+    "brown loafers",
+    "brown sneakers",
+    "white sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "brown leather belt",
+    "minimal watch"
+  ],
+  "reason": "Navy provides a deep cool base while brown adds warmth, creating a classic and naturally balanced combination."
+},
+
+{
+  "combination": ["black", "cream"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "casual", "classic"],
+  "best_for": ["college", "office", "date", "dinner", "casual"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "silver chain",
+    "minimal gold watch"
+  ],
+  "reason": "Black creates strong contrast while cream softens the overall look, resulting in a clean, refined and versatile combination."
+},
+
+{
+  "combination": ["olive", "beige"],
+  "works_well": true,
+  "style": ["casual", "minimal", "streetwear", "smart-casual"],
+  "best_for": ["college", "casual", "travel", "weekend", "date"],
+  "recommended_footwear": [
+    "white sneakers",
+    "beige sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "brown bracelet"
+  ],
+  "reason": "Olive and beige create a muted earthy palette with low visual intensity, giving the outfit a relaxed, natural and sophisticated appearance."
+},
+
+{
+  "combination": ["grey", "navy"],
+  "works_well": true,
+  "style": ["smart-casual", "minimal", "classic", "casual"],
+  "best_for": ["office", "college", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black loafers",
+    "black sneakers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "minimal black watch",
+    "silver chain"
+  ],
+  "reason": "Grey keeps the palette neutral while navy adds depth, creating a sophisticated and understated combination."
+},
+
+{
+  "combination": ["burgundy", "black"],
+  "works_well": true,
+  "style": ["smart-casual", "classic", "streetwear", "minimal"],
+  "best_for": ["date", "dinner", "party", "wedding", "casual"],
+  "recommended_footwear": [
+    "black sneakers",
+    "black loafers",
+    "white sneakers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "black watch",
+    "silver chain"
+  ],
+  "reason": "Burgundy adds rich colour and depth while black keeps the outfit grounded, creating a strong and refined combination."
+},
+
+{
+  "combination": ["green", "beige"],
+  "works_well": true,
+  "style": ["casual", "minimal", "smart-casual", "classic"],
+  "best_for": ["college", "casual", "travel", "date", "weekend"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "minimal watch",
+    "brown leather belt"
+  ],
+  "reason": "Green adds a natural cool tone while beige provides a warm neutral base, creating a balanced and earthy combination."
+},
+
+{
+  "combination": ["blue", "brown"],
+  "works_well": true,
+  "style": ["casual", "smart-casual", "classic", "minimal"],
+  "best_for": ["college", "office", "date", "casual", "travel"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "brown leather belt",
+    "silver watch"
+  ],
+  "reason": "Blue adds a cool tone while brown brings warmth, creating a natural and versatile colour balance."
+},
+
+{
+  "combination": ["maroon", "black"],
+  "works_well": true,
+  "style": ["classic", "smart-casual", "streetwear", "minimal"],
+  "best_for": ["date", "dinner", "party", "wedding", "casual"],
+  "recommended_footwear": [
+    "black sneakers",
+    "black loafers",
+    "white sneakers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "black watch",
+    "silver chain"
+  ],
+  "reason": "Maroon adds rich depth while black creates a strong neutral base, resulting in a bold but controlled combination."
+},
+
+{
+  "combination": ["cream", "navy"],
+  "works_well": true,
+  "style": ["smart-casual", "classic", "minimal", "casual"],
+  "best_for": ["office", "date", "college", "wedding", "casual"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "brown leather belt"
+  ],
+  "reason": "Cream softens the deep navy tone, creating a clean, elegant and versatile combination with balanced contrast."
+},
+
+{
+  "combination": ["grey", "brown"],
+  "works_well": true,
+  "style": ["smart-casual", "casual", "classic", "minimal"],
+  "best_for": ["office", "date", "casual", "travel", "college"],
+  "recommended_footwear": [
+    "brown loafers",
+    "white sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "brown leather belt"
+  ],
+  "reason": "Grey provides a cool neutral base while brown adds warmth, creating a balanced and sophisticated combination."
+},
+
+{
+  "combination": ["burgundy", "navy"],
+  "works_well": true,
+  "style": ["classic", "smart-casual", "minimal", "formal"],
+  "best_for": ["office", "date", "dinner", "wedding", "party"],
+  "recommended_footwear": [
+    "brown loafers",
+    "black loafers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "minimal watch"
+  ],
+  "reason": "Burgundy and navy are both deep colours, creating a sophisticated tonal combination when balanced with simple accessories and footwear."
+},
+
+{
+  "combination": ["cream", "black"],
+  "works_well": true,
+  "style": ["minimal", "smart-casual", "classic", "casual"],
+  "best_for": ["college", "office", "date", "dinner", "casual"],
+  "recommended_footwear": [
+    "white sneakers",
+    "black sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "minimal gold watch",
+    "silver chain"
+  ],
+  "reason": "Cream softens the strong black contrast, creating a clean, refined and versatile neutral combination."
+},
+
+{
+  "combination": ["navy", "green"],
+  "works_well": true,
+  "style": ["smart-casual", "casual", "classic", "minimal"],
+  "best_for": ["college", "office", "date", "travel", "casual"],
+  "recommended_footwear": [
+    "white sneakers",
+    "brown sneakers",
+    "brown loafers"
+  ],
+  "recommended_accessories": [
+    "silver watch",
+    "brown leather watch",
+    "minimal watch"
+  ],
+  "reason": "Navy provides a deep cool base while green adds a natural tone, creating a subtle and sophisticated combination."
+},
+
+{
+  "combination": ["olive", "white"],
+  "works_well": true,
+  "style": ["casual", "minimal", "streetwear", "smart-casual"],
+  "best_for": ["college", "casual", "travel", "weekend", "date"],
+  "recommended_footwear": [
+    "white sneakers",
+    "beige sneakers",
+    "brown sneakers"
+  ],
+  "recommended_accessories": [
+    "brown leather watch",
+    "silver watch",
+    "minimal watch"
+  ],
+  "reason": "White creates clean contrast with earthy olive, making the outfit look fresh, relaxed and easy to style."
+},
+
+{
+  "rule_type": "accent_colour",
+  "name": "Accent colour usage",
+  "guideline": "Use one noticeable accent colour with a neutral or muted base to add visual interest without making the outfit look overly busy.",
+  "good_examples": [
+    "black outfit + burgundy accent",
+    "beige outfit + olive accent",
+    "navy outfit + cream accent",
+    "grey outfit + burgundy accent",
+    "white outfit + blue accent"
+  ],
+  "styling_tip": "When one item is the main accent, keep the remaining pieces relatively simple and coordinated."
+},
+
+{
+  "rule_type": "colour_repetition",
+  "name": "Repeat a colour across the outfit",
+  "guideline": "Repeating one colour in two or more elements can create visual cohesion and make the outfit feel more intentional.",
+  "good_examples": [
+    "brown shoes + brown belt",
+    "white sneakers + white top",
+    "navy shirt + navy accessory",
+    "olive overshirt + olive accessory",
+    "black trousers + black shoes"
+  ],
+  "styling_tip": "Colour repetition does not need to be exact; similar shades can create coordination while keeping the outfit natural."
+},
+
+{
+  "rule_type": "three_colour_rule",
+  "name": "Limit the main colour palette",
+  "guideline": "Using around two to three main colours can make an outfit easier to coordinate and visually balanced.",
+  "good_examples": [
+    "black + beige + white",
+    "navy + cream + brown",
+    "olive + black + white",
+    "blue + grey + white",
+    "burgundy + beige + brown"
+  ],
+  "styling_tip": "Treat this as a practical guideline rather than a strict rule; patterns, textures and accessories can introduce additional shades."
+},
+
+{
+  "rule_type": "colour_dominance",
+  "name": "Choose a dominant colour",
+  "guideline": "A clear dominant colour gives the outfit visual direction, while secondary and accent colours should support it.",
+  "good_examples": [
+    "dominant black + beige trousers + white sneakers",
+    "dominant beige + black top + brown accessories",
+    "dominant navy + white shirt + brown shoes",
+    "dominant olive + cream top + brown accessories"
+  ],
+  "styling_tip": "If multiple pieces have equally strong colours, simplify the accessories or footwear to reduce visual competition."
+},
+
+{
+  "rule_type": "denim_colour_matching",
+  "name": "Denim colour coordination",
+  "guideline": "Denim is versatile and can be paired with neutrals, earthy tones and selected colours depending on the denim wash.",
+  "recommendations": {
+    "light_blue_denim": [
+      "white",
+      "cream",
+      "beige",
+      "grey",
+      "black",
+      "olive",
+      "navy"
+    ],
+    "medium_blue_denim": [
+      "white",
+      "black",
+      "beige",
+      "cream",
+      "grey",
+      "olive",
+      "brown"
+    ],
+    "dark_blue_denim": [
+      "white",
+      "cream",
+      "beige",
+      "grey",
+      "black",
+      "brown",
+      "olive"
+    ],
+    "black_denim": [
+      "white",
+      "cream",
+      "grey",
+      "beige",
+      "olive",
+      "burgundy",
+      "blue"
+    ]
+  },
+  "styling_tip": "Use the denim wash as part of the overall colour balance and consider the top, footwear and accessories together rather than matching only two pieces."
+},
+
+{
+  "rule_type": "pastel_colour_balance",
+  "name": "Pastel colour coordination",
+  "guideline": "Pastel colours create a softer visual effect and usually work well with neutrals or other muted shades.",
+  "recommendations": {
+    "pastel_blue": [
+      "white",
+      "cream",
+      "beige",
+      "grey",
+      "navy"
+    ],
+    "pastel_green": [
+      "white",
+      "cream",
+      "beige",
+      "grey",
+      "brown"
+    ],
+    "pastel_pink": [
+      "white",
+      "cream",
+      "grey",
+      "beige",
+      "navy"
+    ],
+    "lavender": [
+      "white",
+      "cream",
+      "grey",
+      "beige",
+      "navy"
+    ]
+  },
+  "styling_tip": "When using a pastel piece, keep the rest of the outfit neutral or muted if you want a clean and easy-to-style appearance."
+},
+
+{
+  "rule_type": "colour_blocking",
+  "name": "Colour blocking",
+  "guideline": "Colour blocking uses clearly different colour areas to create a deliberate visual contrast between outfit pieces.",
+  "good_examples": [
+    "black top + beige trousers",
+    "navy top + cream trousers",
+    "olive top + white trousers",
+    "burgundy top + beige trousers",
+    "blue top + white trousers"
+  ],
+  "styling_tip": "When using strong colour blocking, keep footwear and accessories relatively simple so the main colour contrast remains the focus."
+},
+
+{
+  "rule_type": "formal_colour_palette",
+  "name": "Formal and professional colour selection",
+  "guideline": "Formal outfits generally work well with restrained, neutral and deeper colours that create a polished appearance.",
+  "recommended_colours": [
+    "navy",
+    "charcoal",
+    "grey",
+    "black",
+    "white",
+    "cream",
+    "beige",
+    "light blue",
+    "brown"
+  ],
+  "good_examples": [
+    "navy + white",
+    "charcoal + white",
+    "grey + light blue",
+    "navy + beige",
+    "black + white"
+  ],
+  "styling_tip": "For formal settings, keep highly saturated colours and multiple strong accents limited unless the dress code or occasion calls for them."
+},
+
+{
+  "rule_type": "festive_colour_palette",
+  "name": "Festive colour selection",
+  "guideline": "Festive outfits can use richer, warmer or more noticeable colours while maintaining coordination between the main outfit pieces.",
+  "recommended_colours": [
+    "maroon",
+    "burgundy",
+    "cream",
+    "beige",
+    "navy",
+    "dark green",
+    "olive",
+    "rust",
+    "terracotta",
+    "brown"
+  ],
+  "good_examples": [
+    "maroon + cream",
+    "burgundy + beige",
+    "dark green + cream",
+    "navy + beige",
+    "rust + cream"
+  ],
+  "styling_tip": "For festive styling, richer colours can be paired with softer neutrals to create visual balance without making the outfit overly busy."
+},
+
+{
+  "rule_type": "black_bottom_colour_matching",
+  "name": "Colour coordination with black bottoms",
+  "guideline": "Black trousers or jeans provide a neutral base and can support a wide range of top colours.",
+  "recommended_top_colours": [
+    "white",
+    "cream",
+    "beige",
+    "grey",
+    "blue",
+    "navy",
+    "olive",
+    "green",
+    "burgundy",
+    "maroon"
+  ],
+  "good_examples": [
+    "black jeans + white t-shirt",
+    "black trousers + beige shirt",
+    "black jeans + olive t-shirt",
+    "black trousers + burgundy shirt",
+    "black jeans + grey t-shirt"
+  ],
+  "styling_tip": "Because black bottoms are visually neutral, choose the top based on the desired contrast, occasion and overall style."
+},
+
+{
+  "rule_type": "beige_bottom_colour_matching",
+  "name": "Colour coordination with beige bottoms",
+  "guideline": "Beige trousers provide a warm neutral base and work well with both darker and lighter top colours.",
+  "recommended_top_colours": [
+    "black",
+    "white",
+    "navy",
+    "blue",
+    "olive",
+    "green",
+    "brown",
+    "burgundy",
+    "cream",
+    "grey"
+  ],
+  "good_examples": [
+    "beige trousers + black t-shirt",
+    "beige trousers + navy shirt",
+    "beige trousers + olive t-shirt",
+    "beige trousers + burgundy shirt",
+    "beige trousers + white t-shirt"
+  ],
+  "styling_tip": "Use darker tops for stronger contrast and lighter or earthy tops for a softer tonal appearance."
+},
+
+{
+  "rule_type": "grey_bottom_colour_matching",
+  "name": "Colour coordination with grey bottoms",
+  "guideline": "Grey trousers or jeans provide a neutral foundation and can be paired with both light and dark tops.",
+  "recommended_top_colours": [
+    "white",
+    "black",
+    "navy",
+    "blue",
+    "beige",
+    "cream",
+    "olive",
+    "burgundy",
+    "brown"
+  ],
+  "good_examples": [
+    "grey trousers + white shirt",
+    "grey jeans + black t-shirt",
+    "grey trousers + navy shirt",
+    "grey jeans + olive t-shirt",
+    "grey trousers + burgundy shirt"
+  ],
+  "styling_tip": "Use contrast between the top and grey bottom when you want clearer separation, or similar muted tones for a softer minimal look."
+},
+
+{
+  "rule_type": "white_bottom_colour_matching",
+  "name": "Colour coordination with white bottoms",
+  "guideline": "White trousers or jeans create a bright neutral base and pair well with both muted and deeper colours.",
+  "recommended_top_colours": [
+    "black",
+    "navy",
+    "blue",
+    "olive",
+    "green",
+    "brown",
+    "burgundy",
+    "maroon",
+    "grey",
+    "cream"
+  ],
+  "good_examples": [
+    "white trousers + black shirt",
+    "white jeans + navy t-shirt",
+    "white trousers + olive shirt",
+    "white jeans + burgundy shirt",
+    "white trousers + brown shirt"
+  ],
+  "styling_tip": "Since white bottoms are visually bright, darker or richer tops can create stronger contrast while muted colours create a softer look."
+},
+
+{
+  "rule_type": "olive_bottom_colour_matching",
+  "name": "Colour coordination with olive bottoms",
+  "guideline": "Olive trousers provide an earthy muted base and work well with neutrals, warm tones and selected cool colours.",
+  "recommended_top_colours": [
+    "white",
+    "cream",
+    "black",
+    "beige",
+    "navy",
+    "blue",
+    "brown",
+    "burgundy",
+    "grey"
+  ],
+  "good_examples": [
+    "olive trousers + white t-shirt",
+    "olive pants + black t-shirt",
+    "olive trousers + cream shirt",
+    "olive pants + navy shirt",
+    "olive trousers + burgundy shirt"
+  ],
+  "styling_tip": "Keep the top colour controlled when the olive bottom is already paired with other earthy or textured pieces."
+}
+  ]
+}
+  ]
+}

@@ -28,7 +28,7 @@ function GroomingTrend(){
             </div>
 
             <div className="trendcard">
-                            <NavLink className={"trendnav"} to='/Clothes'>
+                            <NavLink className={"trendnav"} to='/Fragrence'>
                             <img className="trendcardimg" src={fragrence} alt="'fragrence"/>
                             <h2 className="trendnow">Fragrence</h2>
                             <p className="paharagraph">Discover signature scents that elevate your style and leave a lasting impression.</p>
@@ -36,7 +36,7 @@ function GroomingTrend(){
             </div>
 
             <div className="trendcard">
-                            <NavLink className={"trendnav"} to='/Clothes'>
+                            <NavLink className={"trendnav"} to='/Skincare'>
                             <img className="trendcardimg" src={skincare} alt="'skincare"/>
                             <h2 className="trendnow">Skincare</h2>
                             <p className="paharagraph">Simple skincare essentials and routines for healthy, fresh-looking skin.</p>

@@ -1,0 +1,1536 @@
+{
+  "knowledge_base": "recommendation_rules",
+  "version": "1.0",
+  "description": "Decision-making rules for combining image analysis, user preferences, occasion, color, fit, footwear, accessories, grooming, and style knowledge into final fashion recommendations.",
+  "rules": [
+    {
+      "id": "rr001",
+      "category": "input_priority",
+      "rule": "Use explicitly provided user information as the highest-confidence input."
+    },
+    {
+      "id": "rr002",
+      "category": "input_priority",
+      "rule": "Use image-derived information only when the visual evidence is sufficiently clear."
+    },
+    {
+      "id": "rr003",
+      "category": "input_priority",
+      "rule": "Do not override explicit user preferences with generic fashion rules unless there is a clear practical or occasion conflict."
+    },
+    {
+      "id": "rr004",
+      "category": "input_priority",
+      "rule": "Use occasion requirements before subjective style preferences when the user specifies a formal dress code."
+    },
+    {
+      "id": "rr005",
+      "category": "input_priority",
+      "rule": "Use weather information when it materially affects clothing practicality."
+    },
+    {
+      "id": "rr006",
+      "category": "input_priority",
+      "rule": "Use cultural or venue information when explicitly provided."
+    },
+    {
+      "id": "rr007",
+      "category": "input_priority",
+      "rule": "Do not invent missing user preferences."
+    },
+    {
+      "id": "rr008",
+      "category": "input_priority",
+      "rule": "Do not invent missing occasion details."
+    },
+    {
+      "id": "rr009",
+      "category": "input_priority",
+      "rule": "Do not invent clothing attributes that cannot be reasonably identified from the image."
+    },
+    {
+      "id": "rr010",
+      "category": "input_priority",
+      "rule": "When reliable user information conflicts with uncertain image interpretation, prefer the user information."
+    },
+
+    {
+      "id": "rr011",
+      "category": "image_analysis",
+      "rule": "Use structured image analysis as the bridge between the uploaded image and knowledge-base rules."
+    },
+    {
+      "id": "rr012",
+      "category": "image_analysis",
+      "rule": "Identify visible garments before applying styling recommendations."
+    },
+    {
+      "id": "rr013",
+      "category": "image_analysis",
+      "rule": "Identify visible colors before applying color-matching rules."
+    },
+    {
+      "id": "rr014",
+      "category": "image_analysis",
+      "rule": "Identify visible fit or silhouette before applying fit recommendations."
+    },
+    {
+      "id": "rr015",
+      "category": "image_analysis",
+      "rule": "Identify footwear before applying footwear-specific recommendations."
+    },
+    {
+      "id": "rr016",
+      "category": "image_analysis",
+      "rule": "Identify visible accessories before applying accessory recommendations."
+    },
+    {
+      "id": "rr017",
+      "category": "image_analysis",
+      "rule": "Identify visible grooming characteristics only when the image provides sufficient detail."
+    },
+    {
+      "id": "rr018",
+      "category": "image_analysis",
+      "rule": "Separate observed facts from inferred style classifications."
+    },
+    {
+      "id": "rr019",
+      "category": "image_analysis",
+      "rule": "Do not treat an inferred garment type as certain when the image is ambiguous."
+    },
+    {
+      "id": "rr020",
+      "category": "image_analysis",
+      "rule": "Use confidence values for important image-derived attributes."
+    },
+
+    {
+      "id": "rr021",
+      "category": "recommendation_pipeline",
+      "rule": "The recommendation process should follow analysis, context detection, rule retrieval, rule prioritization, recommendation generation, and validation."
+    },
+    {
+      "id": "rr022",
+      "category": "recommendation_pipeline",
+      "rule": "Do not generate the final recommendation before identifying the major outfit components."
+    },
+    {
+      "id": "rr023",
+      "category": "recommendation_pipeline",
+      "rule": "Determine the primary occasion before judging occasion suitability."
+    },
+    {
+      "id": "rr024",
+      "category": "recommendation_pipeline",
+      "rule": "Determine the intended style direction before suggesting style-specific changes."
+    },
+    {
+      "id": "rr025",
+      "category": "recommendation_pipeline",
+      "rule": "Retrieve rules relevant to the detected clothing attributes instead of applying every knowledge-base rule."
+    },
+    {
+      "id": "rr026",
+      "category": "recommendation_pipeline",
+      "rule": "Prioritize rules that directly relate to the user's request."
+    },
+    {
+      "id": "rr027",
+      "category": "recommendation_pipeline",
+      "rule": "Apply high-impact rules before low-impact styling details."
+    },
+    {
+      "id": "rr028",
+      "category": "recommendation_pipeline",
+      "rule": "Validate the proposed recommendation against occasion, color, fit, footwear, and practicality."
+    },
+    {
+      "id": "rr029",
+      "category": "recommendation_pipeline",
+      "rule": "If the proposed change creates a new major mismatch, reject or modify that change."
+    },
+    {
+      "id": "rr030",
+      "category": "recommendation_pipeline",
+      "rule": "The final recommendation should be internally consistent across all visible outfit components."
+    },
+
+    {
+      "id": "rr031",
+      "category": "rule_selection",
+      "rule": "Select rules using garment type, color, fit, occasion, style, footwear, accessories, grooming, weather, and user preference."
+    },
+    {
+      "id": "rr032",
+      "category": "rule_selection",
+      "rule": "Do not apply rules unrelated to the detected outfit."
+    },
+    {
+      "id": "rr033",
+      "category": "rule_selection",
+      "rule": "Prefer specific rules over broad generic rules when both apply."
+    },
+    {
+      "id": "rr034",
+      "category": "rule_selection",
+      "rule": "Prefer occasion-specific rules over general casual or formal rules."
+    },
+    {
+      "id": "rr035",
+      "category": "rule_selection",
+      "rule": "Prefer explicit dress-code rules over aesthetic style rules."
+    },
+    {
+      "id": "rr036",
+      "category": "rule_selection",
+      "rule": "Prefer practical weather rules when weather creates a direct clothing constraint."
+    },
+    {
+      "id": "rr037",
+      "category": "rule_selection",
+      "rule": "Prefer user-specific preferences when multiple recommendations are otherwise equally suitable."
+    },
+    {
+      "id": "rr038",
+      "category": "rule_selection",
+      "rule": "Avoid stacking multiple rules that produce the same recommendation."
+    },
+    {
+      "id": "rr039",
+      "category": "rule_selection",
+      "rule": "Use the smallest relevant rule set capable of explaining the recommendation."
+    },
+    {
+      "id": "rr040",
+      "category": "rule_selection",
+      "rule": "When no specific rule applies, fall back to general coordination principles."
+    },
+
+    {
+      "id": "rr041",
+      "category": "priority",
+      "rule": "Prioritize safety and practical suitability over aesthetic preference."
+    },
+    {
+      "id": "rr042",
+      "category": "priority",
+      "rule": "Prioritize explicit dress code over personal experimentation."
+    },
+    {
+      "id": "rr043",
+      "category": "priority",
+      "rule": "Prioritize weather suitability over optional aesthetic details."
+    },
+    {
+      "id": "rr044",
+      "category": "priority",
+      "rule": "Prioritize major fit problems over minor accessory issues."
+    },
+    {
+      "id": "rr045",
+      "category": "priority",
+      "rule": "Prioritize major color clashes over minor styling imperfections."
+    },
+    {
+      "id": "rr046",
+      "category": "priority",
+      "rule": "Prioritize occasion mismatch over personal style experimentation."
+    },
+    {
+      "id": "rr047",
+      "category": "priority",
+      "rule": "Prioritize footwear practicality when the activity requires substantial walking or movement."
+    },
+    {
+      "id": "rr048",
+      "category": "priority",
+      "rule": "Prioritize garment condition when the event is formal or professional."
+    },
+    {
+      "id": "rr049",
+      "category": "priority",
+      "rule": "Prioritize the user's explicit desired outcome when no major constraint is violated."
+    },
+    {
+      "id": "rr050",
+      "category": "priority",
+      "rule": "Do not prioritize a minor aesthetic improvement over a major practical requirement."
+    },
+
+    {
+      "id": "rr051",
+      "category": "conflict_resolution",
+      "rule": "When two rules conflict, determine which rule has higher contextual relevance."
+    },
+    {
+      "id": "rr052",
+      "category": "conflict_resolution",
+      "rule": "Specific occasion rules should generally override broad style rules."
+    },
+    {
+      "id": "rr053",
+      "category": "conflict_resolution",
+      "rule": "Explicit user constraints should generally override optional style preferences."
+    },
+    {
+      "id": "rr054",
+      "category": "conflict_resolution",
+      "rule": "Weather constraints should override purely aesthetic layering recommendations."
+    },
+    {
+      "id": "rr055",
+      "category": "conflict_resolution",
+      "rule": "Cultural requirements should be considered when explicitly relevant to the occasion."
+    },
+    {
+      "id": "rr056",
+      "category": "conflict_resolution",
+      "rule": "When two valid styles conflict, select the style that better matches the requested occasion."
+    },
+    {
+      "id": "rr057",
+      "category": "conflict_resolution",
+      "rule": "When evidence is insufficient to resolve a conflict, present the uncertainty instead of inventing certainty."
+    },
+    {
+      "id": "rr058",
+      "category": "conflict_resolution",
+      "rule": "Do not combine contradictory recommendations into a confusing final outfit."
+    },
+    {
+      "id": "rr059",
+      "category": "conflict_resolution",
+      "rule": "If two changes have similar value, prefer the less disruptive change."
+    },
+    {
+      "id": "rr060",
+      "category": "conflict_resolution",
+      "rule": "If a recommendation repeatedly conflicts with reliable user preferences, adapt the recommendation rather than ignoring the preferences."
+    },
+
+    {
+      "id": "rr061",
+      "category": "minimum_change",
+      "rule": "Do not change an outfit component unless there is a clear reason."
+    },
+    {
+      "id": "rr062",
+      "category": "minimum_change",
+      "rule": "If the outfit is already suitable, recommend keeping the core outfit."
+    },
+    {
+      "id": "rr063",
+      "category": "minimum_change",
+      "rule": "Prefer one high-impact change over several low-impact changes."
+    },
+    {
+      "id": "rr064",
+      "category": "minimum_change",
+      "rule": "Change footwear first when footwear is the primary source of formality mismatch."
+    },
+    {
+      "id": "rr065",
+      "category": "minimum_change",
+      "rule": "Change the outer layer first when layering is the primary source of style mismatch."
+    },
+    {
+      "id": "rr066",
+      "category": "minimum_change",
+      "rule": "Change the bottom when the silhouette or occasion mismatch mainly comes from the lower half."
+    },
+    {
+      "id": "rr067",
+      "category": "minimum_change",
+      "rule": "Change the top when the upper garment conflicts strongly with the occasion."
+    },
+    {
+      "id": "rr068",
+      "category": "minimum_change",
+      "rule": "Use accessories as a final refinement rather than the first solution to a major outfit problem."
+    },
+    {
+      "id": "rr069",
+      "category": "minimum_change",
+      "rule": "Do not recommend replacing multiple garments when one adjustment solves the primary issue."
+    },
+    {
+      "id": "rr070",
+      "category": "minimum_change",
+      "rule": "Preserve items that already satisfy the requested style."
+    },
+
+    {
+      "id": "rr071",
+      "category": "color_integration",
+      "rule": "Use the colour-theory knowledge base when evaluating outfit color relationships."
+    },
+    {
+      "id": "rr072",
+      "category": "color_integration",
+      "rule": "Do not re-evaluate every color combination if an applicable color rule already exists."
+    },
+    {
+      "id": "rr073",
+      "category": "color_integration",
+      "rule": "Prioritize dominant color relationships before small accessory color details."
+    },
+    {
+      "id": "rr074",
+      "category": "color_integration",
+      "rule": "Use color contrast when the outfit needs clearer visual separation."
+    },
+    {
+      "id": "rr075",
+      "category": "color_integration",
+      "rule": "Use tonal coordination when the requested style is minimalist or understated."
+    },
+    {
+      "id": "rr076",
+      "category": "color_integration",
+      "rule": "Avoid adding another strong accent color when the outfit already contains a dominant statement color."
+    },
+    {
+      "id": "rr077",
+      "category": "color_integration",
+      "rule": "Consider footwear as part of the overall color balance."
+    },
+    {
+      "id": "rr078",
+      "category": "color_integration",
+      "rule": "Consider visible accessories as part of the overall color repetition strategy."
+    },
+    {
+      "id": "rr079",
+      "category": "color_integration",
+      "rule": "Do not reject an outfit solely because it does not follow a generic three-color guideline when the overall combination is coherent."
+    },
+    {
+      "id": "rr080",
+      "category": "color_integration",
+      "rule": "When color identification is uncertain, use cautious language instead of precise unsupported color names."
+    },
+
+    {
+      "id": "rr081",
+      "category": "fit_integration",
+      "rule": "Use the fit-and-silhouette knowledge base when evaluating proportions."
+    },
+    {
+      "id": "rr082",
+      "category": "fit_integration",
+      "rule": "Evaluate top and bottom proportions together rather than independently."
+    },
+    {
+      "id": "rr083",
+      "category": "fit_integration",
+      "rule": "Consider silhouette before recommending a new garment solely for trend reasons."
+    },
+    {
+      "id": "rr084",
+      "category": "fit_integration",
+      "rule": "Avoid recommending oversized pieces without evaluating the existing outfit volume."
+    },
+    {
+      "id": "rr085",
+      "category": "fit_integration",
+      "rule": "Avoid recommending slim pieces without considering the intended overall silhouette."
+    },
+    {
+      "id": "rr086",
+      "category": "fit_integration",
+      "rule": "Use consistent silhouette language across the final recommendation."
+    },
+    {
+      "id": "rr087",
+      "category": "fit_integration",
+      "rule": "When the user prefers a specific fit, preserve that preference when occasion permits."
+    },
+    {
+      "id": "rr088",
+      "category": "fit_integration",
+      "rule": "Do not infer exact body measurements from a single image."
+    },
+    {
+      "id": "rr089",
+      "category": "fit_integration",
+      "rule": "Do not make body-shape claims when image evidence is insufficient."
+    },
+    {
+      "id": "rr090",
+      "category": "fit_integration",
+      "rule": "Use garment proportions rather than unsupported body measurements when explaining fit recommendations."
+    },
+
+    {
+      "id": "rr091",
+      "category": "footwear_integration",
+      "rule": "Use the footwear-and-accessories knowledge base when evaluating footwear or accessories."
+    },
+    {
+      "id": "rr092",
+      "category": "footwear_integration",
+      "rule": "Evaluate footwear based on occasion, outfit style, color, and practicality."
+    },
+    {
+      "id": "rr093",
+      "category": "footwear_integration",
+      "rule": "Do not recommend footwear solely because it is fashionable if it conflicts with the occasion."
+    },
+    {
+      "id": "rr094",
+      "category": "footwear_integration",
+      "rule": "Use clean minimal footwear when the intended style is understated."
+    },
+    {
+      "id": "rr095",
+      "category": "footwear_integration",
+      "rule": "Use refined footwear when the outfit needs a formality upgrade."
+    },
+    {
+      "id": "rr096",
+      "category": "footwear_integration",
+      "rule": "Use practical footwear when weather or activity requires it."
+    },
+    {
+      "id": "rr097",
+      "category": "footwear_integration",
+      "rule": "Avoid unnecessary footwear changes when the current footwear already suits the occasion."
+    },
+    {
+      "id": "rr098",
+      "category": "footwear_integration",
+      "rule": "Evaluate footwear and trousers together when judging the lower-body visual balance."
+    },
+    {
+      "id": "rr099",
+      "category": "footwear_integration",
+      "rule": "Consider footwear condition when recommending outfits for formal or professional settings."
+    },
+    {
+      "id": "rr100",
+      "category": "footwear_integration",
+      "rule": "If footwear is not visible, do not invent its style or color."
+    },
+
+    {
+      "id": "rr101",
+      "category": "accessory_integration",
+      "rule": "Accessories should support the primary outfit direction."
+    },
+    {
+      "id": "rr102",
+      "category": "accessory_integration",
+      "rule": "Use accessories to refine an already coherent outfit rather than rescue a major mismatch."
+    },
+    {
+      "id": "rr103",
+      "category": "accessory_integration",
+      "rule": "Avoid recommending several statement accessories simultaneously."
+    },
+    {
+      "id": "rr104",
+      "category": "accessory_integration",
+      "rule": "Match accessory formality to the occasion."
+    },
+    {
+      "id": "rr105",
+      "category": "accessory_integration",
+      "rule": "Use restrained accessories for formal and professional contexts."
+    },
+    {
+      "id": "rr106",
+      "category": "accessory_integration",
+      "rule": "More expressive accessories can be considered for casual, streetwear, party, or content contexts."
+    },
+    {
+      "id": "rr107",
+      "category": "accessory_integration",
+      "rule": "Use accessory color repetition when it improves visual cohesion."
+    },
+    {
+      "id": "rr108",
+      "category": "accessory_integration",
+      "rule": "Do not force color repetition when it makes the outfit visually crowded."
+    },
+    {
+      "id": "rr109",
+      "category": "accessory_integration",
+      "rule": "Consider practical accessories when the activity requires them."
+    },
+    {
+      "id": "rr110",
+      "category": "accessory_integration",
+      "rule": "If an accessory is unclear in the image, describe it cautiously or omit it from the recommendation."
+    },
+
+    {
+      "id": "rr111",
+      "category": "grooming_integration",
+      "rule": "Use the grooming knowledge base when hairstyle, beard, sunglasses, or grooming coordination is requested."
+    },
+    {
+      "id": "rr112",
+      "category": "grooming_integration",
+      "rule": "Do not force grooming recommendations into an outfit request when grooming is irrelevant."
+    },
+    {
+      "id": "rr113",
+      "category": "grooming_integration",
+      "rule": "Coordinate grooming formality with the occasion."
+    },
+    {
+      "id": "rr114",
+      "category": "grooming_integration",
+      "rule": "Use subtle grooming refinements for professional settings."
+    },
+    {
+      "id": "rr115",
+      "category": "grooming_integration",
+      "rule": "More expressive grooming can be considered for casual or fashion-content contexts."
+    },
+    {
+      "id": "rr116",
+      "category": "grooming_integration",
+      "rule": "Do not make sensitive or unsupported assumptions about facial characteristics."
+    },
+    {
+      "id": "rr117",
+      "category": "grooming_integration",
+      "rule": "Do not infer exact face shape when the image angle prevents reliable analysis."
+    },
+    {
+      "id": "rr118",
+      "category": "grooming_integration",
+      "rule": "If sunglasses are already suitable, do not recommend changing them without a specific reason."
+    },
+    {
+      "id": "rr119",
+      "category": "grooming_integration",
+      "rule": "Grooming recommendations should complement rather than dominate outfit recommendations."
+    },
+    {
+      "id": "rr120",
+      "category": "grooming_integration",
+      "rule": "Separate outfit recommendations from optional grooming recommendations in the final output."
+    },
+
+    {
+      "id": "rr121",
+      "category": "occasion_integration",
+      "rule": "Use the occasion-and-style knowledge base as the primary source for occasion suitability."
+    },
+    {
+      "id": "rr122",
+      "category": "occasion_integration",
+      "rule": "Identify whether the occasion is casual, smart casual, professional, formal, festive, social, active, or another relevant category."
+    },
+    {
+      "id": "rr123",
+      "category": "occasion_integration",
+      "rule": "Use venue context when it materially changes the appropriate formality."
+    },
+    {
+      "id": "rr124",
+      "category": "occasion_integration",
+      "rule": "Use time of day as a supporting factor rather than the sole decision factor."
+    },
+    {
+      "id": "rr125",
+      "category": "occasion_integration",
+      "rule": "Use cultural context when explicitly provided."
+    },
+    {
+      "id": "rr126",
+      "category": "occasion_integration",
+      "rule": "Use weather context when relevant to clothing practicality."
+    },
+    {
+      "id": "rr127",
+      "category": "occasion_integration",
+      "rule": "If occasion information is missing, classify cautiously using visible clothing and context."
+    },
+    {
+      "id": "rr128",
+      "category": "occasion_integration",
+      "rule": "Do not declare an outfit inappropriate when the occasion itself is unknown."
+    },
+    {
+      "id": "rr129",
+      "category": "occasion_integration",
+      "rule": "When multiple occasions are plausible, recommend the most flexible reasonable styling direction."
+    },
+    {
+      "id": "rr130",
+      "category": "occasion_integration",
+      "rule": "Clearly distinguish occasion suitability from personal fashion preference."
+    },
+
+    {
+      "id": "rr131",
+      "category": "style_integration",
+      "rule": "Identify the dominant style direction before adding style-specific recommendations."
+    },
+    {
+      "id": "rr132",
+      "category": "style_integration",
+      "rule": "Possible style directions include casual, smart casual, classic, minimalist, streetwear, festive, formal, and premium-inspired."
+    },
+    {
+      "id": "rr133",
+      "category": "style_integration",
+      "rule": "Do not label an outfit with multiple conflicting aesthetics unless the combination is intentional."
+    },
+    {
+      "id": "rr134",
+      "category": "style_integration",
+      "rule": "Preserve the dominant visual direction when making small improvements."
+    },
+    {
+      "id": "rr135",
+      "category": "style_integration",
+      "rule": "Use personal style preferences to select between equally suitable alternatives."
+    },
+    {
+      "id": "rr136",
+      "category": "style_integration",
+      "rule": "Do not force a trend into an outfit if it weakens the intended style."
+    },
+    {
+      "id": "rr137",
+      "category": "style_integration",
+      "rule": "Use trend elements selectively when the user explicitly wants a trend-focused look."
+    },
+    {
+      "id": "rr138",
+      "category": "style_integration",
+      "rule": "Keep minimalist recommendations visually restrained."
+    },
+    {
+      "id": "rr139",
+      "category": "style_integration",
+      "rule": "Keep streetwear recommendations proportionally intentional."
+    },
+    {
+      "id": "rr140",
+      "category": "style_integration",
+      "rule": "Keep classic recommendations focused on versatile and coherent pieces."
+    },
+
+    {
+      "id": "rr141",
+      "category": "user_preference",
+      "rule": "Ask or use explicit preferences for color, fit, style, budget, comfort, and occasion when available."
+    },
+    {
+      "id": "rr142",
+      "category": "user_preference",
+      "rule": "Do not assume the user wants a particular fashion aesthetic."
+    },
+    {
+      "id": "rr143",
+      "category": "user_preference",
+      "rule": "If the user dislikes an item type, avoid recommending it unless required by the occasion."
+    },
+    {
+      "id": "rr144",
+      "category": "user_preference",
+      "rule": "If the user prefers oversized clothing, preserve oversized styling where the occasion permits."
+    },
+    {
+      "id": "rr145",
+      "category": "user_preference",
+      "rule": "If the user prefers minimal styling, reduce unnecessary accessories and visual complexity."
+    },
+    {
+      "id": "rr146",
+      "category": "user_preference",
+      "rule": "If the user prefers streetwear, use streetwear-compatible alternatives when occasion allows."
+    },
+    {
+      "id": "rr147",
+      "category": "user_preference",
+      "rule": "If the user prefers classic clothing, prioritize timeless alternatives when they meet the occasion."
+    },
+    {
+      "id": "rr148",
+      "category": "user_preference",
+      "rule": "If the user prioritizes comfort, avoid recommending unnecessary restrictive garments."
+    },
+    {
+      "id": "rr149",
+      "category": "user_preference",
+      "rule": "If budget is provided, do not recommend options that clearly violate the stated budget."
+    },
+    {
+      "id": "rr150",
+      "category": "user_preference",
+      "rule": "User preference should influence the recommendation without overriding major practical requirements."
+    },
+
+    {
+      "id": "rr151",
+      "category": "wardrobe",
+      "rule": "When the user provides available wardrobe items, prioritize those items before suggesting new purchases."
+    },
+    {
+      "id": "rr152",
+      "category": "wardrobe",
+      "rule": "Use existing wardrobe pieces whenever they can satisfy the requested occasion."
+    },
+    {
+      "id": "rr153",
+      "category": "wardrobe",
+      "rule": "Do not recommend buying a new item when an existing item can solve the same styling problem."
+    },
+    {
+      "id": "rr154",
+      "category": "wardrobe",
+      "rule": "When multiple wardrobe items are suitable, prefer combinations with stronger coordination and versatility."
+    },
+    {
+      "id": "rr155",
+      "category": "wardrobe",
+      "rule": "Use wardrobe availability as a hard constraint only when the user asks for outfit combinations from existing clothes."
+    },
+    {
+      "id": "rr156",
+      "category": "wardrobe",
+      "rule": "When a required garment is unavailable, suggest the closest available alternative."
+    },
+    {
+      "id": "rr157",
+      "category": "wardrobe",
+      "rule": "Do not assume the user owns a specific garment unless it is provided or stored as wardrobe data."
+    },
+    {
+      "id": "rr158",
+      "category": "wardrobe",
+      "rule": "Prefer versatile wardrobe combinations that can work across multiple occasions."
+    },
+    {
+      "id": "rr159",
+      "category": "wardrobe",
+      "rule": "Consider repeated use when generating wardrobe recommendations."
+    },
+    {
+      "id": "rr160",
+      "category": "wardrobe",
+      "rule": "When recommending a purchase, clearly distinguish it from items already available in the wardrobe."
+    },
+
+    {
+      "id": "rr161",
+      "category": "recommendation_strength",
+      "rule": "Classify recommendations as essential, recommended, optional, or preference-based."
+    },
+    {
+      "id": "rr162",
+      "category": "recommendation_strength",
+      "rule": "Essential changes should address clear occasion, practicality, or major coordination problems."
+    },
+    {
+      "id": "rr163",
+      "category": "recommendation_strength",
+      "rule": "Recommended changes should provide a meaningful improvement but are not mandatory."
+    },
+    {
+      "id": "rr164",
+      "category": "recommendation_strength",
+      "rule": "Optional changes should be presented as style refinements."
+    },
+    {
+      "id": "rr165",
+      "category": "recommendation_strength",
+      "rule": "Preference-based suggestions should depend on the user's known style choices."
+    },
+    {
+      "id": "rr166",
+      "category": "recommendation_strength",
+      "rule": "Do not present optional style preferences as objective requirements."
+    },
+    {
+      "id": "rr167",
+      "category": "recommendation_strength",
+      "rule": "Do not use strong language when evidence is weak."
+    },
+    {
+      "id": "rr168",
+      "category": "recommendation_strength",
+      "rule": "Use stronger recommendation language when multiple independent rules support the same change."
+    },
+    {
+      "id": "rr169",
+      "category": "recommendation_strength",
+      "rule": "Use weaker recommendation language when the change depends on subjective preference."
+    },
+    {
+      "id": "rr170",
+      "category": "recommendation_strength",
+      "rule": "Do not create a problem merely to provide a recommendation."
+    },
+
+    {
+      "id": "rr171",
+      "category": "scoring",
+      "rule": "Evaluate outfit suitability using multiple dimensions rather than a single score."
+    },
+    {
+      "id": "rr172",
+      "category": "scoring",
+      "rule": "Relevant dimensions include occasion fit, color coordination, silhouette, footwear, accessories, practicality, and style coherence."
+    },
+    {
+      "id": "rr173",
+      "category": "scoring",
+      "rule": "Do not allow a strong score in one dimension to completely hide a major failure in another dimension."
+    },
+    {
+      "id": "rr174",
+      "category": "scoring",
+      "rule": "Major occasion mismatch should significantly reduce overall suitability."
+    },
+    {
+      "id": "rr175",
+      "category": "scoring",
+      "rule": "Major weather or activity mismatch should significantly reduce practical suitability."
+    },
+    {
+      "id": "rr176",
+      "category": "scoring",
+      "rule": "Minor accessory imperfections should have lower impact than major fit or occasion issues."
+    },
+    {
+      "id": "rr177",
+      "category": "scoring",
+      "rule": "An already coherent outfit should not receive a low suitability assessment because it lacks optional trend elements."
+    },
+    {
+      "id": "rr178",
+      "category": "scoring",
+      "rule": "A recommendation score should represent contextual suitability rather than objective attractiveness."
+    },
+    {
+      "id": "rr179",
+      "category": "scoring",
+      "rule": "Do not expose an internal score unless the product UI explicitly requires it."
+    },
+    {
+      "id": "rr180",
+      "category": "scoring",
+      "rule": "Use scores internally to prioritize recommendations, not as a substitute for explanation."
+    },
+
+    {
+      "id": "rr181",
+      "category": "confidence",
+      "rule": "Calculate confidence separately for image recognition and recommendation suitability."
+    },
+    {
+      "id": "rr182",
+      "category": "confidence",
+      "rule": "High-confidence image attributes can support stronger recommendations."
+    },
+    {
+      "id": "rr183",
+      "category": "confidence",
+      "rule": "Low-confidence image attributes should not be the sole basis for major changes."
+    },
+    {
+      "id": "rr184",
+      "category": "confidence",
+      "rule": "Confidence should decrease when garments are partially hidden."
+    },
+    {
+      "id": "rr185",
+      "category": "confidence",
+      "rule": "Confidence should decrease when image quality prevents reliable color or texture identification."
+    },
+    {
+      "id": "rr186",
+      "category": "confidence",
+      "rule": "Confidence should decrease when the image angle prevents reliable fit interpretation."
+    },
+    {
+      "id": "rr187",
+      "category": "confidence",
+      "rule": "Confidence should decrease when the occasion is inferred without contextual information."
+    },
+    {
+      "id": "rr188",
+      "category": "confidence",
+      "rule": "Do not convert low-confidence visual observations into definitive statements."
+    },
+    {
+      "id": "rr189",
+      "category": "confidence",
+      "rule": "If critical information is uncertain, provide a conditional recommendation."
+    },
+    {
+      "id": "rr190",
+      "category": "confidence",
+      "rule": "The final recommendation should reflect uncertainty without becoming unnecessarily vague."
+    },
+
+    {
+      "id": "rr191",
+      "category": "explanation",
+      "rule": "Every meaningful recommendation should have a clear reason."
+    },
+    {
+      "id": "rr192",
+      "category": "explanation",
+      "rule": "Explain recommendations using observable outfit characteristics whenever possible."
+    },
+    {
+      "id": "rr193",
+      "category": "explanation",
+      "rule": "Explain color changes using color relationships rather than vague statements."
+    },
+    {
+      "id": "rr194",
+      "category": "explanation",
+      "rule": "Explain fit changes using silhouette and proportion."
+    },
+    {
+      "id": "rr195",
+      "category": "explanation",
+      "rule": "Explain footwear changes using formality, color, style, or practicality."
+    },
+    {
+      "id": "rr196",
+      "category": "explanation",
+      "rule": "Explain accessory changes using visual balance or occasion suitability."
+    },
+    {
+      "id": "rr197",
+      "category": "explanation",
+      "rule": "Explain grooming changes using occasion or coordination rather than unsupported appearance judgments."
+    },
+    {
+      "id": "rr198",
+      "category": "explanation",
+      "rule": "Avoid generic explanations such as 'this looks better' without identifying why."
+    },
+    {
+      "id": "rr199",
+      "category": "explanation",
+      "rule": "Keep explanations concise enough for a consumer-facing styling interface."
+    },
+    {
+      "id": "rr200",
+      "category": "explanation",
+      "rule": "If the user asks why a recommendation was made, expose the relevant reasoning factors in simple language."
+    },
+
+    {
+      "id": "rr201",
+      "category": "alternatives",
+      "rule": "Provide alternatives only when they meaningfully differ."
+    },
+    {
+      "id": "rr202",
+      "category": "alternatives",
+      "rule": "Avoid generating many nearly identical outfit alternatives."
+    },
+    {
+      "id": "rr203",
+      "category": "alternatives",
+      "rule": "When giving alternatives, change one or two major dimensions at a time."
+    },
+    {
+      "id": "rr204",
+      "category": "alternatives",
+      "rule": "Useful alternative dimensions include footwear, layering, color, silhouette, and formality."
+    },
+    {
+      "id": "rr205",
+      "category": "alternatives",
+      "rule": "Alternative one should generally preserve the user's original outfit where possible."
+    },
+    {
+      "id": "rr206",
+      "category": "alternatives",
+      "rule": "Alternative recommendations should remain consistent with the requested occasion."
+    },
+    {
+      "id": "rr207",
+      "category": "alternatives",
+      "rule": "Do not present an alternative that violates an explicit user constraint."
+    },
+    {
+      "id": "rr208",
+      "category": "alternatives",
+      "rule": "If one recommendation is clearly sufficient, do not add alternatives unnecessarily."
+    },
+    {
+      "id": "rr209",
+      "category": "alternatives",
+      "rule": "Use alternatives to express style preference rather than uncertainty when the base recommendation is already reliable."
+    },
+    {
+      "id": "rr210",
+      "category": "alternatives",
+      "rule": "Clearly label alternatives by their purpose, such as more casual, more formal, or more expressive."
+    },
+
+    {
+      "id": "rr211",
+      "category": "negative_rules",
+      "rule": "Do not recommend a garment solely because it is currently trending."
+    },
+    {
+      "id": "rr212",
+      "category": "negative_rules",
+      "rule": "Do not recommend a color solely because it is popular."
+    },
+    {
+      "id": "rr213",
+      "category": "negative_rules",
+      "rule": "Do not recommend accessories solely to make the response longer."
+    },
+    {
+      "id": "rr214",
+      "category": "negative_rules",
+      "rule": "Do not claim that an outfit is objectively attractive."
+    },
+    {
+      "id": "rr215",
+      "category": "negative_rules",
+      "rule": "Do not make unsupported claims about body shape."
+    },
+    {
+      "id": "rr216",
+      "category": "negative_rules",
+      "rule": "Do not infer income, social status, personality, or lifestyle from clothing."
+    },
+    {
+      "id": "rr217",
+      "category": "negative_rules",
+      "rule": "Do not claim an item is expensive or cheap unless price information is available."
+    },
+    {
+      "id": "rr218",
+      "category": "negative_rules",
+      "rule": "Do not claim that a recommendation guarantees a particular social outcome."
+    },
+    {
+      "id": "rr219",
+      "category": "negative_rules",
+      "rule": "Do not invent brands, products, prices, or availability."
+    },
+    {
+      "id": "rr220",
+      "category": "negative_rules",
+      "rule": "Do not describe uncertain image details as confirmed facts."
+    },
+
+    {
+      "id": "rr221",
+      "category": "existing_outfit",
+      "rule": "If the uploaded outfit is already coherent, identify what is working before suggesting improvements."
+    },
+    {
+      "id": "rr222",
+      "category": "existing_outfit",
+      "rule": "Do not assume every uploaded outfit needs correction."
+    },
+    {
+      "id": "rr223",
+      "category": "existing_outfit",
+      "rule": "Preserve successful color relationships when making other changes."
+    },
+    {
+      "id": "rr224",
+      "category": "existing_outfit",
+      "rule": "Preserve successful silhouette relationships when changing colors or accessories."
+    },
+    {
+      "id": "rr225",
+      "category": "existing_outfit",
+      "rule": "Preserve appropriate footwear unless it creates a specific mismatch."
+    },
+    {
+      "id": "rr226",
+      "category": "existing_outfit",
+      "rule": "Preserve the user's favorite garment when reasonable."
+    },
+    {
+      "id": "rr227",
+      "category": "existing_outfit",
+      "rule": "When improving an outfit, identify the highest-impact weakness first."
+    },
+    {
+      "id": "rr228",
+      "category": "existing_outfit",
+      "rule": "If there are no major weaknesses, focus on optional refinements."
+    },
+    {
+      "id": "rr229",
+      "category": "existing_outfit",
+      "rule": "Do not create contradictory changes that remove an outfit's original visual identity."
+    },
+    {
+      "id": "rr230",
+      "category": "existing_outfit",
+      "rule": "Use the uploaded outfit as the baseline for adaptation unless the user requests a completely new look."
+    },
+
+    {
+      "id": "rr231",
+      "category": "occasion_adaptation",
+      "rule": "When adapting the same outfit to another occasion, preserve compatible garments whenever possible."
+    },
+    {
+      "id": "rr232",
+      "category": "occasion_adaptation",
+      "rule": "Use footwear changes to move between casual and more refined occasions when appropriate."
+    },
+    {
+      "id": "rr233",
+      "category": "occasion_adaptation",
+      "rule": "Use outer layers to increase or decrease perceived formality."
+    },
+    {
+      "id": "rr234",
+      "category": "occasion_adaptation",
+      "rule": "Use accessories to refine the outfit after the major occasion requirements are satisfied."
+    },
+    {
+      "id": "rr235",
+      "category": "occasion_adaptation",
+      "rule": "Do not force a casual outfit into a formal setting if the core garments cannot reasonably support the dress code."
+    },
+    {
+      "id": "rr236",
+      "category": "occasion_adaptation",
+      "rule": "Do not make an outfit unnecessarily formal when adapting it to a casual setting."
+    },
+    {
+      "id": "rr237",
+      "category": "occasion_adaptation",
+      "rule": "For day-to-night adaptation, change only the elements necessary for the venue and activity."
+    },
+    {
+      "id": "rr238",
+      "category": "occasion_adaptation",
+      "rule": "For summer-to-winter adaptation, add practical layers while maintaining the original color direction."
+    },
+    {
+      "id": "rr239",
+      "category": "occasion_adaptation",
+      "rule": "For casual-to-office adaptation, prioritize refined footwear, structured garments, and cleaner finishing."
+    },
+    {
+      "id": "rr240",
+      "category": "occasion_adaptation",
+      "rule": "For office-to-evening adaptation, use one or two deliberate changes rather than rebuilding the outfit."
+    },
+
+    {
+      "id": "rr241",
+      "category": "context_combination",
+      "rule": "Combine occasion and weather before selecting the final outfit."
+    },
+    {
+      "id": "rr242",
+      "category": "context_combination",
+      "rule": "Combine occasion and silhouette before recommending major fit changes."
+    },
+    {
+      "id": "rr243",
+      "category": "context_combination",
+      "rule": "Combine occasion and footwear before deciding footwear suitability."
+    },
+    {
+      "id": "rr244",
+      "category": "context_combination",
+      "rule": "Combine style and color before adding statement accessories."
+    },
+    {
+      "id": "rr245",
+      "category": "context_combination",
+      "rule": "Combine grooming and occasion when grooming recommendations are requested."
+    },
+    {
+      "id": "rr246",
+      "category": "context_combination",
+      "rule": "Combine user preference and occasion when selecting between multiple valid styles."
+    },
+    {
+      "id": "rr247",
+      "category": "context_combination",
+      "rule": "Combine activity and footwear when practical movement is important."
+    },
+    {
+      "id": "rr248",
+      "category": "context_combination",
+      "rule": "Combine time of day and weather when choosing layering."
+    },
+    {
+      "id": "rr249",
+      "category": "context_combination",
+      "rule": "Combine venue and dress code when both are available."
+    },
+    {
+      "id": "rr250",
+      "category": "context_combination",
+      "rule": "Do not evaluate any single outfit component completely independently from the rest of the outfit."
+    },
+
+    {
+      "id": "rr251",
+      "category": "final_validation",
+      "rule": "Before returning a recommendation, verify that all suggested garments can logically be worn together."
+    },
+    {
+      "id": "rr252",
+      "category": "final_validation",
+      "rule": "Verify that the recommended outfit matches the requested occasion."
+    },
+    {
+      "id": "rr253",
+      "category": "final_validation",
+      "rule": "Verify that the color relationships remain coherent after suggested changes."
+    },
+    {
+      "id": "rr254",
+      "category": "final_validation",
+      "rule": "Verify that the silhouette remains intentional after suggested changes."
+    },
+    {
+      "id": "rr255",
+      "category": "final_validation",
+      "rule": "Verify that footwear remains appropriate after changing the outfit."
+    },
+    {
+      "id": "rr256",
+      "category": "final_validation",
+      "rule": "Verify that accessories do not create unnecessary visual clutter."
+    },
+    {
+      "id": "rr257",
+      "category": "final_validation",
+      "rule": "Verify that weather requirements are respected when weather information is available."
+    },
+    {
+      "id": "rr258",
+      "category": "final_validation",
+      "rule": "Verify that explicit user constraints are not violated."
+    },
+    {
+      "id": "rr259",
+      "category": "final_validation",
+      "rule": "Verify that no unsupported factual claims are included."
+    },
+    {
+      "id": "rr260",
+      "category": "final_validation",
+      "rule": "Reject the recommendation if it creates a larger problem than the issue it was intended to solve."
+    },
+
+    {
+      "id": "rr261",
+      "category": "final_output",
+      "rule": "The final recommendation should clearly state the primary outfit direction."
+    },
+    {
+      "id": "rr262",
+      "category": "final_output",
+      "rule": "The final recommendation should identify the most important suggested change."
+    },
+    {
+      "id": "rr263",
+      "category": "final_output",
+      "rule": "The final recommendation should include a short reason for the main suggestion."
+    },
+    {
+      "id": "rr264",
+      "category": "final_output",
+      "rule": "Include secondary suggestions only when they provide meaningful additional value."
+    },
+    {
+      "id": "rr265",
+      "category": "final_output",
+      "rule": "Separate optional suggestions from essential recommendations."
+    },
+    {
+      "id": "rr266",
+      "category": "final_output",
+      "rule": "Use simple consumer-friendly language."
+    },
+    {
+      "id": "rr267",
+      "category": "final_output",
+      "rule": "Avoid excessive technical fashion terminology unless the user requests detailed styling knowledge."
+    },
+    {
+      "id": "rr268",
+      "category": "final_output",
+      "rule": "Avoid repeating the same recommendation in multiple sections."
+    },
+    {
+      "id": "rr269",
+      "category": "final_output",
+      "rule": "When uncertainty matters, clearly mention the uncertain element."
+    },
+    {
+      "id": "rr270",
+      "category": "final_output",
+      "rule": "The final response should be concise enough for a mobile AI stylist interface."
+    },
+
+    {
+      "id": "rr271",
+      "category": "structured_output",
+      "rule": "The recommendation engine should produce structured fields before generating natural-language output."
+    },
+    {
+      "id": "rr272",
+      "category": "structured_output",
+      "rule": "Structured output should contain detected outfit components."
+    },
+    {
+      "id": "rr273",
+      "category": "structured_output",
+      "rule": "Structured output should contain the detected or requested occasion."
+    },
+    {
+      "id": "rr274",
+      "category": "structured_output",
+      "rule": "Structured output should contain the dominant style direction."
+    },
+    {
+      "id": "rr275",
+      "category": "structured_output",
+      "rule": "Structured output should contain key strengths of the outfit."
+    },
+    {
+      "id": "rr276",
+      "category": "structured_output",
+      "rule": "Structured output should contain key issues only when meaningful issues exist."
+    },
+    {
+      "id": "rr277",
+      "category": "structured_output",
+      "rule": "Structured output should contain recommended changes."
+    },
+    {
+      "id": "rr278",
+      "category": "structured_output",
+      "rule": "Structured output should contain confidence information when image interpretation is uncertain."
+    },
+    {
+      "id": "rr279",
+      "category": "structured_output",
+      "rule": "Structured output should distinguish observed attributes from recommended attributes."
+    },
+    {
+      "id": "rr280",
+      "category": "structured_output",
+      "rule": "Natural-language output should be generated from validated structured recommendation data."
+    },
+
+    {
+      "id": "rr281",
+      "category": "quality_control",
+      "rule": "Do not generate a recommendation merely because a knowledge-base rule exists."
+    },
+    {
+      "id": "rr282",
+      "category": "quality_control",
+      "rule": "Use multiple supporting signals when recommending a major outfit change."
+    },
+    {
+      "id": "rr283",
+      "category": "quality_control",
+      "rule": "Avoid recommendations based on a single weak visual observation."
+    },
+    {
+      "id": "rr284",
+      "category": "quality_control",
+      "rule": "Check for contradictions between color, fit, occasion, and style recommendations."
+    },
+    {
+      "id": "rr285",
+      "category": "quality_control",
+      "rule": "Check that recommended garments are compatible with the user's stated preferences."
+    },
+    {
+      "id": "rr286",
+      "category": "quality_control",
+      "rule": "Check that the recommendation does not unnecessarily replace successful outfit elements."
+    },
+    {
+      "id": "rr287",
+      "category": "quality_control",
+      "rule": "Check that optional suggestions are clearly presented as optional."
+    },
+    {
+      "id": "rr288",
+      "category": "quality_control",
+      "rule": "Check that uncertainty is reflected in the final confidence level."
+    },
+    {
+      "id": "rr289",
+      "category": "quality_control",
+      "rule": "Check that the final explanation matches the actual rules used."
+    },
+    {
+      "id": "rr290",
+      "category": "quality_control",
+      "rule": "Do not claim that the recommendation was based on information that was not actually available."
+    },
+
+    {
+      "id": "rr291",
+      "category": "engine_behavior",
+      "rule": "If the outfit is already suitable, return a keep-and-refine recommendation rather than a complete replacement."
+    },
+    {
+      "id": "rr292",
+      "category": "engine_behavior",
+      "rule": "If the outfit has one major issue, focus the recommendation on that issue."
+    },
+    {
+      "id": "rr293",
+      "category": "engine_behavior",
+      "rule": "If the outfit has multiple major issues, prioritize them by occasion impact, practicality, fit, color, and refinement."
+    },
+    {
+      "id": "rr294",
+      "category": "engine_behavior",
+      "rule": "If the outfit cannot satisfy the requested occasion without major changes, clearly state that the current combination needs substantial adaptation."
+    },
+    {
+      "id": "rr295",
+      "category": "engine_behavior",
+      "rule": "If required information is missing, use a flexible recommendation rather than inventing details."
+    },
+    {
+      "id": "rr296",
+      "category": "engine_behavior",
+      "rule": "If user asks for a quick recommendation, prioritize the highest-impact answer and omit secondary explanations."
+    },
+    {
+      "id": "rr297",
+      "category": "engine_behavior",
+      "rule": "If user asks for detailed reasoning, expose the major factors and rule interactions."
+    },
+    {
+      "id": "rr298",
+      "category": "engine_behavior",
+      "rule": "If user requests multiple outfit options, generate clearly differentiated options that satisfy the same core requirements."
+    },
+    {
+      "id": "rr299",
+      "category": "engine_behavior",
+      "rule": "If user requests only a rating, use contextual suitability criteria and avoid presenting subjective taste as objective fact."
+    },
+    {
+      "id": "rr300",
+      "category": "engine_behavior",
+      "rule": "The recommendation engine should always prefer coherent, explainable, context-aware recommendations over generic fashion advice."
+    }
+  ]
+}

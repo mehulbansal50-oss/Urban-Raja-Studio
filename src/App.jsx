@@ -28,7 +28,32 @@ import WhyUrbanRaja from './WhyUrbanRaja';
 import AccountType from './AccountType';
 import UserAccount from './UserAccount';
 import CreateNew from './CreateNew';
-
+import Fragrence from './Fragrence';
+import Skincare from './Skincare';
+import FashionBlog from './FashionBlog';
+import StreetwearTrend from './StreetwearTrend';
+import OldMoneyStyle from './OldMoneyStyle';
+import OversizedFashion from './OversizedFashion';
+import TrendingColours from './TrendingColours';
+import MustHaveWardrobe from './MustHaveWardrobe';
+import FashionTrendsToWatch from './FashionTrendsToWatch';
+import StyleGuide from './StyleGuide';
+import StyleGuideDetail from "./StyleGuideDetail";
+import Grooming from "./Grooming";
+import GroomingDetail from "./GroomingDetail";
+import Seasonal from "./Seasonal";
+import SeasonDetail from "./SeasonDetail";
+import Courses from './Courses';
+import Styling from './Styling';
+import AIStylist from "./AIStylist";
+import PersonalStyling from "./PersonalStyling";
+import PersonalStyleConsultation from "./PersonalStyleConsultation";
+import AdminLogin from './AdminLogin';
+import AdminDashboard from "./AdminDashboard";
+import AdminFashionBlogs from "./AdminFashionBlogs";
+import AdminStyleGuides from "./AdminStyleGuides";
+import AdminGrooming from "./AdminGrooming";
+import AdminSeasonalContent from "./AdminSeasonalContent";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,7 +71,7 @@ function App() {
          <NavLink className='link' to="/trendNow">Trending Now</NavLink>
       <NavLink className='link' to="/FashionTrends">Fashion Trends</NavLink>
       <NavLink className='link' to="/GroomingTrend">Gromming Trends</NavLink>
-      <NavLink className='link' to="/trend-details">Trend Details</NavLink>
+      
       </div>
 
       </div>
@@ -54,16 +79,16 @@ function App() {
       <div className="trend-dropdown">
       <NavLink className='link'>Blog</NavLink>
        <div className="dropdown-menu">
-         <NavLink className='link' to="/fashion">Fashion</NavLink>
-      <NavLink className='link' to="/Style-Guide">Style Guide</NavLink>
-      <NavLink className='link' to="/Gromming">Gromming</NavLink>
-      <NavLink className='link' to="/Seasonal">Seasonal</NavLink>
+         <NavLink className='link' to="/FashionBlog">Fashion</NavLink>
+      <NavLink className='link' to="/StyleGuide">Style Guide</NavLink>
+      <NavLink className='link' to="/Grooming">Grooming</NavLink>
+      <NavLink className='link' to="/seasonal">Seasonal</NavLink>
        </div>
       </div>
       
       
-      <NavLink className='link'>Course</NavLink>
-      <NavLink className='link'>1:1 Styling</NavLink>
+      <NavLink className='link' to="/Courses">Course</NavLink>
+      <NavLink className='link' to="/Styling">1:1 Styling</NavLink>
       <NavLink className='link'>Store</NavLink>
       <NavLink to='/AccountType'>
           <img className='profile-icon' src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-transparent-260nw-2666486791.jpg" alt="Prolife"/>
@@ -97,6 +122,33 @@ function App() {
       <Route path='/AccountType' element={<AccountType/>}/>
       <Route path='/UserAccount' element={<UserAccount/>}/>
       <Route path='/CreateNew' element={<CreateNew/>}/>
+      <Route path='/Fragrence' element={<Fragrence/>}/>
+      <Route path='/Skincare' element={<Skincare/>}/>
+      <Route path='/FashionBlog' element={<FashionBlog/>}/>
+      <Route path='/StreetwearTrend' element={<StreetwearTrend/>}/>
+      <Route path='/OldMoneyStyle' element={<OldMoneyStyle/>}/>
+      <Route path='/OversizedFashion' element={<OversizedFashion/>}/>
+      <Route path='/TrendingColours' element={<TrendingColours/>}/>
+      <Route path='/MustHaveWardrobe' element={<MustHaveWardrobe/>} />
+      <Route path='/FashionTrendsToWatch' element={<FashionTrendsToWatch/>}/>
+      <Route path='/StyleGuide' element={<StyleGuide/>}/>
+      <Route path="/style-guides/:id" element={<StyleGuideDetail />} />
+      <Route path="/Grooming" element={<Grooming />} />
+      <Route path="/Grooming" element={<Grooming />} />
+      <Route path="/grooming/:id" element={<GroomingDetail />} />
+      <Route path="/seasonal" element={<Seasonal />} />
+      <Route path="/seasonal/:id" element={<SeasonDetail />} />
+      <Route path='/Courses' element={<Courses />} />
+      <Route path='/Styling' element={<Styling />} />
+      <Route path="/AIStylist" element={<AIStylist />} />
+      <Route path="/PersonalStyling" element={<PersonalStyling />} />
+      <Route path="/PersonalStyleConsultation" element={<PersonalStyleConsultation />} />
+      <Route path="/admin" element={<AdminLogin/>} />
+      <Route path="/admin/dashboard" element={<AdminDashboard />} />
+      <Route path="/admin/fashion-blogs" element={<AdminFashionBlogs />} />
+      <Route path="/admin/style-guides" element={<AdminStyleGuides />} />
+      <Route path="/admin/grooming" element={<AdminGrooming />} />
+      <Route path="/admin/seasonal-content" element={<AdminSeasonalContent />} />
     </Routes>
    
    </div>

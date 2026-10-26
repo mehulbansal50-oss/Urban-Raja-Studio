@@ -1,0 +1,1434 @@
+{
+  "knowledge_base": "occasion_and_style",
+  "version": "1.0",
+  "description": "Rules for identifying occasions, dress codes, style directions, outfit suitability, and adapting outfits to different situations.",
+  "rules": [
+    {
+      "id": "os001",
+      "category": "occasion_classification",
+      "rule": "First identify the primary occasion before recommending major outfit changes."
+    },
+    {
+      "id": "os002",
+      "category": "occasion_classification",
+      "rule": "If the occasion is unclear, classify the outfit using clothing formality, footwear, layering, and accessories."
+    },
+    {
+      "id": "os003",
+      "category": "occasion_classification",
+      "rule": "When multiple occasions are possible, prefer the most conservative reasonable interpretation."
+    },
+    {
+      "id": "os004",
+      "category": "occasion_classification",
+      "rule": "Do not assume a formal occasion when the image does not provide enough evidence."
+    },
+    {
+      "id": "os005",
+      "category": "occasion_classification",
+      "rule": "Do not assume a casual occasion only because the outfit contains simple clothing."
+    },
+    {
+      "id": "os006",
+      "category": "occasion_classification",
+      "rule": "Consider venue, time, weather, dress code, and cultural context when available."
+    },
+    {
+      "id": "os007",
+      "category": "occasion_classification",
+      "rule": "Occasion suitability should be evaluated separately from personal style preference."
+    },
+    {
+      "id": "os008",
+      "category": "occasion_classification",
+      "rule": "If user explicitly specifies the occasion, prioritize that information over visual assumptions."
+    },
+    {
+      "id": "os009",
+      "category": "occasion_classification",
+      "rule": "If user preference conflicts with conventional dress code, explain the tradeoff instead of silently overriding the preference."
+    },
+    {
+      "id": "os010",
+      "category": "occasion_classification",
+      "rule": "Use confidence levels when the occasion classification is uncertain."
+    },
+
+    {
+      "id": "os011",
+      "category": "formality",
+      "rule": "Formality generally increases from athleticwear to casualwear to smart casual to business casual to formalwear."
+    },
+    {
+      "id": "os012",
+      "category": "formality",
+      "rule": "Tailoring generally increases perceived formality."
+    },
+    {
+      "id": "os013",
+      "category": "formality",
+      "rule": "Structured garments usually appear more formal than highly relaxed garments."
+    },
+    {
+      "id": "os014",
+      "category": "formality",
+      "rule": "Clean leather footwear usually raises perceived formality."
+    },
+    {
+      "id": "os015",
+      "category": "formality",
+      "rule": "Athletic sneakers usually make an outfit more casual."
+    },
+    {
+      "id": "os016",
+      "category": "formality",
+      "rule": "A blazer can raise the formality of a basic shirt and trouser combination."
+    },
+    {
+      "id": "os017",
+      "category": "formality",
+      "rule": "Removing a structured layer can make a smart outfit more casual."
+    },
+    {
+      "id": "os018",
+      "category": "formality",
+      "rule": "Accessories should support the intended formality instead of creating unnecessary contrast."
+    },
+    {
+      "id": "os019",
+      "category": "formality",
+      "rule": "Formal occasions require more attention to garment condition, fit, and finishing."
+    },
+    {
+      "id": "os020",
+      "category": "formality",
+      "rule": "When dress code is unknown, avoid recommending an extremely casual or extremely formal combination without context."
+    },
+
+    {
+      "id": "os021",
+      "category": "casual",
+      "rule": "Casual outfits prioritize comfort, ease, and relaxed styling."
+    },
+    {
+      "id": "os022",
+      "category": "casual",
+      "rule": "Basic T-shirts, casual shirts, jeans, relaxed trousers, and sneakers commonly work for casual settings."
+    },
+    {
+      "id": "os023",
+      "category": "casual",
+      "rule": "Casual outfits should still maintain intentional color and proportion balance."
+    },
+    {
+      "id": "os024",
+      "category": "casual",
+      "rule": "A plain T-shirt can create a clean casual look when paired with appropriate bottoms and footwear."
+    },
+    {
+      "id": "os025",
+      "category": "casual",
+      "rule": "Relaxed denim and sneakers are suitable for many everyday casual situations."
+    },
+    {
+      "id": "os026",
+      "category": "casual",
+      "rule": "Avoid excessive accessories when the goal is a simple casual appearance."
+    },
+    {
+      "id": "os027",
+      "category": "casual",
+      "rule": "Casual does not mean careless; clothing condition and basic grooming should remain polished."
+    },
+    {
+      "id": "os028",
+      "category": "casual",
+      "rule": "For everyday casual outfits, prioritize wearable combinations over highly experimental styling."
+    },
+    {
+      "id": "os029",
+      "category": "casual",
+      "rule": "Casual outfits can be upgraded by changing footwear, adding a clean overshirt, or improving accessories."
+    },
+    {
+      "id": "os030",
+      "category": "casual",
+      "rule": "Use the user's preferred silhouette when adapting a casual outfit unless it conflicts with the occasion."
+    },
+
+    {
+      "id": "os031",
+      "category": "smart_casual",
+      "rule": "Smart casual combines relaxed pieces with at least one refined element."
+    },
+    {
+      "id": "os032",
+      "category": "smart_casual",
+      "rule": "A clean shirt with tailored or well-structured trousers is a common smart casual combination."
+    },
+    {
+      "id": "os033",
+      "category": "smart_casual",
+      "rule": "A polo can work for smart casual when the fit and surrounding pieces look polished."
+    },
+    {
+      "id": "os034",
+      "category": "smart_casual",
+      "rule": "Minimal clean sneakers can work in smart casual settings when the venue allows them."
+    },
+    {
+      "id": "os035",
+      "category": "smart_casual",
+      "rule": "Loafers can increase the refinement of a smart casual outfit."
+    },
+    {
+      "id": "os036",
+      "category": "smart_casual",
+      "rule": "A lightweight blazer can transition a casual base into smart casual."
+    },
+    {
+      "id": "os037",
+      "category": "smart_casual",
+      "rule": "Avoid combining too many athletic elements in a smart casual outfit."
+    },
+    {
+      "id": "os038",
+      "category": "smart_casual",
+      "rule": "Smart casual should look intentional without appearing excessively formal."
+    },
+    {
+      "id": "os039",
+      "category": "smart_casual",
+      "rule": "Use restrained accessories for smart casual outfits."
+    },
+    {
+      "id": "os040",
+      "category": "smart_casual",
+      "rule": "When uncertain between casual and smart casual, refine footwear or layering before replacing the entire outfit."
+    },
+
+    {
+      "id": "os041",
+      "category": "office",
+      "rule": "Office clothing should follow the specific workplace dress culture whenever known."
+    },
+    {
+      "id": "os042",
+      "category": "office",
+      "rule": "Business casual generally favors clean shirts, polos, trousers, chinos, and refined footwear."
+    },
+    {
+      "id": "os043",
+      "category": "office",
+      "rule": "Avoid overly distressed garments for conventional office environments."
+    },
+    {
+      "id": "os044",
+      "category": "office",
+      "rule": "Avoid highly athletic footwear when the office has a traditional dress code."
+    },
+    {
+      "id": "os045",
+      "category": "office",
+      "rule": "Neutral and restrained color combinations are generally easier to integrate into professional environments."
+    },
+    {
+      "id": "os046",
+      "category": "office",
+      "rule": "A tucked shirt can create a more formal office appearance when appropriate for the garment and dress code."
+    },
+    {
+      "id": "os047",
+      "category": "office",
+      "rule": "A belt should generally coordinate with the formality and color family of the footwear."
+    },
+    {
+      "id": "os048",
+      "category": "office",
+      "rule": "Avoid excessive jewelry in conservative professional environments."
+    },
+    {
+      "id": "os049",
+      "category": "office",
+      "rule": "Office outfits should prioritize neatness, comfort, and movement throughout the workday."
+    },
+    {
+      "id": "os050",
+      "category": "office",
+      "rule": "If workplace culture is unknown, recommend a moderate business casual direction rather than an extreme style."
+    },
+
+    {
+      "id": "os051",
+      "category": "interview",
+      "rule": "Interview clothing should generally prioritize neatness, professional appearance, and low visual distraction."
+    },
+    {
+      "id": "os052",
+      "category": "interview",
+      "rule": "When the industry dress code is unknown, choose a conservative professional baseline."
+    },
+    {
+      "id": "os053",
+      "category": "interview",
+      "rule": "A clean well-fitted shirt and trousers are a reliable interview foundation."
+    },
+    {
+      "id": "os054",
+      "category": "interview",
+      "rule": "A blazer may be appropriate for formal industries or formal interview settings."
+    },
+    {
+      "id": "os055",
+      "category": "interview",
+      "rule": "Avoid distracting graphics and excessively loud patterns during interviews."
+    },
+    {
+      "id": "os056",
+      "category": "interview",
+      "rule": "Footwear should be clean, presentable, and appropriate for the expected workplace culture."
+    },
+    {
+      "id": "os057",
+      "category": "interview",
+      "rule": "Clothing should be wrinkle-controlled and free from visible damage or excessive wear."
+    },
+    {
+      "id": "os058",
+      "category": "interview",
+      "rule": "Accessories should remain subtle unless the industry clearly supports expressive styling."
+    },
+    {
+      "id": "os059",
+      "category": "interview",
+      "rule": "Personal style can remain visible through fit and restrained details without overpowering the professional setting."
+    },
+    {
+      "id": "os060",
+      "category": "interview",
+      "rule": "If interview context is unclear, ask whether it is corporate, creative, technical, or informal before highly specific recommendations."
+    },
+
+    {
+      "id": "os061",
+      "category": "date",
+      "rule": "Date outfits should balance personal style, comfort, grooming, and venue appropriateness."
+    },
+    {
+      "id": "os062",
+      "category": "date",
+      "rule": "Restaurant dates usually benefit from smart casual styling unless the venue specifies otherwise."
+    },
+    {
+      "id": "os063",
+      "category": "date",
+      "rule": "Casual outdoor dates can use relaxed outfits with clean footwear."
+    },
+    {
+      "id": "os064",
+      "category": "date",
+      "rule": "Avoid wearing an outfit that requires constant adjustment or discomfort during a date."
+    },
+    {
+      "id": "os065",
+      "category": "date",
+      "rule": "A clean shirt can create a refined date look without requiring formal tailoring."
+    },
+    {
+      "id": "os066",
+      "category": "date",
+      "rule": "Minimal accessories can add personality to a date outfit."
+    },
+    {
+      "id": "os067",
+      "category": "date",
+      "rule": "For evening dates, slightly darker or richer styling can create a more polished appearance."
+    },
+    {
+      "id": "os068",
+      "category": "date",
+      "rule": "For daytime dates, lighter colors and breathable fabrics can work well when weather allows."
+    },
+    {
+      "id": "os069",
+      "category": "date",
+      "rule": "Avoid overly formal styling for a casual date venue unless requested."
+    },
+    {
+      "id": "os070",
+      "category": "date",
+      "rule": "Avoid overly casual gym-style clothing for a conventional restaurant date."
+    },
+
+    {
+      "id": "os071",
+      "category": "party",
+      "rule": "Party outfits should reflect the venue, time, and expected level of formality."
+    },
+    {
+      "id": "os072",
+      "category": "party",
+      "rule": "Night parties can support stronger contrast, darker palettes, statement layers, or elevated footwear."
+    },
+    {
+      "id": "os073",
+      "category": "party",
+      "rule": "Day parties generally benefit from lighter and more breathable styling."
+    },
+    {
+      "id": "os074",
+      "category": "party",
+      "rule": "Club outfits can be more expressive but should still maintain proportion and visual balance."
+    },
+    {
+      "id": "os075",
+      "category": "party",
+      "rule": "Avoid combining too many statement pieces in one party outfit."
+    },
+    {
+      "id": "os076",
+      "category": "party",
+      "rule": "A statement jacket should usually be balanced with simpler supporting pieces."
+    },
+    {
+      "id": "os077",
+      "category": "party",
+      "rule": "Footwear should match both the venue and the amount of walking or standing expected."
+    },
+    {
+      "id": "os078",
+      "category": "party",
+      "rule": "Accessories can be slightly more expressive for parties than for office settings."
+    },
+    {
+      "id": "os079",
+      "category": "party",
+      "rule": "Party styling should not compromise basic comfort and mobility."
+    },
+    {
+      "id": "os080",
+      "category": "party",
+      "rule": "If the party dress code is explicitly stated, follow it before applying personal style preferences."
+    },
+
+    {
+      "id": "os081",
+      "category": "wedding",
+      "rule": "Wedding outfits should consider the wedding type, venue, time, cultural context, and guest role."
+    },
+    {
+      "id": "os082",
+      "category": "wedding",
+      "rule": "Guest outfits should generally avoid looking more ceremonial than the event requires."
+    },
+    {
+      "id": "os083",
+      "category": "wedding",
+      "rule": "Indian weddings can support traditional garments, festive colors, refined layers, and dressier footwear."
+    },
+    {
+      "id": "os084",
+      "category": "wedding",
+      "rule": "A kurta can be adapted from simple daytime styling to festive styling through fabric, layering, footwear, and accessories."
+    },
+    {
+      "id": "os085",
+      "category": "wedding",
+      "rule": "Evening wedding events can support deeper colors and more elevated textures."
+    },
+    {
+      "id": "os086",
+      "category": "wedding",
+      "rule": "Daytime weddings can support lighter colors and breathable fabrics when weather permits."
+    },
+    {
+      "id": "os087",
+      "category": "wedding",
+      "rule": "Wedding footwear should be formal enough for the outfit while remaining practical."
+    },
+    {
+      "id": "os088",
+      "category": "wedding",
+      "rule": "Avoid casual athletic footwear with traditional wedding clothing unless the styling is intentionally contemporary."
+    },
+    {
+      "id": "os089",
+      "category": "wedding",
+      "rule": "Keep accessories coordinated rather than stacking multiple unrelated statement pieces."
+    },
+    {
+      "id": "os090",
+      "category": "wedding",
+      "rule": "For wedding recommendations, distinguish between ceremony, reception, sangeet, mehendi, and other event types when known."
+    },
+
+    {
+      "id": "os091",
+      "category": "festive",
+      "rule": "Festive outfits can use richer colors, refined textures, traditional garments, or elevated accessories."
+    },
+    {
+      "id": "os092",
+      "category": "festive",
+      "rule": "Traditional Indian occasions can support kurtas, ethnic jackets, Nehru jackets, and coordinated footwear."
+    },
+    {
+      "id": "os093",
+      "category": "festive",
+      "rule": "Festive styling should maintain balance between traditional elements and the wearer's personal style."
+    },
+    {
+      "id": "os094",
+      "category": "festive",
+      "rule": "Avoid adding multiple highly decorative elements when one strong festive element already dominates the outfit."
+    },
+    {
+      "id": "os095",
+      "category": "festive",
+      "rule": "For family festivals, polished traditional or smart ethnic-casual combinations are generally adaptable."
+    },
+    {
+      "id": "os096",
+      "category": "festive",
+      "rule": "For religious or cultural events, prioritize the expected cultural dress norms when known."
+    },
+    {
+      "id": "os097",
+      "category": "festive",
+      "rule": "Festive footwear should complement the traditional or semi-traditional clothing."
+    },
+    {
+      "id": "os098",
+      "category": "festive",
+      "rule": "Lightweight ethnic fabrics are preferable in warm weather when the occasion allows."
+    },
+    {
+      "id": "os099",
+      "category": "festive",
+      "rule": "Festive evening styling can use deeper colors and stronger accessories than daytime festive styling."
+    },
+    {
+      "id": "os100",
+      "category": "festive",
+      "rule": "When cultural context is uncertain, avoid making assumptions and present adaptable options."
+    },
+
+    {
+      "id": "os101",
+      "category": "family_event",
+      "rule": "Family gatherings usually work with polished casual, smart casual, or culturally appropriate traditional clothing."
+    },
+    {
+      "id": "os102",
+      "category": "family_event",
+      "rule": "For informal family gatherings, comfort can be prioritized while keeping the outfit neat."
+    },
+    {
+      "id": "os103",
+      "category": "family_event",
+      "rule": "For formal family events, increase refinement through footwear, layering, and garment structure."
+    },
+    {
+      "id": "os104",
+      "category": "family_event",
+      "rule": "Avoid extreme streetwear styling when the family event is clearly traditional or formal."
+    },
+    {
+      "id": "os105",
+      "category": "family_event",
+      "rule": "Use cultural context provided by the user instead of assuming a single standard for family events."
+    },
+    {
+      "id": "os106",
+      "category": "family_event",
+      "rule": "A clean shirt and trousers can be adapted to many family events with small styling changes."
+    },
+    {
+      "id": "os107",
+      "category": "family_event",
+      "rule": "Traditional clothing can be simplified for family gatherings that are less formal."
+    },
+    {
+      "id": "os108",
+      "category": "family_event",
+      "rule": "Avoid overly flashy accessories when the event is intimate and low-key."
+    },
+    {
+      "id": "os109",
+      "category": "family_event",
+      "rule": "Comfort becomes more important for long family events."
+    },
+    {
+      "id": "os110",
+      "category": "family_event",
+      "rule": "When the event lasts several hours, choose footwear and fabrics suitable for extended wear."
+    },
+
+    {
+      "id": "os111",
+      "category": "college",
+      "rule": "College outfits can prioritize comfort, individuality, and practical movement."
+    },
+    {
+      "id": "os112",
+      "category": "college",
+      "rule": "T-shirts, casual shirts, jeans, cargos, relaxed trousers, and sneakers can work for everyday college settings."
+    },
+    {
+      "id": "os113",
+      "category": "college",
+      "rule": "Avoid making every college outfit highly trend-driven; balance trend pieces with reliable basics."
+    },
+    {
+      "id": "os114",
+      "category": "college",
+      "rule": "Layering can add visual interest to simple college outfits."
+    },
+    {
+      "id": "os115",
+      "category": "college",
+      "rule": "Backpacks and practical accessories should coordinate with the outfit without overpowering it."
+    },
+    {
+      "id": "os116",
+      "category": "college",
+      "rule": "For presentations or college interviews, increase formality compared with everyday campus clothing."
+    },
+    {
+      "id": "os117",
+      "category": "college",
+      "rule": "For college festivals, more expressive styling can be appropriate when the event allows it."
+    },
+    {
+      "id": "os118",
+      "category": "college",
+      "rule": "Comfortable footwear is important for college days involving significant walking."
+    },
+    {
+      "id": "os119",
+      "category": "college",
+      "rule": "Use the user's preferred streetwear, minimal, or classic direction when adapting college outfits."
+    },
+    {
+      "id": "os120",
+      "category": "college",
+      "rule": "Avoid recommending clothing that is impractical for the user's likely daily activities."
+    },
+
+    {
+      "id": "os121",
+      "category": "travel",
+      "rule": "Travel outfits should balance comfort, mobility, weather, practicality, and appearance."
+    },
+    {
+      "id": "os122",
+      "category": "travel",
+      "rule": "For long journeys, prioritize breathable or flexible garments and comfortable footwear."
+    },
+    {
+      "id": "os123",
+      "category": "travel",
+      "rule": "Layering is useful when traveling across changing temperatures."
+    },
+    {
+      "id": "os124",
+      "category": "travel",
+      "rule": "Neutral base garments can simplify mixing and matching during travel."
+    },
+    {
+      "id": "os125",
+      "category": "travel",
+      "rule": "Avoid fragile or high-maintenance garments for travel days unless necessary."
+    },
+    {
+      "id": "os126",
+      "category": "travel",
+      "rule": "Travel footwear should support expected walking distance and terrain."
+    },
+    {
+      "id": "os127",
+      "category": "travel",
+      "rule": "For airport or transit outfits, comfort should not require sacrificing basic polish."
+    },
+    {
+      "id": "os128",
+      "category": "travel",
+      "rule": "For sightseeing, practical casual outfits are generally more suitable than highly formal outfits."
+    },
+    {
+      "id": "os129",
+      "category": "travel",
+      "rule": "Weather and destination culture should influence travel outfit recommendations."
+    },
+    {
+      "id": "os130",
+      "category": "travel",
+      "rule": "If the destination is unknown, avoid highly specific climate assumptions."
+    },
+
+    {
+      "id": "os131",
+      "category": "vacation",
+      "rule": "Vacation styling should reflect destination climate, activities, and local dress expectations."
+    },
+    {
+      "id": "os132",
+      "category": "vacation",
+      "rule": "Resort outfits can use relaxed silhouettes, breathable fabrics, and lighter styling when appropriate."
+    },
+    {
+      "id": "os133",
+      "category": "vacation",
+      "rule": "Vacation evening outfits can be more refined than daytime sightseeing outfits."
+    },
+    {
+      "id": "os134",
+      "category": "vacation",
+      "rule": "Avoid recommending heavy layers for hot destinations without a clear need."
+    },
+    {
+      "id": "os135",
+      "category": "vacation",
+      "rule": "Use footwear appropriate for the destination surface and planned activity."
+    },
+    {
+      "id": "os136",
+      "category": "vacation",
+      "rule": "Beach environments generally favor breathable, relaxed clothing and practical footwear."
+    },
+    {
+      "id": "os137",
+      "category": "vacation",
+      "rule": "For resort dinners, elevate casual pieces through cleaner footwear and refined accessories."
+    },
+    {
+      "id": "os138",
+      "category": "vacation",
+      "rule": "Destination-specific cultural rules should override generic vacation styling."
+    },
+    {
+      "id": "os139",
+      "category": "vacation",
+      "rule": "Avoid excessive accessories during active vacation activities."
+    },
+    {
+      "id": "os140",
+      "category": "vacation",
+      "rule": "For vacation recommendations, distinguish between travel day, sightseeing, beach, dinner, and nightlife."
+    },
+
+    {
+      "id": "os141",
+      "category": "weather",
+      "rule": "Weather should influence fabric, layering, footwear, and overall outfit practicality."
+    },
+    {
+      "id": "os142",
+      "category": "summer",
+      "rule": "Hot weather generally favors breathable fabrics and lighter layering."
+    },
+    {
+      "id": "os143",
+      "category": "summer",
+      "rule": "Avoid unnecessary heavy layers in high heat."
+    },
+    {
+      "id": "os144",
+      "category": "summer",
+      "rule": "Relaxed silhouettes can improve airflow when appropriate for the occasion."
+    },
+    {
+      "id": "os145",
+      "category": "summer",
+      "rule": "Lightweight shirts can be useful for polished summer outfits."
+    },
+    {
+      "id": "os146",
+      "category": "summer",
+      "rule": "Footwear should allow practical movement and ventilation where appropriate."
+    },
+    {
+      "id": "os147",
+      "category": "summer",
+      "rule": "For summer formalwear, prioritize breathable construction rather than simply removing layers."
+    },
+    {
+      "id": "os148",
+      "category": "summer",
+      "rule": "Summer evening outfits can use lightweight darker pieces if temperature and venue allow."
+    },
+    {
+      "id": "os149",
+      "category": "summer",
+      "rule": "Use color, fabric, and silhouette together when creating a summer look."
+    },
+    {
+      "id": "os150",
+      "category": "summer",
+      "rule": "Do not equate summer automatically with bright colors; neutrals can also work."
+    },
+
+    {
+      "id": "os151",
+      "category": "winter",
+      "rule": "Winter styling should prioritize warmth while preserving the intended silhouette."
+    },
+    {
+      "id": "os152",
+      "category": "winter",
+      "rule": "Layering is useful for adapting outfits to cold conditions."
+    },
+    {
+      "id": "os153",
+      "category": "winter",
+      "rule": "Outerwear should complement the base outfit in color, proportion, and formality."
+    },
+    {
+      "id": "os154",
+      "category": "winter",
+      "rule": "Avoid adding oversized outerwear without considering the volume of the base outfit."
+    },
+    {
+      "id": "os155",
+      "category": "winter",
+      "rule": "For formal winter outfits, structured coats can preserve professional appearance."
+    },
+    {
+      "id": "os156",
+      "category": "winter",
+      "rule": "For casual winter outfits, jackets, overshirts, hoodies, and knitwear can provide practical layering."
+    },
+    {
+      "id": "os157",
+      "category": "winter",
+      "rule": "Cold-weather footwear should match weather conditions and outfit formality."
+    },
+    {
+      "id": "os158",
+      "category": "winter",
+      "rule": "Winter accessories should support the outfit rather than create unnecessary visual clutter."
+    },
+    {
+      "id": "os159",
+      "category": "winter",
+      "rule": "Use tonal or coordinated layering when multiple winter pieces are visible."
+    },
+    {
+      "id": "os160",
+      "category": "winter",
+      "rule": "If indoor heating is likely, consider removable layers for comfort."
+    },
+
+    {
+      "id": "os161",
+      "category": "monsoon",
+      "rule": "Monsoon outfits should consider rain, humidity, drying time, and footwear grip."
+    },
+    {
+      "id": "os162",
+      "category": "monsoon",
+      "rule": "Avoid delicate garments when significant rain exposure is expected."
+    },
+    {
+      "id": "os163",
+      "category": "monsoon",
+      "rule": "Footwear should be selected for wet conditions when rain exposure is likely."
+    },
+    {
+      "id": "os164",
+      "category": "monsoon",
+      "rule": "Quick-drying or practical fabrics can be preferable during humid rainy weather."
+    },
+    {
+      "id": "os165",
+      "category": "monsoon",
+      "rule": "Avoid extremely long or dragging bottoms when roads and pathways may be wet."
+    },
+    {
+      "id": "os166",
+      "category": "monsoon",
+      "rule": "Keep outer layers practical and easy to remove when weather changes."
+    },
+    {
+      "id": "os167",
+      "category": "monsoon",
+      "rule": "For office monsoon outfits, balance professional appearance with weather practicality."
+    },
+    {
+      "id": "os168",
+      "category": "monsoon",
+      "rule": "For casual monsoon outfits, prioritize practical footwear and easy-care garments."
+    },
+    {
+      "id": "os169",
+      "category": "monsoon",
+      "rule": "Avoid recommending suede or other weather-sensitive materials when heavy rain exposure is expected."
+    },
+    {
+      "id": "os170",
+      "category": "monsoon",
+      "rule": "If weather conditions are unknown, do not assume heavy rain and unnecessarily restrict the outfit."
+    },
+
+    {
+      "id": "os171",
+      "category": "day_night",
+      "rule": "Daytime outfits generally allow lighter, fresher, and more breathable styling."
+    },
+    {
+      "id": "os172",
+      "category": "day_night",
+      "rule": "Evening outfits can support deeper colors, stronger contrast, and more polished accessories."
+    },
+    {
+      "id": "os173",
+      "category": "day_night",
+      "rule": "The same outfit can often transition from day to night through footwear and layering."
+    },
+    {
+      "id": "os174",
+      "category": "day_night",
+      "rule": "Do not use time of day as the only factor when determining formality."
+    },
+    {
+      "id": "os175",
+      "category": "day_night",
+      "rule": "Outdoor daytime events should account for heat and sunlight."
+    },
+    {
+      "id": "os176",
+      "category": "day_night",
+      "rule": "Indoor evening events may allow heavier layers than outdoor daytime events."
+    },
+    {
+      "id": "os177",
+      "category": "day_night",
+      "rule": "Evening casual outfits should remain comfortable if the activity involves significant movement."
+    },
+    {
+      "id": "os178",
+      "category": "day_night",
+      "rule": "Formal evening events usually require more refinement than casual daytime events."
+    },
+    {
+      "id": "os179",
+      "category": "day_night",
+      "rule": "Use venue and dress code alongside time of day before recommending major changes."
+    },
+    {
+      "id": "os180",
+      "category": "day_night",
+      "rule": "When transitioning an outfit from day to night, prioritize one or two deliberate changes."
+    },
+
+    {
+      "id": "os181",
+      "category": "streetwear",
+      "rule": "Streetwear often emphasizes relaxed proportions, layering, graphic or minimal statement pieces, and sneakers."
+    },
+    {
+      "id": "os182",
+      "category": "streetwear",
+      "rule": "Streetwear styling should maintain intentional proportion even when silhouettes are oversized."
+    },
+    {
+      "id": "os183",
+      "category": "streetwear",
+      "rule": "Baggy bottoms can be balanced with fitted, boxy, or intentionally oversized tops depending on the desired silhouette."
+    },
+    {
+      "id": "os184",
+      "category": "streetwear",
+      "rule": "Avoid combining excessive oversized volume without considering overall proportions."
+    },
+    {
+      "id": "os185",
+      "category": "streetwear",
+      "rule": "Sneakers are a common foundation for streetwear but should match the visual direction."
+    },
+    {
+      "id": "os186",
+      "category": "streetwear",
+      "rule": "Layering can strengthen streetwear styling when each layer has a clear visual role."
+    },
+    {
+      "id": "os187",
+      "category": "streetwear",
+      "rule": "Accessories should reinforce the streetwear direction rather than compete with the main garment."
+    },
+    {
+      "id": "os188",
+      "category": "streetwear",
+      "rule": "Minimal streetwear can use neutral colors and restrained branding."
+    },
+    {
+      "id": "os189",
+      "category": "streetwear",
+      "rule": "Statement streetwear can use one strong graphic, color, or accessory while keeping supporting pieces simpler."
+    },
+    {
+      "id": "os190",
+      "category": "streetwear",
+      "rule": "Streetwear is not automatically suitable for formal, conservative, or traditional occasions."
+    },
+
+    {
+      "id": "os191",
+      "category": "minimalist",
+      "rule": "Minimalist style prioritizes simplicity, clean lines, restrained colors, and intentional details."
+    },
+    {
+      "id": "os192",
+      "category": "minimalist",
+      "rule": "Minimalist outfits should avoid unnecessary graphic, color, or accessory overload."
+    },
+    {
+      "id": "os193",
+      "category": "minimalist",
+      "rule": "High-quality-looking basics can create a premium minimalist appearance without excessive branding."
+    },
+    {
+      "id": "os194",
+      "category": "minimalist",
+      "rule": "Minimalist styling should still consider fit and silhouette rather than relying only on neutral colors."
+    },
+    {
+      "id": "os195",
+      "category": "minimalist",
+      "rule": "A simple outfit can gain refinement through clean footwear and controlled accessories."
+    },
+    {
+      "id": "os196",
+      "category": "minimalist",
+      "rule": "Use repetition of a color family to create visual continuity in minimalist outfits."
+    },
+    {
+      "id": "os197",
+      "category": "minimalist",
+      "rule": "Avoid unnecessary layering when a clean single-layer outfit already satisfies the occasion."
+    },
+    {
+      "id": "os198",
+      "category": "minimalist",
+      "rule": "Minimalist does not mean boring; texture, silhouette, and small details can provide interest."
+    },
+    {
+      "id": "os199",
+      "category": "minimalist",
+      "rule": "For minimalist formalwear, prioritize tailoring and garment condition."
+    },
+    {
+      "id": "os200",
+      "category": "minimalist",
+      "rule": "For minimalist casualwear, prioritize comfortable basics with deliberate proportions."
+    },
+
+    {
+      "id": "os201",
+      "category": "classic",
+      "rule": "Classic style emphasizes timeless silhouettes, restrained patterns, and versatile garments."
+    },
+    {
+      "id": "os202",
+      "category": "classic",
+      "rule": "Classic outfits generally benefit from clean shirts, trousers, chinos, knitwear, loafers, or simple sneakers."
+    },
+    {
+      "id": "os203",
+      "category": "classic",
+      "rule": "Avoid excessive trend elements when the goal is a timeless appearance."
+    },
+    {
+      "id": "os204",
+      "category": "classic",
+      "rule": "Neutral colors and traditional garment combinations are commonly useful for classic styling."
+    },
+    {
+      "id": "os205",
+      "category": "classic",
+      "rule": "Classic styling can incorporate modern fits as long as the overall appearance remains coherent."
+    },
+    {
+      "id": "os206",
+      "category": "classic",
+      "rule": "A classic outfit should prioritize garment quality, fit, and coordination over visible branding."
+    },
+    {
+      "id": "os207",
+      "category": "classic",
+      "rule": "Layering with sweaters, overshirts, jackets, or blazers can support classic styling."
+    },
+    {
+      "id": "os208",
+      "category": "classic",
+      "rule": "Avoid mixing unrelated aesthetic eras unless intentionally creating a fashion-forward look."
+    },
+    {
+      "id": "os209",
+      "category": "classic",
+      "rule": "Classic style can be adapted for casual, office, date, and semi-formal occasions."
+    },
+    {
+      "id": "os210",
+      "category": "classic",
+      "rule": "When the user requests a timeless outfit, prioritize versatile pieces over highly seasonal trends."
+    },
+
+    {
+      "id": "os211",
+      "category": "premium_style",
+      "rule": "Premium-looking style should prioritize fit, fabric appearance, coordination, and restraint."
+    },
+    {
+      "id": "os212",
+      "category": "premium_style",
+      "rule": "Excessive visible branding can reduce a minimalist premium appearance."
+    },
+    {
+      "id": "os213",
+      "category": "premium_style",
+      "rule": "Clean footwear and controlled accessories can elevate a basic outfit."
+    },
+    {
+      "id": "os214",
+      "category": "premium_style",
+      "rule": "Neutral and deep tones can support a refined appearance when coordinated correctly."
+    },
+    {
+      "id": "os215",
+      "category": "premium_style",
+      "rule": "Premium-looking does not require expensive clothing; coordination and condition are important contributors."
+    },
+    {
+      "id": "os216",
+      "category": "premium_style",
+      "rule": "Avoid excessive decorative elements when the intended direction is understated luxury."
+    },
+    {
+      "id": "os217",
+      "category": "premium_style",
+      "rule": "Structured outerwear can elevate an otherwise simple outfit."
+    },
+    {
+      "id": "os218",
+      "category": "premium_style",
+      "rule": "Accessories should look intentional and proportionate to the outfit."
+    },
+    {
+      "id": "os219",
+      "category": "premium_style",
+      "rule": "Wrinkles, visible damage, and poorly maintained footwear can reduce perceived refinement."
+    },
+    {
+      "id": "os220",
+      "category": "premium_style",
+      "rule": "When recommending premium-looking style, do not claim that an item is expensive unless its price is known."
+    },
+
+    {
+      "id": "os221",
+      "category": "content_creation",
+      "rule": "For fashion content creation, the outfit should communicate its intended style clearly on camera."
+    },
+    {
+      "id": "os222",
+      "category": "content_creation",
+      "rule": "Content outfits can use stronger visual contrast than ordinary everyday outfits when appropriate."
+    },
+    {
+      "id": "os223",
+      "category": "content_creation",
+      "rule": "Avoid excessive visual clutter when the clothing itself is the main subject of the content."
+    },
+    {
+      "id": "os224",
+      "category": "content_creation",
+      "rule": "For outfit comparison content, keep the comparison variable clear and avoid changing multiple unrelated elements."
+    },
+    {
+      "id": "os225",
+      "category": "content_creation",
+      "rule": "For fashion reels, silhouette and footwear should remain visible enough to communicate the outfit."
+    },
+    {
+      "id": "os226",
+      "category": "content_creation",
+      "rule": "For close-up fashion content, prioritize visible upper-body details and accessories."
+    },
+    {
+      "id": "os227",
+      "category": "content_creation",
+      "rule": "For full-body outfit content, footwear and trouser length should be considered part of the visual composition."
+    },
+    {
+      "id": "os228",
+      "category": "content_creation",
+      "rule": "Content styling should remain wearable unless the user explicitly requests editorial experimentation."
+    },
+    {
+      "id": "os229",
+      "category": "content_creation",
+      "rule": "If the goal is product promotion, keep the product visually identifiable."
+    },
+    {
+      "id": "os230",
+      "category": "content_creation",
+      "rule": "When recommending an outfit for social media, distinguish camera impact from real-world occasion suitability."
+    },
+
+    {
+      "id": "os231",
+      "category": "outfit_adaptation",
+      "rule": "Prefer modifying one or two elements before replacing the entire outfit."
+    },
+    {
+      "id": "os232",
+      "category": "outfit_adaptation",
+      "rule": "Footwear is one of the fastest ways to change perceived outfit formality."
+    },
+    {
+      "id": "os233",
+      "category": "outfit_adaptation",
+      "rule": "Layering can shift an outfit between casual, smart casual, and more refined directions."
+    },
+    {
+      "id": "os234",
+      "category": "outfit_adaptation",
+      "rule": "Accessories can add personality without requiring a complete outfit change."
+    },
+    {
+      "id": "os235",
+      "category": "outfit_adaptation",
+      "rule": "A casual outfit can often be upgraded by replacing athletic footwear with refined footwear."
+    },
+    {
+      "id": "os236",
+      "category": "outfit_adaptation",
+      "rule": "A formal outfit can often be relaxed by removing structured layers and using simpler footwear."
+    },
+    {
+      "id": "os237",
+      "category": "outfit_adaptation",
+      "rule": "Changing the outer layer can adapt an outfit to different temperatures and occasions."
+    },
+    {
+      "id": "os238",
+      "category": "outfit_adaptation",
+      "rule": "A single neutral base outfit can support multiple styling directions through accessories and footwear."
+    },
+    {
+      "id": "os239",
+      "category": "outfit_adaptation",
+      "rule": "Do not recommend changing an item that is already suitable unless there is a clear improvement."
+    },
+    {
+      "id": "os240",
+      "category": "outfit_adaptation",
+      "rule": "When adapting an outfit, preserve the user's preferred silhouette when possible."
+    },
+
+    {
+      "id": "os241",
+      "category": "dress_code",
+      "rule": "Explicit dress codes should take priority over generic occasion rules."
+    },
+    {
+      "id": "os242",
+      "category": "dress_code",
+      "rule": "If the invitation states a dress code, interpret recommendations around that requirement."
+    },
+    {
+      "id": "os243",
+      "category": "dress_code",
+      "rule": "When dress code terminology is unfamiliar, explain the expected level of formality in simple language."
+    },
+    {
+      "id": "os244",
+      "category": "dress_code",
+      "rule": "Do not assume that every workplace uses the same definition of business casual."
+    },
+    {
+      "id": "os245",
+      "category": "dress_code",
+      "rule": "Do not treat smart casual as a universal fixed uniform; venue context matters."
+    },
+    {
+      "id": "os246",
+      "category": "dress_code",
+      "rule": "If dress code and cultural expectations differ, acknowledge both factors."
+    },
+    {
+      "id": "os247",
+      "category": "dress_code",
+      "rule": "For uncertain dress codes, recommend a middle-ground outfit that can be adjusted easily."
+    },
+    {
+      "id": "os248",
+      "category": "dress_code",
+      "rule": "A removable jacket or overshirt can provide flexibility when dress code expectations are uncertain."
+    },
+    {
+      "id": "os249",
+      "category": "dress_code",
+      "rule": "Keep formal recommendations proportionate to the actual event rather than automatically maximizing formality."
+    },
+    {
+      "id": "os250",
+      "category": "dress_code",
+      "rule": "When the user provides a reference outfit, identify which elements determine its dress-code level."
+    },
+
+    {
+      "id": "os251",
+      "category": "mismatch_detection",
+      "rule": "Flag an outfit when its formality clearly conflicts with the stated occasion."
+    },
+    {
+      "id": "os252",
+      "category": "mismatch_detection",
+      "rule": "Flag overly athletic styling when the event requires conventional formalwear."
+    },
+    {
+      "id": "os253",
+      "category": "mismatch_detection",
+      "rule": "Flag overly formal styling when the user explicitly wants relaxed everyday clothing."
+    },
+    {
+      "id": "os254",
+      "category": "mismatch_detection",
+      "rule": "Flag weather-inappropriate layering when weather information is available."
+    },
+    {
+      "id": "os255",
+      "category": "mismatch_detection",
+      "rule": "Flag impractical footwear when the activity requires substantial walking or wet-weather use."
+    },
+    {
+      "id": "os256",
+      "category": "mismatch_detection",
+      "rule": "Flag cultural mismatch only when there is reliable context about the event's cultural expectations."
+    },
+    {
+      "id": "os257",
+      "category": "mismatch_detection",
+      "rule": "Do not flag unconventional fashion as wrong when the user intentionally selected an expressive style."
+    },
+    {
+      "id": "os258",
+      "category": "mismatch_detection",
+      "rule": "Separate objective practicality problems from subjective style preferences."
+    },
+    {
+      "id": "os259",
+      "category": "mismatch_detection",
+      "rule": "If only one element causes the mismatch, recommend changing that element instead of rejecting the whole outfit."
+    },
+    {
+      "id": "os260",
+      "category": "mismatch_detection",
+      "rule": "Use confidence-aware language when mismatch detection depends on uncertain image interpretation."
+    },
+
+    {
+      "id": "os261",
+      "category": "uncertainty",
+      "rule": "If the occasion cannot be confidently identified, state the most likely interpretation and mention uncertainty."
+    },
+    {
+      "id": "os262",
+      "category": "uncertainty",
+      "rule": "Do not invent venue, weather, cultural context, or dress-code details."
+    },
+    {
+      "id": "os263",
+      "category": "uncertainty",
+      "rule": "If an image does not clearly show footwear, do not make strong footwear-specific claims."
+    },
+    {
+      "id": "os264",
+      "category": "uncertainty",
+      "rule": "If clothing details are hidden or low-resolution, avoid overconfident material or garment-type identification."
+    },
+    {
+      "id": "os265",
+      "category": "uncertainty",
+      "rule": "When two occasions have similar requirements, provide a flexible recommendation usable in both."
+    },
+    {
+      "id": "os266",
+      "category": "uncertainty",
+      "rule": "Ask for missing context only when it would materially change the recommendation."
+    },
+    {
+      "id": "os267",
+      "category": "uncertainty",
+      "rule": "Do not ask unnecessary questions when the image and user request already provide sufficient context."
+    },
+    {
+      "id": "os268",
+      "category": "uncertainty",
+      "rule": "If user preference is explicitly stated, treat it as reliable input."
+    },
+    {
+      "id": "os269",
+      "category": "uncertainty",
+      "rule": "If user preference is not stated, avoid assuming a specific aesthetic identity."
+    },
+    {
+      "id": "os270",
+      "category": "uncertainty",
+      "rule": "Recommendations should identify whether a suggestion is essential, optional, or style-dependent."
+    },
+
+    {
+      "id": "os271",
+      "category": "recommendation_output",
+      "rule": "Final recommendations should identify the occasion, style direction, suitable elements, and any important adjustment."
+    },
+    {
+      "id": "os272",
+      "category": "recommendation_output",
+      "rule": "Keep the primary recommendation concise and prioritize the changes with the highest impact."
+    },
+    {
+      "id": "os273",
+      "category": "recommendation_output",
+      "rule": "Avoid overwhelming the user with many alternative outfits when one clear recommendation is sufficient."
+    },
+    {
+      "id": "os274",
+      "category": "recommendation_output",
+      "rule": "When alternatives are useful, provide a small number of clearly differentiated options."
+    },
+    {
+      "id": "os275",
+      "category": "recommendation_output",
+      "rule": "Explain why an outfit suits the occasion using observable clothing characteristics."
+    },
+    {
+      "id": "os276",
+      "category": "recommendation_output",
+      "rule": "Do not claim guaranteed suitability because dress codes and personal preferences can vary."
+    },
+    {
+      "id": "os277",
+      "category": "recommendation_output",
+      "rule": "If an outfit is already suitable, say so and avoid unnecessary changes."
+    },
+    {
+      "id": "os278",
+      "category": "recommendation_output",
+      "rule": "When an outfit needs improvement, identify the smallest practical change first."
+    },
+    {
+      "id": "os279",
+      "category": "recommendation_output",
+      "rule": "Mention confidence when image analysis is uncertain or key details are not visible."
+    },
+    {
+      "id": "os280",
+      "category": "recommendation_output",
+      "rule": "The final recommendation should combine occasion context, style direction, formality, practicality, and user preference into one coherent result."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ function AccountType() {
                 </div>
                 </NavLink>
 
-                <NavLink className="account-link">
+                <NavLink className="account-link" to="/admin">
                 <div className="account-type">
                     <h2 className="account-name">🛡️ Admin Account</h2>
                     <p className="account-p">Manage products, users, courses, orders and other platform activities.</p>
